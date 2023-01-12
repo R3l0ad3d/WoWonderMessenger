@@ -1,0 +1,108 @@
+
+/* Class = "UILabel"; text = "Messengerv2.3"; ObjectID = "19m-2h-3rZ"; */
+"19m-2h-3rZ.text" = "Messengerv2.3";
+
+/* Class = "UITextField"; placeholder = "Username"; ObjectID = "1JF-eO-hfR"; */
+"1JF-eO-hfR.placeholder" = "Username";
+
+/* Class = "UIButton"; normalTitle = "Terms of Service"; ObjectID = "2zr-hT-HaO"; */
+"2zr-hT-HaO.normalTitle" = "Terms of Service";
+
+/* Class = "UIButton"; normalTitle = "SKIP"; ObjectID = "3My-9F-2V4"; */
+"3My-9F-2V4.normalTitle" = "SKIP";
+
+/* Class = "UILabel"; text = "and"; ObjectID = "4ZY-vj-KUi"; */
+"4ZY-vj-KUi.text" = "and";
+
+/* Class = "UITextField"; placeholder = "Username"; ObjectID = "4dH-lx-qEF"; */
+"4dH-lx-qEF.placeholder" = "Username";
+
+/* Class = "UIButton"; normalTitle = "Privacy Policy"; ObjectID = "4jg-5G-7gl"; */
+"4jg-5G-7gl.normalTitle" = "Privacy Policy";
+
+/* Class = "UIButton"; normalTitle = "Log in"; ObjectID = "4rK-hz-APj"; */
+"4rK-hz-APj.normalTitle" = "Log in";
+
+/* Class = "UIButton"; normalTitle = "OK"; ObjectID = "59p-pz-gad"; */
+"59p-pz-gad.normalTitle" = "OK";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "7Xv-RR-by1"; */
+"7Xv-RR-by1.title" = " ";
+
+/* Class = "UILabel"; text = "Don't worry type your email here and will will recover it for you."; ObjectID = "8gY-Rg-0Tu"; */
+"8gY-Rg-0Tu.text" = "Don't worry type your email here and will will recover it for you.";
+
+/* Class = "UIButton"; normalTitle = "Sign Up"; ObjectID = "9fh-dY-Old"; */
+"9fh-dY-Old.normalTitle" = "Sign Up";
+
+/* Class = "UITextField"; placeholder = "Username"; ObjectID = "9sM-q3-5v5"; */
+"9sM-q3-5v5.placeholder" = "Username";
+
+/* Class = "UILabel"; text = "WoWonder"; ObjectID = "Cmn-bR-2ca"; */
+"Cmn-bR-2ca.text" = "WoWonder";
+
+/* Class = "UILabel"; text = "Register now and start chatting with your friends"; ObjectID = "Gl3-Af-KJk"; */
+"Gl3-Af-KJk.text" = "Register now and start chatting with your friends";
+
+/* Class = "UIButton"; normalTitle = "Privacy Policy"; ObjectID = "IRp-4f-PMI"; */
+"IRp-4f-PMI.normalTitle" = "Privacy Policy";
+
+/* Class = "UILabel"; text = "Please check your internet connection."; ObjectID = "J38-KL-RMy"; */
+"J38-KL-RMy.text" = "Please check your internet connection.";
+
+/* Class = "UIButton"; normalTitle = "Login with Facebook"; ObjectID = "MSc-ck-wwX"; */
+"MSc-ck-wwX.normalTitle" = "Login with Facebook";
+
+/* Class = "UIButton"; normalTitle = "Login with google"; ObjectID = "SCs-zT-A1T"; */
+"SCs-zT-A1T.normalTitle" = "Login with google";
+
+/* Class = "UIButton"; normalTitle = "RETRY"; ObjectID = "Tsa-be-Zmh"; */
+"Tsa-be-Zmh.normalTitle" = "RETRY";
+
+/* Class = "UILabel"; text = "Forgot your password"; ObjectID = "U9K-gC-N7y"; */
+"U9K-gC-N7y.text" = "Forgot your password";
+
+/* Class = "UIButton"; normalTitle = "Sign up"; ObjectID = "VHK-l3-mVa"; */
+"VHK-l3-mVa.normalTitle" = "Sign up";
+
+/* Class = "UIButton"; normalTitle = "Forgot your Password?"; ObjectID = "VLi-Br-h6H"; */
+"VLi-Br-h6H.normalTitle" = "Forgot your Password?";
+
+/* Class = "UILabel"; text = "I agree to the terms and conditions"; ObjectID = "W2P-vf-LOu"; */
+"W2P-vf-LOu.text" = "I agree to the terms and conditions";
+
+/* Class = "UILabel"; text = "and"; ObjectID = "emv-rD-ZuT"; */
+"emv-rD-ZuT.text" = "and";
+
+/* Class = "UILabel"; text = "Security"; ObjectID = "gOM-JE-aks"; */
+"gOM-JE-aks.text" = "Security";
+
+/* Class = "UIButton"; normalTitle = "Terms of Service"; ObjectID = "ggv-el-k4x"; */
+"ggv-el-k4x.normalTitle" = "Terms of Service";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "icZ-Bx-B0I"; */
+"icZ-Bx-B0I.placeholder" = "Password";
+
+/* Class = "UILabel"; text = "No internet access"; ObjectID = "ikc-m0-BFw"; */
+"ikc-m0-BFw.text" = "No internet access";
+
+/* Class = "UILabel"; text = "Loading Profile..."; ObjectID = "jCk-CX-WaH"; */
+"jCk-CX-WaH.text" = "Loading Profile...";
+
+/* Class = "UITextField"; placeholder = "Username"; ObjectID = "kwB-sf-u1R"; */
+"kwB-sf-u1R.placeholder" = "Username";
+
+/* Class = "UILabel"; text = "Register now"; ObjectID = "l4b-Dq-cfq"; */
+"l4b-Dq-cfq.text" = "Register now";
+
+/* Class = "UITextField"; placeholder = "Username"; ObjectID = "s3d-3j-Z7X"; */
+"s3d-3j-Z7X.placeholder" = "Username";
+
+/* Class = "UITextField"; placeholder = "Username"; ObjectID = "tme-FM-xfC"; */
+"tme-FM-xfC.placeholder" = "Username";
+
+/* Class = "UIButton"; normalTitle = "Send"; ObjectID = "utZ-kU-rYw"; */
+"utZ-kU-rYw.normalTitle" = "Send";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "xD7-1y-UDh"; */
+"xD7-1y-UDh.title" = " ";

@@ -1,0 +1,366 @@
+/* 
+  Localizable.strings
+  WoWonder
+
+  Created by Macbook Pro on 15/06/2019.
+  Copyright © 2019 ScriptSun. All rights reserved.
+*/
+// InterNet Connection
+
+"Internet not connected, please check your internet connection." = "İnternet bağlı değil, lütfen internet bağlantınızı kontrol edin.
+";
+
+// MainStoryBoard Strings
+"Messengerv2.3" = "Messengerv2.3";
+"username" = "kullanıcı adı";
+"Terms of Service" = "Kullanım Şartları";
+"SKIP" = "ATLA";
+"and" = "ve";
+"Username" = "Kullanıcı adı";
+"Privacy Policy" = "Gizlilik Politikası";
+"Log in" = "Oturum aç";
+"OK" = "tamam";
+"Done" = "Bitti";
+" " = " ";
+"Don't worry type your email here and will will recover it for you." = "Endişelenmeyin, e-postanızı buraya yazın ve sizin için kurtarın.";
+"Sign Up" = "Kaydol";
+"Username" = "Kullanıcı adı";
+"WoWonder" = "WoWonder";
+"Register now and start chatting with your friends" = "Şimdi kayıt olun ve arkadaşlarınızla sohbet etmeye başlayın";
+"Privacy Policy" = "Gizlilik Politikası";
+"Please check your internet connection." = "Lütfen internet bağlantınızı kontrol edin.";
+"Login with Facebook" = "Facebook ile giriş";
+"Login with google" = "Google ile giriş yapın";
+"RETRY" = "DENE'YI";
+"Forgot your password" = "Parolanızı mı unuttunuz";
+"Sign up" = "kaydol";
+"Forgot your Password?" = "Parolanızı mı unuttunuz?";
+"I agree to the terms and conditions" = "Hükümlere ve koşullara katılıyorum";
+"and" = "ve";
+"Security" = "Güvenlik";
+"Terms of Service" = "Kullanım Şartları";
+"Password" = "Parola";
+"No internet access" = "İnternet erişimi yok";
+"Loading Profile..." = "Profil Yükleniyor ...";
+"Username" = "Kullanıcı adı";
+"Register now" = "Şimdi üye Ol";
+"Username" = "Kullanıcı adı";
+"Username" = "Kullanıcı adı";
+"Send" = "Gönder";
+"Welcome Back!!" = "Tekrar hoşgeldiniz!!";
+" " = " ";
+"WoWonder Messenger" = "WoWonder Haberci";
+"New Version" = "Yeni sürüm";
+"Fast so we can take you to our space" = "Seni hızlıca alanımıza götürebiliriz";
+"Search Globally" = "Global Ara";
+"Find new friends and contacts" = "Yeni arkadaşlar ve kişiler bulun";
+"Please write your email" = "Lütfen e-postanızı yazınız";
+"New Features" = "Yeni özellikler";
+"Send & Recieve all kind of messages" = "Her Türlü Mesajı Gönderin ve Alın";
+"Stay Sync" = "Senkronizasyonu Koru";
+"Keep you conversation going from all devices" = "Tüm cihazlardan konuşmanıza devam edin";
+"Please enter username." = "Lütfen kullanıcı adı girin.";
+"Please enter password." = "Lütfen şifre giriniz.";
+"Internet Error" = "İnternet Hatası";
+"Login Successfull!!" = "Giriş başarılı!!";
+"You can not access your disapproval of the Terms and Conditions." = "Şartlar ve Koşulları onaylamamanıza erişemezsiniz.";
+"Please enter email." = "Lütfen e-posta giriniz.";
+"Please enter confirm password." = "Lütfen onay parolasını girin.";
+"Password do not match." = "Parola eşleşmedi.";
+"Email is badly formatted." = "E-posta kötü biçimlendirilmiş.";
+"Check your email" = "E-postanı kontrol et";
+"We Sent email to" = "Adresine e-posta gönderdik";
+"Click the link in the email to reset your password." = "Şifrenizi sıfırlamak için e-postadaki bağlantıyı tıklayın.";
+"Please enter Code." = "Lütfen Kod girin.";
+"Add code number" = "Kod numarası ekle";
+"VERIFY" = "DOĞRULAYIN";
+"Please select group avatar." = "Lütfen grup avatarını seçin.";
+"Please enter group name." = "Lütfen grup adını girin.";
+"Please select Atleast one participant." = "Lütfen en az bir katılımcı seçin.";
+"Are you sure you want to logout ?" = "Çıkış yapmak istediğinizden emin misiniz?";
+"Verified" = "Doğrulanmış";
+"UnVerified" = "Doğrulanmamış";
+"All" = "Herşey";
+"Offline" = "Çevrim";
+"Online" = "İnternet üzerinden";
+"YES" = "EVET";
+"NO" = "HAYIR";
+"User has been blocked!!" = "Kullanıcı engellendi !!";
+"You have followed the user successfully" = "Kullanıcıyı başarıyla takip ettiniz";
+"The user has been unfollowed" = "Kullanıcı takip edilmedi";
+"you are not allowed to perform any action on this activity" = "bu etkinlik üzerinde herhangi bir işlem yapmanıza izin verilmiyor
+";
+"email" = "E-posta";
+"Email" = "E-posta";
+"Repeat password" = "Şifreyi tekrar girin";
+"To log in, you need to verify  your identity." = "Giriş yapmak için kimliğinizi doğrulamanız gerekiyor.";
+"We have sent you the confirmation code to your email address." = "Size onay kodunu e-posta adresinize gönderdik.
+";
+
+// DashBoardStoryBoard Strings
+
+"Start adding new contact !!" = "Yeni kişi eklemeye başlayın !!";
+"CLOSE" = "KAPAT";
+"Start new conversations by going to contact" = "İletişime geçerek yeni görüşmeler başlatın";
+"@Username" = "@Kullanıcı adı";
+"Profile Picture" = "Profil fotoğrafı";
+"No Calls" = "Çağrı yok";
+"Search Contact" = "Kişi Ara";
+"There is no blocked Users" = "Engellenmiş Kullanıcı yok";
+" " = " ";
+"Search" = "Arama";
+"There are no Contacts" = "Kişi yok";
+"Gender" = "Cinsiyet";
+"   Unblock" = "  engeli kaldırmak";
+//"WoWonder Messenger" = "WoWonder Messenger";
+"All" = " Herşey";
+"No more Messages" = "Başka Mesaj Yok";
+"There are no stories" = "Hikaye yok";
+"Photos and videos shared in stories are only visible for 24 hours after they have been added." = "Hikayelerde paylaşılan fotoğraflar ve videolar, eklendikten sonra yalnızca 24 saat görünür.";
+" " = " ";
+"@Username" = "@Kullanıcı adı";
+"Start a new call from your friends list by pressing the button at the bottom of the screen." = "Ekranın altındaki düğmeye basarak arkadaş listenizden yeni bir çağrı başlatın.";
+"Start writing to search" = "Aramak için yazmaya başlayın";
+" All" = " Herşey";
+" " = " ";
+" " = " ";
+"ALL" = " HERŞEY";
+"Gender " = "Cinsiyet ";
+"Start Blocking Users" = "Kullanıcıları Engellemeye Başlayın";
+"Name" = "ad";
+"Name" = "ad";
+"Status" = "durum";
+"Search Random" = "Arama Rastgele";
+"CHATS" = "SOHBETLER";
+"GROUPS" = "GRUPLAR";
+"STORIES" = "HIKAYELER";
+"CALLS" = "ARAMALAR";
+"Block User List" = "Kullanıcı Listesini Engelle";
+"Settings" = "Ayarlar";
+"Status" = "durum";
+"Add new Story" = "Yeni Hikaye ekle";
+//"Source" = "Kaynak";
+"Image" = "görüntü";
+"Video" = "video";
+"Last seen" = "Son görülen";
+"last seen" = "son görülen";
+"seen" = "görülen";
+"audio" = "ses";
+"video" = "video";
+"image" = "görüntü";
+"GIF" = "GIF";
+"Camera" = "Kamera";
+"Gallery" = "galeri";
+"View Profile" = "Profili Görüntüle";
+"Block User" = "Kullanıcıyı engelle";
+"Clear Chat" = "Sohbeti temizle";
+"Started Messages" = "Başlatılan Mesajlar";
+"Message Info" = "Mesaj Bilgisi";
+"Delete Message" = "Mesajı sil";
+"Forward" = "ileri";
+"Un favorite" = "Favori değil";
+"Your message here..." = "Mesajın Burada";
+"Favorite" = "Favori";
+"remove from   favorite" = "favorilerden kaldır";
+"Added to favorite" = "Sık kullanılanlara eklendi";
+"Create Group" = "Grup oluştur";
+"There are no suggested Users Available" = "Önerilen Kullanılabilir Kullanıcı yok";
+"Suggested Users" = "Önerilen kullanıcılar";
+
+
+// SettingsStoryboard Strings
+
+"Who can see my birthday?" = "Doğum günümü kimler görebilir?";
+"everyone" = "herkes";
+"Language" = "Dil";
+"Support" = "Destek";
+"General" = "Genel";
+"save" = "kayıt etmek";
+"SAVE" = "KAYIT ETMEK";
+"Save" = "Kayıt etmek";
+"Disable" = "Devre Dışı";
+"Enable" = "Etkinleştirme";
+"@Username" = "@Kullanıcı adı";
+"OK" = "tamam";
+"Password" = "Parola";
+"password" = "parola";
+"Play sounds for incoming and outgoing messages" = "Gelen ve giden mesajlar için ses çal";
+"CANCEL" = "İPTAL ETMEK";
+"Logout" = "Çıkış Yap";
+"People i Follow" = "İzlediğim Kişiler";
+"CANCEL" = "İPTAL ETMEK";
+"OK" = "tamam";
+"Edit Profile and avatar" = "Profili ve avatarı düzenle";
+"Female" = "Kadın";
+"Privacy" = "Gizlilik";
+"Male" = "Erkek";
+"If you forgot your password, you can reset it from here." = "Şifrenizi unuttuysanız, buradan sıfırlayabilirsiniz.";
+"Change your password" = "Şifreni değiştir";
+"OK" = "tamam";
+"User Info" = "Kullanıcı bilgisi";
+"CANCEL" = "İPTAL ETMEK";
+"CANCEL" = "İPTAL ETMEK";
+"Notification Popup" = "Bildirim Açılır Pencere";
+"Are you sure you want to delete the account from WoWonder Messenger" = "Hesabı WoWonder Messenger'dan silmek istediğinizden emin misiniz?";
+"Display your app language" = "Uygulama dilinizi görüntüleyin";
+"Cancel" = "İptal etmek";
+"Who can message me?" = "Bana kim mesaj gönderebilir?";
+"Everyone" = "Herkes";
+"everyone" = "herkes";
+"Blocked Users" = "Engellenmiş kullanıcılar";
+"People i Follow" = "İzlediğim Kişiler";
+"Who can see my birthday?" = "Doğum günümü kimler görebilir?";
+"Delete Account" = "Hesabı sil";
+"Warning !" = "Uyarı!";
+"Social Link" = "Sosyal Bağlantılar";
+"About me" = "Benim hakkımda";
+"Who can follow me?" = "Beni kim takip edebilir?";
+"something to show" = "gösterilecek bir şey";
+"everyone" = "herkes";
+"Get notifications when you receive messages" = "Mesaj aldığınızda bildirim alın";
+"Everyone" = "Herkes";
+"Language" = "Dil";
+"Clear call log" = "Çağrı kaydını temizle";
+"Report a Problem" = "Sorun bildir";
+" " = " ";
+"Are you sure you want to logout?" = "Çıkış yapmak istediğinizden emin misiniz?";
+"Help" = "Yardım";
+"Full name" = "Ad Soyad";
+"Who can follow me?" = "Beni kim takip edebilir?";
+"Conversation tones" = "Konuşma sesleri";
+"About me" = "Benim hakkımda";
+"Warning !" = "Uyarı !";
+"No body" = "Kimse";
+"My Account" = "Hesabım";
+"Account and Profile" = "Hesap ve Profil";
+"Security" = "Güvenlik";
+"Display" = "Görüntüle";
+"Privacy" = "Gizlilik";
+"Message Notification" = "Mesaj bildirimi";
+"General" = "Genel";
+"Edit Profile" = "Profili Düzenle";
+"About" = "hakkında";
+"Two-factor Authentication" = "İki Faktörlü Kimlik Doğrulama";
+"Manage Sessions" = "Oturumları Yönet";
+"Theme" = "Tema";
+"Nobody" = "Kimse";
+"get Notification when you receive messages" = "mesaj aldığınızda bildirim alma";
+"Show online users" = "Çevrimiçi kullanıcıları göster";
+"Show when user are online" = "Kullanıcı çevrimiçi olduğunda göster";
+"Play sound for incoming and outgoing messages" = "Gelen ve giden mesajlar için ses çal";
+"Invite Friends" = "Arkadaşları davet etmek";
+"Refresh" = "Yenile";
+"There are no call Logs to clear" = "Silinecek arama kaydı yok";
+"Call Logs Cleared" = "Çağrı Kayıtları Silindi";
+"Clear Call Log" = "Çağrı Kaydını Temizle";
+"birthday Privacy" = "doğum günü Gizlilik";
+"Loading..." = "Yükleniyor...";
+"Copy" = "kopya";
+"Block" = "Blok";
+"Copied to clipboard" = "Panoya kopyalandı";
+"Please enter current password." = "Lütfen geçerli şifreyi girin.";
+"Please enter current new password." = "Lütfen mevcut yeni şifreyi girin.";
+"Please enter current confirm password." = "Lütfen geçerli onay şifresini girin.";
+"Password does not match. Try again!" = "Parola eşleşmiyor. Tekrar deneyin!";
+"Password has been changed!" = "Şifre değiştirildi!";
+"Application will close to change the language" = "Uygulama dili değiştirmek için kapanacak";
+"User has been unblocked!!" = "Kullanıcının engellemesi kaldırıldı !!";
+"New Password" = "Yeni Şifre";
+"Current Password" = "Şimdiki Şifre";
+
+// StoryStoryboard Strings
+
+"Add new Story" = "Yeni Hikaye ekle";
+"Username" = "Kullanıcı adı";
+"Name" = "ad";
+
+
+// ChatStoryboard Strings
+
+"Full name" = "Ad Soyad";
+"Website" = "İnternet sitesi";
+"count" = "Miktar";
+"Phone" = "Telefon";
+"Location" = "yer";
+"google maps not found" = "google haritalar bulunamadı";
+"Social Links " = "Sosyal Bağlantılar";
+"count" = "Miktar";
+"CANCEL" = "İPTAL ETMEK";
+"Followers" = "Takipçiler";
+"User Info" = "Kullanıcı bilgisi";
+"@Username" = "@Kullanıcı adı";
+"Select what you want" = "İstediğinizi seçin";
+"Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda." = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore ve dolore magna aliqua. En az adenim veniam, burun deliği egzersizi ullamco labouris nisi ut aliquip ex ea commodo resultsat. Voluptate velit esse cillum dolore eu fugiat nulla pariatur içinde reprehenderit içinde Duis aute irure dolor. Dışlayıcı sint occaecat cupidatat non proident, culpa qui officia deserunt mollit anim id est laborum sunt. Nam liber te poen baklagil odioque civiuda faktör vicdani.";
+"Label" = "Etiket";
+"Label" = "Etiket";
+"Following" = "Takip etme";
+"following" = "takip etme";
+"follow" = "takip et";
+"Gender" = "Cinsiyet";
+"Name" = "ad";
+"Update Group" = "Grubu Güncelle";
+"Add" = "Ekle";
+"You cannot block this user because it is administrator" = "Yönetici olduğu için bu kullanıcıyı engelleyemezsiniz";
+"Okay" = "Tamam";
+
+
+// CallStoryboard Strings
+
+"Video Mute" = "Video Sesini Kapatma";
+"UserName" = "Kullanıcı adı";
+"Hang Up" = "Telefonu kapatmak";
+"Switch Camera" = "Kamera Değiştir";
+"Full Name" = "Ad Soyad";
+"Calling" = "çağrı";
+"Mute" = "Sessiz";
+"someone is calling you" = "birisi seni arıyor";
+"Answer" = "Cevap";
+"Decline" = "düşüş";
+
+//Edir Profile
+"First Name" = "İsim";
+"Last Name" = "Soyadı";
+"Mobile" = "seyyar";
+"Workspace" = "Çalışma Alanı";
+"Facebook" = "Facebook";
+"Copy link to profile" = "Bağlantıyı profile kopyala";
+"Share" = "Paylaş";
+"Exit Group" = "Gruptan Çık";
+"Delete Group" = "Grubu Sil";
+"Delete" = "silmek";
+"Turn on 2-step login to level-up your account security. Once turned on, you'll use both your password and a 6-digit security code send to your  phone or email to log in." = "Hesap güvenliğinizi artırmak için 2 adımlı giriş özelliğini açın. Bir kez açıldığında, hem şifrenizi hem de giriş yapmak için telefonunuza veya e-postanıza gönderilen 6 haneli bir güvenlik kodunu kullanırsınız.";
+"Dark mode" = "Karanlık modu";
+"Light mode" = "Işık modu";
+"Add Participants" = "Katılımcı Ekle";
+"Group Name" = "Grup ismi";
+"Select Image" = "Fotoğraf seç";
+"MALE" = "ERKEK";
+"FAMALE" = "KADIN";
+"ONLINE" = "internet üzerinden";
+"OFFLINE" = "çevrimdışı";
+"Reset filter" = "Filtreyi sıfırla";
+"Apply Filter" = "Filtre Uygula";
+"Hi! there i am using WoWonder Messenger" = "Selam! Orada WoWonder Messenger kullanıyorum";
+"Follow Request" = "Talebi Takip Et";
+"View all Follow Request" = "Takip İsteğini Görüntüle";
+"Group Request" = "Grup Talebi";
+"Find all invite request" = "Tüm davet isteklerini bul";
+"There is no Group request" = "Grup isteği yok";
+"Select from your contact list" = "Kişi listenizden seçin";
+"Change Password" = "Şifre değiştir";
+"Unblocked" = "engelleme kaldırıldı";
+"View" = "görünüm";
+"MyFriend" = "Arkadaşım";
+"AddFriend" = "Arkadaş Ekle";
+"Requested" = "Talep edilen";
+
+
+
+"Select what you want" = "Select what you want";
+"Image Gallery" = "Image Gallery";
+"Take a picture from the camera" = "Take a picture from the camera";
+"Video Gallery" = "Video Gallery";
+"File" = "File";
+"Gif" = "Gif";
+"Your Story" = "Your Story";
+"Friends" = "Friends";

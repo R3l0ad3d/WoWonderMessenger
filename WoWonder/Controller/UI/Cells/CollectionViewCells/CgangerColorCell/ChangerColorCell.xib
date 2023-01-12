@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="ChangerColorCell" customModule="WoWonder" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="44" height="44"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="44" height="44"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xe8-fg-FCX">
+                        <rect key="frame" x="0.0" y="0.0" width="44" height="44"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="41h-fv-ul6">
+                                <rect key="frame" x="0.0" y="0.0" width="44" height="44"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nUI-Lb-nzK">
+                                        <rect key="frame" x="4" y="4" width="36" height="36"/>
+                                        <color key="backgroundColor" name="App"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="iscircleCorner" value="YES"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="nUI-Lb-nzK" firstAttribute="leading" secondItem="41h-fv-ul6" secondAttribute="leading" constant="4" id="F7Q-ND-20N"/>
+                                    <constraint firstAttribute="bottom" secondItem="nUI-Lb-nzK" secondAttribute="bottom" constant="4" id="XVt-kD-lQO"/>
+                                    <constraint firstAttribute="trailing" secondItem="nUI-Lb-nzK" secondAttribute="trailing" constant="4" id="gdM-L6-3nx"/>
+                                    <constraint firstItem="nUI-Lb-nzK" firstAttribute="top" secondItem="41h-fv-ul6" secondAttribute="top" constant="4" id="whN-Ai-zhG"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="iscircleCorner" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColorV">
+                                        <color key="value" red="0.7843137255" green="0.21960784310000001" blue="0.2784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidthV">
+                                        <real key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="41h-fv-ul6" firstAttribute="top" secondItem="Xe8-fg-FCX" secondAttribute="top" id="Rx4-iN-gvG"/>
+                            <constraint firstAttribute="trailing" secondItem="41h-fv-ul6" secondAttribute="trailing" id="XNH-YF-bjY"/>
+                            <constraint firstAttribute="bottom" secondItem="41h-fv-ul6" secondAttribute="bottom" id="Y0W-Rr-wJA"/>
+                            <constraint firstItem="41h-fv-ul6" firstAttribute="leading" secondItem="Xe8-fg-FCX" secondAttribute="leading" id="hZ4-mU-Cyp"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="Xe8-fg-FCX" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="4XP-iW-puf"/>
+                <constraint firstAttribute="bottom" secondItem="Xe8-fg-FCX" secondAttribute="bottom" id="6GZ-IS-fCG"/>
+                <constraint firstItem="Xe8-fg-FCX" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="Gp5-ja-7oo"/>
+                <constraint firstAttribute="trailing" secondItem="Xe8-fg-FCX" secondAttribute="trailing" id="tJr-YS-KiD"/>
+            </constraints>
+            <connections>
+                <outlet property="bordarView" destination="41h-fv-ul6" id="lnA-RH-9JC"/>
+                <outlet property="cellVIew" destination="Xe8-fg-FCX" id="WI2-2k-09a"/>
+                <outlet property="colorView" destination="nUI-Lb-nzK" id="pgg-TO-fJ0"/>
+            </connections>
+            <point key="canvasLocation" x="140" y="0.0"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <namedColor name="App">
+            <color red="0.7839999794960022" green="0.21600000560283661" blue="0.27799999713897705" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

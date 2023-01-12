@@ -1,0 +1,21 @@
+
+/* Class = "UIButton"; normalTitle = "Video Mute"; ObjectID = "Jor-Cu-AXt"; */
+"Jor-Cu-AXt.normalTitle" = "Video Mute";
+
+/* Class = "UILabel"; text = "UserName"; ObjectID = "VCB-Js-nj6"; */
+"VCB-Js-nj6.text" = "UserName";
+
+/* Class = "UIButton"; normalTitle = "Hang Up"; ObjectID = "VcU-5Q-xN8"; */
+"VcU-5Q-xN8.normalTitle" = "Hang Up";
+
+/* Class = "UIButton"; normalTitle = "Switch Camera"; ObjectID = "XsX-AO-hAc"; */
+"XsX-AO-hAc.normalTitle" = "Switch Camera";
+
+/* Class = "UILabel"; text = "Full Name"; ObjectID = "agb-v8-232"; */
+"agb-v8-232.text" = "Full Name";
+
+/* Class = "UILabel"; text = "Calling"; ObjectID = "hsG-wA-uIB"; */
+"hsG-wA-uIB.text" = "Calling";
+
+/* Class = "UIButton"; normalTitle = "Mute"; ObjectID = "nAy-R4-B9Z"; */
+"nAy-R4-B9Z.normalTitle" = "Mute";

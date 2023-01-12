@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="BRSonoma-Regular.otf">
+            <string>BRSonoma-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="82" id="yeF-UI-HwD" customClass="LeftDocumentTableViewCell" customModule="WoWonder" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="85"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="yeF-UI-HwD" id="VRj-EU-v9o">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="85"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NtW-cm-daD">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="85"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="22:45Pm" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4XK-sX-s0v">
+                                <rect key="frame" x="45" y="71" width="44.666666666666657" height="9"/>
+                                <fontDescription key="fontDescription" name="BRSonoma-Regular" family="BRSonoma-Regular" pointSize="11"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="Ogm-fA-lN6">
+                                <rect key="frame" x="94.666666666666671" y="67.666666666666671" width="15" height="14.666666666666671"/>
+                                <color key="tintColor" systemColor="systemYellowColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="15" id="duz-aV-bul"/>
+                                    <constraint firstAttribute="height" constant="15" id="rtv-NM-87j"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dm_image" translatesAutoresizingMaskIntoConstraints="NO" id="SjU-vo-ESz">
+                                <rect key="frame" x="12" y="6" width="28" height="28"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="28" id="0Ip-iN-yKw"/>
+                                    <constraint firstAttribute="width" constant="28" id="RLf-8G-85z"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="iscircleCorner" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SAP-m5-CMq" customClass="UIControl">
+                                <rect key="frame" x="45" y="6" width="250" height="60"/>
+                                <subviews>
+                                    <view userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QUj-fo-iVJ">
+                                        <rect key="frame" x="10" y="13" width="34" height="34"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_doc_right" translatesAutoresizingMaskIntoConstraints="NO" id="VUE-JV-eqF">
+                                                <rect key="frame" x="7" y="7" width="20" height="20"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="20" id="diJ-qP-VHN"/>
+                                                    <constraint firstAttribute="width" constant="20" id="kSl-1T-CSp"/>
+                                                </constraints>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.10000000000000001" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstItem="VUE-JV-eqF" firstAttribute="centerX" secondItem="QUj-fo-iVJ" secondAttribute="centerX" id="Ag5-lg-bNT"/>
+                                            <constraint firstItem="VUE-JV-eqF" firstAttribute="centerY" secondItem="QUj-fo-iVJ" secondAttribute="centerY" id="TrD-dz-LgZ"/>
+                                            <constraint firstAttribute="width" constant="34" id="dHV-SX-JI7"/>
+                                            <constraint firstAttribute="height" constant="34" id="iqU-HI-Juz"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadiusV">
+                                                <real key="value" value="5"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="circleCorner" value="YES"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=".png" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P2g-Z7-CSX">
+                                        <rect key="frame" x="54" y="37" width="186" height="13"/>
+                                        <fontDescription key="fontDescription" name="BRSonoma-Regular" family="BRSonoma-Regular" pointSize="11"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NC2-eN-Twl">
+                                        <rect key="frame" x="54" y="10" width="186" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.95294123890000004" green="0.95294123890000004" blue="0.95294123890000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="P2g-Z7-CSX" firstAttribute="trailing" secondItem="NC2-eN-Twl" secondAttribute="trailing" id="CUv-Fy-0GG"/>
+                                    <constraint firstItem="NC2-eN-Twl" firstAttribute="leading" secondItem="QUj-fo-iVJ" secondAttribute="trailing" constant="10" id="G5w-bN-vNG"/>
+                                    <constraint firstItem="QUj-fo-iVJ" firstAttribute="leading" secondItem="SAP-m5-CMq" secondAttribute="leading" constant="10" id="IzN-Nm-jRl"/>
+                                    <constraint firstItem="NC2-eN-Twl" firstAttribute="top" secondItem="SAP-m5-CMq" secondAttribute="top" constant="10" id="TNh-5U-nsN"/>
+                                    <constraint firstAttribute="width" constant="250" id="Xct-6b-4UG"/>
+                                    <constraint firstAttribute="height" constant="60" id="aas-T9-78l"/>
+                                    <constraint firstAttribute="bottom" secondItem="P2g-Z7-CSX" secondAttribute="bottom" constant="10" id="bPz-oA-tXy"/>
+                                    <constraint firstAttribute="trailing" secondItem="NC2-eN-Twl" secondAttribute="trailing" constant="10" id="brd-RD-7lW"/>
+                                    <constraint firstItem="QUj-fo-iVJ" firstAttribute="centerY" secondItem="SAP-m5-CMq" secondAttribute="centerY" id="cuR-9e-1Rv"/>
+                                    <constraint firstItem="P2g-Z7-CSX" firstAttribute="leading" secondItem="NC2-eN-Twl" secondAttribute="leading" id="jQ8-My-545"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Ogm-fA-lN6" firstAttribute="centerY" secondItem="4XK-sX-s0v" secondAttribute="centerY" id="0dD-n6-a2o"/>
+                            <constraint firstItem="SjU-vo-ESz" firstAttribute="leading" secondItem="NtW-cm-daD" secondAttribute="leading" constant="12" id="8xW-UQ-2jP"/>
+                            <constraint firstItem="4XK-sX-s0v" firstAttribute="leading" secondItem="SAP-m5-CMq" secondAttribute="leading" id="IRm-fY-5Tq"/>
+                            <constraint firstItem="4XK-sX-s0v" firstAttribute="leading" secondItem="NtW-cm-daD" secondAttribute="leading" constant="37" id="NDV-j3-WXM"/>
+                            <constraint firstItem="4XK-sX-s0v" firstAttribute="top" secondItem="SAP-m5-CMq" secondAttribute="bottom" constant="5" id="V3B-Mr-CZV"/>
+                            <constraint firstAttribute="bottom" secondItem="4XK-sX-s0v" secondAttribute="bottom" constant="5" id="h76-3X-hgD"/>
+                            <constraint firstItem="SAP-m5-CMq" firstAttribute="top" secondItem="NtW-cm-daD" secondAttribute="top" constant="6" id="hkO-u9-acQ"/>
+                            <constraint firstItem="SAP-m5-CMq" firstAttribute="leading" secondItem="SjU-vo-ESz" secondAttribute="trailing" constant="5" id="iag-33-qaS"/>
+                            <constraint firstItem="SjU-vo-ESz" firstAttribute="top" secondItem="NtW-cm-daD" secondAttribute="top" constant="6" id="oh3-3p-j8z"/>
+                            <constraint firstItem="Ogm-fA-lN6" firstAttribute="leading" secondItem="4XK-sX-s0v" secondAttribute="trailing" constant="5" id="x9E-gj-kYO"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="NtW-cm-daD" firstAttribute="top" secondItem="VRj-EU-v9o" secondAttribute="top" id="Zvz-Wg-Afj"/>
+                    <constraint firstAttribute="bottom" secondItem="NtW-cm-daD" secondAttribute="bottom" id="cTy-cl-2pz"/>
+                    <constraint firstAttribute="trailing" secondItem="NtW-cm-daD" secondAttribute="trailing" id="mao-pD-iy3"/>
+                    <constraint firstItem="NtW-cm-daD" firstAttribute="leading" secondItem="VRj-EU-v9o" secondAttribute="leading" id="nMv-cH-kl9"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="Myl-6t-5Me"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="cellView" destination="NtW-cm-daD" id="wdY-uF-A7v"/>
+                <outlet property="docImageView" destination="VUE-JV-eqF" id="9xb-nE-TkL"/>
+                <outlet property="docNameLabel" destination="NC2-eN-Twl" id="wHR-E4-OSC"/>
+                <outlet property="docTypeLabel" destination="P2g-Z7-CSX" id="Gjx-C5-3dh"/>
+                <outlet property="messageMainView" destination="SAP-m5-CMq" id="XZU-UE-FV7"/>
+                <outlet property="messageSubView" destination="QUj-fo-iVJ" id="U4W-A1-6I9"/>
+                <outlet property="messageTimeLabel" destination="4XK-sX-s0v" id="ZHd-IF-z2m"/>
+                <outlet property="profileImageView" destination="SjU-vo-ESz" id="s3W-O8-wRX"/>
+                <outlet property="starImageVIew" destination="Ogm-fA-lN6" id="DAk-Kd-7Al"/>
+            </connections>
+            <point key="canvasLocation" x="46.153846153846153" y="13.507109004739336"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="dm_image" width="45" height="45"/>
+        <image name="ic_doc_right" width="64" height="64"/>
+        <image name="star.fill" catalog="system" width="128" height="116"/>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

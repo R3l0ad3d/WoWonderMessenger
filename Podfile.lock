@@ -1,0 +1,274 @@
+PODS:
+  - ActionSheetPicker-3.0 (2.3.1)
+  - AgoraRtcEngine_iOS (4.1.0):
+    - AgoraRtcEngine_iOS/AIAEC (= 4.1.0)
+    - AgoraRtcEngine_iOS/AINS (= 4.1.0)
+    - AgoraRtcEngine_iOS/AudioBeauty (= 4.1.0)
+    - AgoraRtcEngine_iOS/ClearVision (= 4.1.0)
+    - AgoraRtcEngine_iOS/ContentInspect (= 4.1.0)
+    - AgoraRtcEngine_iOS/DRM (= 4.1.0)
+    - AgoraRtcEngine_iOS/ReplayKit (= 4.1.0)
+    - AgoraRtcEngine_iOS/RtcBasic (= 4.1.0)
+    - AgoraRtcEngine_iOS/SpatialAudio (= 4.1.0)
+    - AgoraRtcEngine_iOS/SuperResolution (= 4.1.0)
+    - AgoraRtcEngine_iOS/VirtualBackground (= 4.1.0)
+    - AgoraRtcEngine_iOS/VQA (= 4.1.0)
+  - AgoraRtcEngine_iOS/AIAEC (4.1.0)
+  - AgoraRtcEngine_iOS/AINS (4.1.0)
+  - AgoraRtcEngine_iOS/AudioBeauty (4.1.0)
+  - AgoraRtcEngine_iOS/ClearVision (4.1.0)
+  - AgoraRtcEngine_iOS/ContentInspect (4.1.0)
+  - AgoraRtcEngine_iOS/DRM (4.1.0)
+  - AgoraRtcEngine_iOS/ReplayKit (4.1.0)
+  - AgoraRtcEngine_iOS/RtcBasic (4.1.0)
+  - AgoraRtcEngine_iOS/SpatialAudio (4.1.0)
+  - AgoraRtcEngine_iOS/SuperResolution (4.1.0)
+  - AgoraRtcEngine_iOS/VirtualBackground (4.1.0)
+  - AgoraRtcEngine_iOS/VQA (4.1.0)
+  - AgoraRtm_iOS (1.5.1)
+  - AgoraRtmControl_iOS (4.0.5):
+    - AgoraRtm_iOS (~> 1.5.1)
+  - AgoraUIKit_iOS (4.0.5):
+    - AgoraRtcEngine_iOS (~> 4.1.0)
+    - AgoraRtmControl_iOS (= 4.0.5)
+  - Alamofire (5.6.4)
+  - AppAuth (1.6.0):
+    - AppAuth/Core (= 1.6.0)
+    - AppAuth/ExternalUserAgent (= 1.6.0)
+  - AppAuth/Core (1.6.0)
+  - AppAuth/ExternalUserAgent (1.6.0):
+    - AppAuth/Core
+  - AsyncSwift (2.0.4)
+  - BSImagePicker (3.3.1)
+  - CryptoSwift (1.4.3)
+  - DropDown (2.3.13)
+  - FBAudienceNetwork (6.12.0)
+  - FittedSheets (2.5.3)
+  - Floaty (4.2.0)
+  - Google-Mobile-Ads-SDK (9.14.0):
+    - GoogleAppMeasurement (< 11.0, >= 7.0)
+    - GoogleUserMessagingPlatform (>= 1.1)
+  - GoogleAppMeasurement (10.3.0):
+    - GoogleAppMeasurement/AdIdSupport (= 10.3.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.8)
+    - GoogleUtilities/MethodSwizzler (~> 7.8)
+    - GoogleUtilities/Network (~> 7.8)
+    - "GoogleUtilities/NSData+zlib (~> 7.8)"
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+  - GoogleAppMeasurement/AdIdSupport (10.3.0):
+    - GoogleAppMeasurement/WithoutAdIdSupport (= 10.3.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.8)
+    - GoogleUtilities/MethodSwizzler (~> 7.8)
+    - GoogleUtilities/Network (~> 7.8)
+    - "GoogleUtilities/NSData+zlib (~> 7.8)"
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+  - GoogleAppMeasurement/WithoutAdIdSupport (10.3.0):
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.8)
+    - GoogleUtilities/MethodSwizzler (~> 7.8)
+    - GoogleUtilities/Network (~> 7.8)
+    - "GoogleUtilities/NSData+zlib (~> 7.8)"
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+  - GoogleMaps (4.1.0):
+    - GoogleMaps/Maps (= 4.1.0)
+  - GoogleMaps/Base (4.1.0)
+  - GoogleMaps/Maps (4.1.0):
+    - GoogleMaps/Base
+  - GooglePlaces (4.1.0):
+    - GoogleMaps/Base (= 4.1.0)
+  - GoogleSignIn (5.0.0):
+    - AppAuth (~> 1.1)
+    - GTMAppAuth (~> 1.0)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - GoogleUserMessagingPlatform (2.0.1)
+  - GoogleUtilities/AppDelegateSwizzler (7.11.0):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+  - GoogleUtilities/Environment (7.11.0):
+    - PromisesObjC (< 3.0, >= 1.2)
+  - GoogleUtilities/Logger (7.11.0):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/MethodSwizzler (7.11.0):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/Network (7.11.0):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (7.11.0)"
+  - GoogleUtilities/Reachability (7.11.0):
+    - GoogleUtilities/Logger
+  - GTMAppAuth (1.3.1):
+    - AppAuth/Core (~> 1.6)
+    - GTMSessionFetcher/Core (< 3.0, >= 1.5)
+  - GTMSessionFetcher/Core (1.7.2)
+  - IQKeyboardManagerSwift (6.5.11)
+  - ISEmojiView (0.3.2)
+  - JGProgressHUD (2.2)
+  - Kingfisher (7.5.0)
+  - nanopb (2.30909.0):
+    - nanopb/decode (= 2.30909.0)
+    - nanopb/encode (= 2.30909.0)
+  - nanopb/decode (2.30909.0)
+  - nanopb/encode (2.30909.0)
+  - OneSignalXCFramework (3.12.3):
+    - OneSignalXCFramework/OneSignalCore (= 3.12.3)
+    - OneSignalXCFramework/OneSignalExtension (= 3.12.3)
+    - OneSignalXCFramework/OneSignalOutcomes (= 3.12.3)
+  - OneSignalXCFramework/OneSignalCore (3.12.3)
+  - OneSignalXCFramework/OneSignalExtension (3.12.3):
+    - OneSignalXCFramework/OneSignalCore
+    - OneSignalXCFramework/OneSignalOutcomes
+  - OneSignalXCFramework/OneSignalOutcomes (3.12.3):
+    - OneSignalXCFramework/OneSignalCore
+  - PromisesObjC (2.1.1)
+  - R.swift (7.2.4)
+  - ReachabilitySwift (5.0.0)
+  - SkyFloatingLabelTextField (4.0.0)
+  - Socket.IO-Client-Swift (16.0.1):
+    - Starscream (~> 4.0)
+  - Starscream (4.0.4)
+  - SwiftEventBus (2.2.0)
+  - SwiftyBeaver (1.9.6)
+  - Toast-Swift (5.0.1)
+  - TransitionButton (0.5.3)
+  - TTRangeSlider (1.0.7)
+  - TwilioVideo (2.12.0)
+  - TwilioVoice (6.5.0)
+  - XLPagerTabStrip (9.0.0)
+
+DEPENDENCIES:
+  - ActionSheetPicker-3.0 (~> 2.3.0)
+  - AgoraUIKit_iOS
+  - Alamofire
+  - AsyncSwift
+  - BSImagePicker (~> 3.1)
+  - CryptoSwift (~> 1.4.1)
+  - DropDown
+  - FBAudienceNetwork
+  - FittedSheets
+  - Floaty
+  - Google-Mobile-Ads-SDK
+  - GoogleMaps (= 4.1.0)
+  - GooglePlaces (= 4.1.0)
+  - GoogleSignIn (= 5.0.0)
+  - IQKeyboardManagerSwift
+  - ISEmojiView (= 0.3.2)
+  - JGProgressHUD
+  - Kingfisher
+  - OneSignalXCFramework (< 4.0, >= 3.0.0)
+  - R.swift
+  - ReachabilitySwift
+  - SkyFloatingLabelTextField
+  - Socket.IO-Client-Swift
+  - SwiftEventBus (from `https://github.com/cesarferreira/SwiftEventBus.git`, tag `3.0.0`)
+  - SwiftyBeaver
+  - Toast-Swift
+  - TransitionButton
+  - TTRangeSlider
+  - TwilioVideo (~> 2.3)
+  - TwilioVoice
+  - XLPagerTabStrip
+
+SPEC REPOS:
+  trunk:
+    - ActionSheetPicker-3.0
+    - AgoraRtcEngine_iOS
+    - AgoraRtm_iOS
+    - AgoraRtmControl_iOS
+    - AgoraUIKit_iOS
+    - Alamofire
+    - AppAuth
+    - AsyncSwift
+    - BSImagePicker
+    - CryptoSwift
+    - DropDown
+    - FBAudienceNetwork
+    - FittedSheets
+    - Floaty
+    - Google-Mobile-Ads-SDK
+    - GoogleAppMeasurement
+    - GoogleMaps
+    - GooglePlaces
+    - GoogleSignIn
+    - GoogleUserMessagingPlatform
+    - GoogleUtilities
+    - GTMAppAuth
+    - GTMSessionFetcher
+    - IQKeyboardManagerSwift
+    - ISEmojiView
+    - JGProgressHUD
+    - Kingfisher
+    - nanopb
+    - OneSignalXCFramework
+    - PromisesObjC
+    - R.swift
+    - ReachabilitySwift
+    - SkyFloatingLabelTextField
+    - Socket.IO-Client-Swift
+    - Starscream
+    - SwiftyBeaver
+    - Toast-Swift
+    - TransitionButton
+    - TTRangeSlider
+    - TwilioVideo
+    - TwilioVoice
+    - XLPagerTabStrip
+
+EXTERNAL SOURCES:
+  SwiftEventBus:
+    :git: https://github.com/cesarferreira/SwiftEventBus.git
+    :tag: 3.0.0
+
+CHECKOUT OPTIONS:
+  SwiftEventBus:
+    :git: https://github.com/cesarferreira/SwiftEventBus.git
+    :tag: 3.0.0
+
+SPEC CHECKSUMS:
+  ActionSheetPicker-3.0: 2f5e3fde6b3205a7318f9338e4ec0f373ce7e75c
+  AgoraRtcEngine_iOS: 33f0136ad4196b2a31c8470e6b536fe77fb25f8b
+  AgoraRtm_iOS: 595a9fa33a409831e6183396ea8f8bc563918403
+  AgoraRtmControl_iOS: 07918f54ba46f4a1cf367eed2c14ba5b3bf8beb3
+  AgoraUIKit_iOS: 1b3bed617052237c36ef5a7359980d0bc65a6450
+  Alamofire: 4e95d97098eacb88856099c4fc79b526a299e48c
+  AppAuth: 8fca6b5563a5baef2c04bee27538025e4ceb2add
+  AsyncSwift: 65775a7b32e740609b24969ece3de58723b9dc3e
+  BSImagePicker: 0fe04b574d4d6b81093785d2af6c26227efc8428
+  CryptoSwift: a0799ee936271bd2253a006f1e4523df21845000
+  DropDown: 8a2116376c1981888557f72ec2ffc9a5e0e456ec
+  FBAudienceNetwork: e0fcc9091fced34910ed0b6da06f129db46ac9e6
+  FittedSheets: c22df4c06036515f247951fa174912e8a65c8ce4
+  Floaty: e2bd5a0f6f7f70899e26ff2da31081c8bee8d1b0
+  Google-Mobile-Ads-SDK: 4fe6304b771f8467d29978cb790ec1e56e646946
+  GoogleAppMeasurement: c7d6fff39bf2d829587d74088d582e32d75133c3
+  GoogleMaps: 008e2c80e38605b56b560e8deb73d4194ff30bef
+  GooglePlaces: a058b776259c13e1323c9ff135549cb1b13ad8e7
+  GoogleSignIn: a62edd0516721d2a3db1259a5681b91f9b41c06a
+  GoogleUserMessagingPlatform: 5f8b30daf181805317b6b985bb51c1ff3beca054
+  GoogleUtilities: c2bdc4cf2ce786c4d2e6b3bcfd599a25ca78f06f
+  GTMAppAuth: 0ff230db599948a9ad7470ca667337803b3fc4dd
+  GTMSessionFetcher: 5595ec75acf5be50814f81e9189490412bad82ba
+  IQKeyboardManagerSwift: c7955c0bdbf7b2eb29bb7daaa44e3d90f55a9a85
+  ISEmojiView: 58675ffd39b268c49cefd4924643552b94ef1d6c
+  JGProgressHUD: d83d7a981b85d11205e19ff8ad5bb9c40571c847
+  Kingfisher: b9c2a4a4af2990a768445c277359b27bde287d71
+  nanopb: b552cce312b6c8484180ef47159bc0f65a1f0431
+  OneSignalXCFramework: 75844c29607ca95e6176f6f21257b4382c7fdbfb
+  PromisesObjC: ab77feca74fa2823e7af4249b8326368e61014cb
+  R.swift: 681bb9135f482e7a81d9d27445b837fef5467e11
+  ReachabilitySwift: 985039c6f7b23a1da463388634119492ff86c825
+  SkyFloatingLabelTextField: 79ddc40e4ad59707fedbb48d605417aee48bb78a
+  Socket.IO-Client-Swift: c116d6dc9fd6be9c259bacfe143f8725bce7d79e
+  Starscream: 5178aed56b316f13fa3bc55694e583d35dd414d9
+  SwiftEventBus: 667baca2f107fa0c9c2068950298dbfd6a4111cc
+  SwiftyBeaver: c8241b4745aa269a78ca5a022532c6915e948536
+  Toast-Swift: 9b6a70f28b3bf0b96c40d46c0c4b9d6639846711
+  TransitionButton: 36283346e17c64775a1b3bc3a7a72940a367de1f
+  TTRangeSlider: 8cf72eca457c3b700c92eb0074be908c986e25ec
+  TwilioVideo: 057061e4302e4b2862b0ac6cf69a3321e7c29b19
+  TwilioVoice: a8c88ac563a11b02ded5de5deb8b8659f7ed2094
+  XLPagerTabStrip: 61c57fd61f611ee5f01ff1495ad6fbee8bf496c5
+
+PODFILE CHECKSUM: a94a9ff86e0443eeef9d03c10f3a2bdc1d2dca72
+
+COCOAPODS: 1.11.3

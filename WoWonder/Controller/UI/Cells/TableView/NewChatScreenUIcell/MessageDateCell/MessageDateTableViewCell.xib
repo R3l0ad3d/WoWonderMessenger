@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="BRSonoma-Medium.otf">
+            <string>BRSonoma-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" id="KGk-i7-Jjw" customClass="MessageDateTableViewCell" customModule="WoWonder" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="URG-iG-dEJ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TAo-EP-NvB">
+                                <rect key="frame" x="130.66666666666666" y="4.6666666666666679" width="58.666666666666657" height="35"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Today" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8sD-EH-wii">
+                                        <rect key="frame" x="12" y="10.666666666666668" width="34.666666666666664" height="14"/>
+                                        <fontDescription key="fontDescription" name="BRSonoma-Medium" family="BRSonoma-Medium" pointSize="12"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.94901973009999996" green="0.94901973009999996" blue="0.94901973009999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="8sD-EH-wii" secondAttribute="trailing" constant="12" id="InP-rs-EWC"/>
+                                    <constraint firstAttribute="height" constant="35" id="Sec-tB-eBT"/>
+                                    <constraint firstItem="8sD-EH-wii" firstAttribute="leading" secondItem="TAo-EP-NvB" secondAttribute="leading" constant="12" id="kDC-Zg-66H"/>
+                                    <constraint firstItem="8sD-EH-wii" firstAttribute="centerY" secondItem="TAo-EP-NvB" secondAttribute="centerY" id="srI-CF-124"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="iscircleCorner" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="TAo-EP-NvB" firstAttribute="top" secondItem="URG-iG-dEJ" secondAttribute="top" constant="4.6699999999999999" id="RfI-U8-o34"/>
+                            <constraint firstAttribute="bottom" secondItem="TAo-EP-NvB" secondAttribute="bottom" constant="4.3300000000000001" id="ixY-ly-YGW"/>
+                            <constraint firstItem="TAo-EP-NvB" firstAttribute="centerX" secondItem="URG-iG-dEJ" secondAttribute="centerX" id="l6i-bM-wjk"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="URG-iG-dEJ" secondAttribute="bottom" id="Dcp-31-u37"/>
+                    <constraint firstAttribute="trailing" secondItem="URG-iG-dEJ" secondAttribute="trailing" id="KXZ-E1-tAJ"/>
+                    <constraint firstItem="URG-iG-dEJ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="bfZ-Yb-O1Q"/>
+                    <constraint firstItem="URG-iG-dEJ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="oh3-hs-JBb"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="cellView" destination="URG-iG-dEJ" id="90f-ep-fLu"/>
+                <outlet property="dateLabel" destination="8sD-EH-wii" id="3OD-B1-QQs"/>
+                <outlet property="stutesView" destination="TAo-EP-NvB" id="a6y-tc-BGL"/>
+            </connections>
+            <point key="canvasLocation" x="140" y="0.0"/>
+        </tableViewCell>
+    </objects>
+</document>

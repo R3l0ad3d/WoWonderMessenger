@@ -1,0 +1,96 @@
+
+/* Class = "UILabel"; text = "Start adding new contact !!"; ObjectID = "0Tb-h8-h2Z"; */
+"0Tb-h8-h2Z.text" = "Start adding new contact !!";
+
+/* Class = "UIButton"; normalTitle = "CLOSE"; ObjectID = "1Ka-C0-qQH"; */
+"1Ka-C0-qQH.normalTitle" = "CLOSE";
+
+/* Class = "UILabel"; text = "Start new conversations by going to contact"; ObjectID = "2pH-4b-Ad4"; */
+"2pH-4b-Ad4.text" = "Start new conversations by going to contact";
+
+/* Class = "UILabel"; text = "@Username"; ObjectID = "4ls-99-9rg"; */
+"4ls-99-9rg.text" = "@Username";
+
+/* Class = "UILabel"; text = "Profile Picture"; ObjectID = "B6Y-Me-sQO"; */
+"B6Y-Me-sQO.text" = "Profile Picture";
+
+/* Class = "UILabel"; text = "No Calls"; ObjectID = "BHx-xn-0rJ"; */
+"BHx-xn-0rJ.text" = "No Calls";
+
+/* Class = "UILabel"; text = "Search Contact"; ObjectID = "G4n-gu-RHK"; */
+"G4n-gu-RHK.text" = "Search Contact";
+
+/* Class = "UILabel"; text = "There is no blocked Users"; ObjectID = "KKE-5T-5vJ"; */
+"KKE-5T-5vJ.text" = "There is no blocked Users";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "Nip-BV-2cu"; */
+"Nip-BV-2cu.title" = " ";
+
+/* Class = "UIButton"; normalTitle = "Search"; ObjectID = "Q6t-0P-EzA"; */
+"Q6t-0P-EzA.normalTitle" = "Search";
+
+/* Class = "UILabel"; text = "There are no Contacts"; ObjectID = "SUm-dY-shD"; */
+"SUm-dY-shD.text" = "There are no Contacts";
+
+/* Class = "UILabel"; text = "Gender"; ObjectID = "Sua-vY-EZZ"; */
+"Sua-vY-EZZ.text" = "Gender";
+
+/* Class = "UIButton"; normalTitle = "   Unblock"; ObjectID = "XQu-zd-fyZ"; */
+"XQu-zd-fyZ.normalTitle" = "   Unblock";
+
+/* Class = "UILabel"; text = "WoWonder Messenger"; ObjectID = "bMI-da-pyS"; */
+"bMI-da-pyS.text" = "WoWonder Messenger";
+
+/* Class = "UILabel"; text = " All"; ObjectID = "bYL-cy-D8M"; */
+"bYL-cy-D8M.text" = " All";
+
+/* Class = "UILabel"; text = "No more Messages"; ObjectID = "gVU-Ia-Piz"; */
+"gVU-Ia-Piz.text" = "No more Messages";
+
+/* Class = "UILabel"; text = "There are no stories"; ObjectID = "h2O-Pq-pjO"; */
+"h2O-Pq-pjO.text" = "There are no stories";
+
+/* Class = "UILabel"; text = "Photos and videos shared in stories are only visible for 24 hours after they have been added."; ObjectID = "kM5-pg-V6Q"; */
+"kM5-pg-V6Q.text" = "Photos and videos shared in stories are only visible for 24 hours after they have been added.";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "liX-Z4-W0P"; */
+"liX-Z4-W0P.title" = " ";
+
+/* Class = "UILabel"; text = "@Username"; ObjectID = "mW6-vo-YcD"; */
+"mW6-vo-YcD.text" = "@Username";
+
+/* Class = "UILabel"; text = "Start a new call from your friends list by pressing the button at the bottom of the screen."; ObjectID = "mda-YA-J07"; */
+"mda-YA-J07.text" = "Start a new call from your friends list by pressing the button at the bottom of the screen.";
+
+/* Class = "UILabel"; text = "Start writing to search"; ObjectID = "n66-YI-sQf"; */
+"n66-YI-sQf.text" = "Start writing to search";
+
+/* Class = "UILabel"; text = " All"; ObjectID = "nSb-nO-gcG"; */
+"nSb-nO-gcG.text" = " All";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "o4m-hd-qO3"; */
+"o4m-hd-qO3.title" = " ";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "o5w-aX-AWe"; */
+"o5w-aX-AWe.title" = " ";
+
+/* Class = "UILabel"; text = " All"; ObjectID = "pS8-8x-y5I"; */
+"pS8-8x-y5I.text" = " All";
+
+/* Class = "UILabel"; text = "Gender "; ObjectID = "qQd-QB-mld"; */
+"qQd-QB-mld.text" = "Gender ";
+
+/* Class = "UILabel"; text = "Start Blocking Users"; ObjectID = "rce-52-ToI"; */
+"rce-52-ToI.text" = "Start Blocking Users";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "xQO-5K-i71"; */
+"xQO-5K-i71.text" = "Name";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "xR0-OA-ahh"; */
+"xR0-OA-ahh.text" = "Name";
+
+/* Class = "UILabel"; text = "Status"; ObjectID = "xVh-Ei-nyl"; */
+"xVh-Ei-nyl.text" = "Status";
+
+/* Class = "UIButton"; normalTitle = "Search Random"; ObjectID = "xyi-6f-xms"; */
+"xyi-6f-xms.normalTitle" = "Search Random";

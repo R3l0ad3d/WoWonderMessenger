@@ -1,0 +1,182 @@
+/* 
+  Localizable.strings
+  WoWonder
+
+  Created by Macbook Pro on 15/06/2019.
+  Copyright © 2019 ScriptSun. All rights reserved.
+*/
+
+// MainStoryBoard Strings
+"Messengerv2.3" = "Messengerv2.3";
+"Username" = "Username";
+"Terms of Service" = "Terms of Service";
+"SKIP" = "SKIP";
+"and" = "and";
+"Username" = "Username";
+"Privacy Policy" = "Privacy Policy";
+"Log in" = "Log in";
+"OK" = "OK";
+" " = " ";
+"Don't worry type your email here and will will recover it for you." = "Don't worry type your email here and will will recover it for you.";
+"Sign Up" = "Sign Up";
+"Username" = "Username";
+"WoWonder" = "WoWonder";
+"Register now and start chatting with your friends" = "Register now and start chatting with your friends";
+"Privacy Policy" = "Privacy Policy";
+"Please check your internet connection." = "Please check your internet connection.";
+"Login with Facebook" = "Login with Facebook";
+"Login with google" = "Login with google";
+"RETRY" = "RETRY";
+"Forgot your password" = "Forgot your password";
+"Sign up" = "Sign up";
+"Forgot your Password?" = "Forgot your Password?";
+"I agree to the terms and conditions" = "I agree to the terms and conditions";
+"and" = "and";
+"Security" = "Security";
+"Hi! there i am using" = "Hi! there i am using ";
+"Terms of Service" = "Terms of Service";
+"Password" = "Password";
+"No internet access" = "No internet access";
+"Loading Profile..." = "Loading Profile...";
+"Username" = "Username";
+"Register now" = "Register now";
+"Username" = "Username";
+"Username" = "Username";
+"Send" = "Send";
+" " = " ";
+
+// DashBoardStoryBoard Strings
+
+
+"Start adding new contact !!" = "Start adding new contact !!";
+"CLOSE" = "CLOSE";
+"Start new conversations by going to contact" = "Start new conversations by going to contact";
+"@Username" = "@Username";
+"Profile Picture" = "Profile Picture";
+"No Calls" = "No Calls";
+"Search Contact" = "Search Contact";
+"There is no blocked Users" = "There is no blocked Users";
+" " = " ";
+"Search" = "Search";
+"There are no Contacts" = "There are no Contacts";
+"Gender" = "Gender";
+"   Unblock" = "   Unblock";
+"WoWonder Messenger" = "My Messenger";
+"All" = " All";
+"No more Messages" = "No more Messages";
+"There are no stories" = "There are no stories";
+"Photos and videos shared in stories are only visible for 24 hours after they have been added." = "Photos and videos shared in stories are only visible for 24 hours after they have been added.";
+" " = " ";
+"@Username" = "@Username";
+"Start a new call from your friends list by pressing the button at the bottom of the screen." = "Start a new call from your friends list by pressing the button at the bottom of the screen.";
+"Start writing to search" = "Start writing to search";
+" All" = " All";
+" " = " ";
+" " = " ";
+"All" = " All";
+"Gender " = "Gender ";
+"Start Blocking Users" = "Start Blocking Users";
+"Name" = "Name";
+"Name" = "Name";
+"Status" = "Status";
+"Search Random" = "Search Random";
+
+// SettingsStoryboard Strings
+
+"Who can see my birthday?" = "Who can see my birthday?";
+"everyone" = "everyone";
+"Language" = "Language";
+"Support" = "Support";
+"General" = "General";
+"@Username" = "@Username";
+"OK" = "OK";
+"Password" = "Password";
+"Play sounds for incoming and outgoing messages" = "Play sounds for incoming and outgoing messages";
+"CANCEL" = "CANCEL";
+"Logout" = "Logout";
+"People i Follow" = "People i Follow";
+"CANCEL" = "CANCEL";
+"OK" = "OK";
+"Edit Profile and avatar" = "Edit Profile and avatar";
+"Female" = "Female";
+"Privacy" = "Privacy";
+"Male" = "Male";
+"If you forgot your password, you can reset it from here." = "If you forgot your password, you can reset it from here.";
+"Change your password" = "Change your password";
+"OK" = "OK";
+"User Info" = "User Info";
+"CANCEL" = "CANCEL";
+"Message Notifications" = "Message Notifications";
+"CANCEL" = "CANCEL";
+"Notification Popup" = "Notification Popup";
+"Are you sure you want to delete the account from WoWonder Messenger" = "Are you sure you want to delete the account from WoWonder Messenger";
+"Display your app language" = "Display your app language";
+"CANCEL" = "CANCEL";
+"Who can message me?" = "Who can message me?";
+"Everyone" = "Everyone";
+"everyone" = "everyone";
+"Blocked Users" = "Blocked Users";
+"People i Follow" = "People i Follow";
+"Who can see my birthday?" = "Who can see my birthday?";
+"Delete Account" = "Delete Account";
+"Warning !" = "Warning !";
+"Social Links " = "Social Links ";
+"About me" = "About me";
+"Who can follow me?" = "Who can follow me?";
+"something to show" = "something to show";
+"everyone" = "everyone";
+"Get notifications when you receive messages" = "Get notifications when you receive messages";
+"Everyone" = "Everyone";
+"Language" = "Language";
+"Clear call log" = "Clear call log";
+"Report a Problem" = "Report a Problem";
+" " = " ";
+"Are you sure you want to logout?" = "Are you sure you want to logout?";
+"Help" = "Help";
+"Full name" = "Full name";
+"Who can follow me?" = "Who can follow me?";
+"Conversation tones" = "Conversation tones";
+"About me" = "About me";
+"Warning !" = "Warning !";
+"No body" = "No body";
+"My Account" = "My Account";
+
+
+
+// StoryStoryboard Strings
+
+"Add new Story" = "Add new Story";
+"Username" = "Username";
+"Name" = "Name";
+
+
+// ChatStoryboard Strings
+
+"Full name" = "Full name";
+"Website" = "Website";
+"count" = "count";
+"Phone" = "Phone";
+"Location" = "Location";
+"Social Links " = "Social Links ";
+"count" = "count";
+"CANCEL" = "CANCEL";
+"Followers" = "Followers";
+"User Info" = "User Info";
+"@Username" = "@Username";
+"Select what you want" = "Select what you want";
+"Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda." = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.";
+"Label" = "Label";
+"Label" = "Label";
+"Following" = "Following";
+"Gender" = "Gender";
+"Name" = "Name";
+
+// CallStoryboard Strings
+
+"Video Mute" = "Video Mute";
+"UserName" = "UserName";
+"Hang Up" = "Hang Up";
+"Switch Camera" = "Switch Camera";
+"Full Name" = "Full Name";
+"Calling" = "Calling";
+"Mute" = "Mute";

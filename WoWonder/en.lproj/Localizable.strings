@@ -1,0 +1,373 @@
+    /* 
+  Localizable.strings
+  WoWonder
+
+  Created by Macbook Pro on 15/06/2019.
+  Copyright © 2019 ScriptSun. All rights reserved.
+*/
+
+// InterNet Connection
+
+"Internet not connected, please check your internet connection." = "Internet not connected, please check your internet connection.";
+
+// MainStoryBoard Strings
+"Messengerv2.3" = "Messengerv2.3";
+"Username" = "Username";
+"Terms of Service" = "Terms of Service";
+"SKIP" = "SKIP";
+"and" = "and";
+"username" = "username";
+"Privacy Policy" = "Privacy Policy";
+"Log in" = "Log in";
+"OK" = "OK";
+" " = " ";
+"Done" = "Done";
+"seen" = "seen";
+"audio" = "audio";
+"video" = "video";
+"image" = "image";
+"GIF" = "GIF";
+
+"Your message here..." = "Your message here...";
+"New Version" = "New Version";
+"Fast so we can take you to our space" = "Fast so we can take you to our space";
+"Search Globally" = "Search Globally";
+"Find new friends and contacts" = "Find new friends and contacts";
+"Please write your email" = "Please write your email";
+"New Features" = "New Features";
+"Send & Recieve all kind of messages" = "Send & Recieve all kind of messages";
+"Stay Sync" = "Stay Sync";
+"Keep you conversation going from all devices" = "Keep you conversation going from all devices";
+"Don't worry type your email here and will will recover it for you." = "Don't worry type your email here and will will recover it for you.";
+"Sign Up" = "Sign Up";
+"Username" = "Username";
+"WoWonder" = "WoWonder";
+"Register now and start chatting with your friends" = "Register now and start chatting with your friends";
+"Privacy Policy" = "Privacy Policy";
+"Please check your internet connection." = "Please check your internet connection.";
+"Login with Facebook" = "Login with Facebook";
+"Login with google" = "Login with google";
+"RETRY" = "RETRY";
+"Forgot your password" = "Forgot your password";
+"Sign up" = "Sign up";
+"Forgot your Password?" = "Forgot your Password?";
+"I agree to the terms and conditions" = "I agree to the terms and conditions";
+"and" = "and";
+"Security" = "Security";
+"Terms of Service" = "Terms of Service";
+"Password" = "Password";
+"No internet access" = "No internet access";
+"Loading Profile..." = "Loading Profile...";
+"Username" = "Username";
+"Register now" = "Register now";
+"Username" = "Username";
+"Username" = "Username";
+"Send" = "Send";
+" " = " ";
+"Welcome Back!!" = "Welcome Back!!";
+"password" = "password";
+"WoWonder Messenger" = "WoWonder Messenger";
+"CHATS" = "CHATS";
+"New Version" = "New Version";
+"Fast so we can take you to our space" = "Fast so we can take you to our space";
+"Search Globally" = "Search Globally";
+"Find new friends and contacts" = "Find new friends and contacts";
+"New Features" = "New Features";
+"Send & Recieve all kind of messages" = "Send & Recieve all kind of messages";
+"Stay Sync" = "Stay Sync";
+"Keep you conversation going from all devices" = "Keep you conversation going from all devices";
+"Please enter username." = "Please enter username.";
+"Please enter password." = "Please enter password.";
+"Internet Error" = "Internet Error";
+"Login Successfull!!" = "Login Successfull!!";
+"You can not access your disapproval of the Terms and Conditions." = "You can not access your disapproval of the Terms and Conditions.";
+"Please enter email." = "Please enter email.";
+"Please enter confirm password." = "Please enter confirm password.";
+"Password do not match." = "Password do not match.";
+"Email is badly formatted." = "Email is badly formatted.";
+"Check your email" = "Check your email";
+"We Sent email to" = "We Sent email to";
+"Click the link in the email to reset your password." = "Click the link in the email to reset your password.";
+"Please enter Code." = "Please enter Code.";
+"Add code number" = "Add code number";
+"VERIFY" = "VERIFY";
+"Please select group avatar." = "Please select group avatar.";
+"Please enter group name." = "Please enter group name.";
+"Please select Atleast one participant." = "Please select Atleast one participant.";
+"Create Group" = "Create Group";
+"Are you sure you want to logout ?" = "Are you sure you want to logout ?";
+"User has been blocked!!" = "User has been blocked!!";
+"You have followed the user successfully" = "You have followed the user successfully";
+"The user has been unfollowed" = "The user has been unfollowed";
+"you are not allowed to perform any action on this activity" = "you are not allowed to perform any action on this activity";
+"User has been unblocked!!" = "User has been unblocked!!";
+"email" = "email";
+"Email" = "Email";
+"Repeat password" = "Repeat password";
+"To log in, you need to verify  your identity." = "To log in, you need to verify  your identity.";
+"We have sent you the confirmation code to your email address." = "We have sent you the confirmation code to your email address.";
+ 
+// DashBoardStoryBoard Strings
+
+
+"Start adding new contact !!" = "Start adding new contact !!";
+"CLOSE" = "CLOSE";
+"Start new conversations by going to contact" = "Start new conversations by going to contact";
+"@Username" = "@Username";
+"Profile Picture" = "Profile Picture";
+"No Calls" = "No Calls";
+"Search Contact" = "Search Contact";
+"There is no blocked Users" = "There is no blocked Users";
+" " = " ";
+"Search" = "Search";
+"There are no Contacts" = "There are no Contacts";
+"Gender" = "Gender";
+"   Unblock" = "   Unblock";
+"WoWonder Messenger" = "WoWonder Messenger";
+"All" = " All";
+"No more Messages" = "No more Messages";
+"There are no stories" = "There are no stories";
+"Photos and videos shared in stories are only visible for 24 hours after they have been added." = "Photos and videos shared in stories are only visible for 24 hours after they have been added.";
+" " = " ";
+"@Username" = "@Username";
+"Start a new call from your friends list by pressing the button at the bottom of the screen." = "Start a new call from your friends list by pressing the button at the bottom of the screen.";
+"Start writing to search" = "Start writing to search";
+"All" = " All";
+" " = " ";
+" " = " ";
+"ALL" = " ALL";
+"Gender " = "Gender ";
+"Start Blocking Users" = "Start Blocking Users";
+"Name" = "Name";
+"Name" = "Name";
+"Status" = "Status";
+"Search Random" = "Search Random";
+"GROUPS" = "GROUPS";
+"STORIES" = "STORIES";
+"CALLS" = "CALLS";
+"Block User List" = "Block User List";
+"Settings" = "Settings";
+"Status" = "Status";
+"Add new Story" = "Add new Story";
+//"Source" = "Source";
+"Image" = "Image";
+"Video" = "Video";
+"Last seen" = "Last seen";
+"last seen" = "Last seen";
+"Camera" = "Camera";
+"Gallery" = "Gallery";
+"Message Info" = "Message Info";
+"Delete Message" = "Delete Message";
+"Forward" = "Forward";
+"Un favorite" = "Un favorite";
+"Favorite" = "Favorite";
+"remove from   favorite" = "remove from   favorite";
+"Added to favorite" = "Added to favorite";
+"Verified" = "Verified";
+"UnVerified" = "UnVerified";
+"All" = "All";
+"Offline" = "Offline";
+"Online" = "Online";
+"YES" = "YES";
+"NO" = "NO";
+"Copied to clipboard" = "Copied to clipboard";
+"There are no suggested Users Available" = "There are no suggested Users Available";
+"Suggested Users" = "Suggested Users";
+
+
+// SettingsStoryboard Strings
+"Save" = "Save";
+"SAVE" = "SAVE";
+"Save" = "Save";
+"Disable" = "Disable";
+"Enable" = "Enable";
+"Who can see my birthday?" = "Who can see my birthday?";
+"everyone" = "everyone";
+"Language" = "Language";
+"Support" = "Support";
+"General" = "General";
+"@Username" = "@Username";
+"OK" = "OK";
+"Password" = "Password";
+"Play sounds for incoming and outgoing messages" = "Play sounds for incoming and outgoing messages";
+"CANCEL" = "CANCEL";
+"Logout" = "Logout";
+"People i Follow" = "People i Follow";
+"CANCEL" = "CANCEL";
+"OK" = "OK";
+"Edit Profile and avatar" = "Edit Profile and avatar";
+"Female" = "Female";
+"Privacy" = "Privacy";
+"Male" = "Male";
+"If you forgot your password, you can reset it from here." = "If you forgot your password, you can reset it from here.";
+"Change your password" = "Change your password";
+"OK" = "OK";
+"User Info" = "User Info";
+"CANCEL" = "CANCEL";
+"Message Notifications" = "Message Notifications";
+"CANCEL" = "CANCEL";
+"Notification Popup" = "Notification Popup";
+"Are you sure you want to delete the account from WoWonder Messenger" = "Are you sure you want to delete the account from WoWonder Messenger";
+"Display your app language" = "Display your app language";
+"Cancel" = "Cancel";
+"Who can message me?" = "Who can message me?";
+"Everyone" = "Everyone";
+"everyone" = "everyone";
+"Blocked Users" = "Blocked Users";
+"People i Follow" = "People i Follow";
+"Who can see my birthday?" = "Who can see my birthday?";
+"Delete Account" = "Delete Account";
+"Warning !" = "Warning !";
+"Social Links " = "Social Links ";
+"About me" = "About me";
+"Who can follow me?" = "Who can follow me?";
+"something to show" = "something to show";
+"everyone" = "everyone";
+"Get notifications when you receive messages" = "Get notifications when you receive messages";
+"Everyone" = "Everyone";
+"Language" = "Language";
+"Clear call log" = "Clear call log";
+"Report a Problem" = "Report a Problem";
+" " = " ";
+"Are you sure you want to logout?" = "Are you sure you want to logout?";
+"Help" = "Help";
+"Full name" = "Full name";
+"Who can follow me?" = "Who can follow me?";
+"Conversation Tones" = "Conversation Tones";
+"About me" = "About me";
+"Warning !" = "Warning !";
+"No body" = "No body";
+"My Account" = "My Account";
+"View Profile" = "View Profile";
+"Block User" = "Block User";
+"Started Messages" = "Started Messages";
+"Account and Profile" = "Account and Profile";
+"Security" = "Security";
+"Display" = "Display";
+"Privacy" = "Privacy";
+"Message Notification" = "Message Notification";
+"General" = "General";
+"Edit Profile" = "Edit Profile";
+"About" = "About";
+"Two-factor Authentication" = "Two-factor Authentication";
+"Manage Sessions" = "Manage Sessions";
+"Theme" = "Theme";
+"Nobody" = "Nobody";
+"get Notification when you receive messages" = "get Notification when you receive messages";
+"Show online users" = "Show online users";
+"Show when user are online" = "Show when user are online";
+"Play sound for incoming and outgoing messages" = "Play sound for incoming and outgoing messages";
+"Invite Friends" = "Invite Friends";
+"Refresh" = "Refresh";
+"There are no call Logs to clear" = "There are no call Logs to clear";
+"Call Logs Cleared" = "Call Logs Cleared";
+"Clear Call Log" = "Clear Call Log";
+"birthday Privacy" = "birthday Privacy";
+"Loading..." = "Loading...";
+"Copy" = "Copy";
+"Block" = "Block";
+"Please enter current password." = "Please enter current password.";
+"Please enter current new password." = "Please enter current new password.";
+"Please enter current confirm password." = "Please enter current confirm password.";
+"Password does not match. Try again!" = "Password does not match. Try again!";
+"Password has been changed!" = "Password has been changed!";
+"Application will close to change the language" = "Application will close to change the language";
+"New Password" = "New Password";
+"Current Password" = "Current Password";
+
+
+// StoryStoryboard Strings
+
+"Add new Story" = "Add new Story";
+"Username" = "Username";
+"Name" = "Name";
+
+
+// ChatStoryboard Strings
+
+"Full name" = "Full name";
+"Website" = "Website";
+"count" = "count";
+"Phone" = "Phone";
+"Location" = "Location";
+"google maps not found" = "google maps not found";
+"Social Link" = "Social Link";
+"count" = "count";
+"CANCEL" = "CANCEL";
+"Followers" = "Followers";
+"User Info" = "User Info";
+"@Username" = "@Username";
+"Select what you want" = "Select what you want";
+"Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda." = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.";
+"Label" = "Label";
+"Label" = "Label";
+"Following" = "Following";
+"following" = "following";
+"follow" = "follow";
+"Gender" = "Gender";
+"Name" = "Name";
+"Update Group" = "Update Group";
+"Add" = "Add";
+"You cannot block this user because it is administrator" = "You cannot block this user because it is administrator";
+"Okay" = "Okay";
+
+// CallStoryboard Strings
+
+"Video Mute" = "Video Mute";
+"UserName" = "UserName";
+"Hang Up" = "Hang Up";
+"Switch Camera" = "Switch Camera";
+"Full Name" = "Full Name";
+"Calling" = "Calling";
+"Mute" = "Mute";
+"someone is calling you" = "someone is calling you";
+"Answer" = "Answer";
+"Decline" = "Decline";
+
+// Edit Profile
+"First Name" = "First Name";
+"Last Name" = "Last Name";
+"Mobile" = "Mobile";
+"Workspace" = "Workspace";
+"Facebook" = "Facebook";
+"Copy link to profile" = "Copy link to profile";
+"Share" = "Share";
+"Exit Group" = "Exit Group";
+"Delete Group" = "Delete Group";
+"Delete" = "Delete";
+"Turn on 2-step login to level-up your account security. Once turned on, you'll use both your password and a 6-digit security code send to your  phone or email to log in." = "Turn on 2-step login to level-up your account security. Once turned on, you'll use both your password and a 6-digit security code send to your  phone or email to log in.";
+"Dark mode" = "Dark mode";
+"Light mode" = "Light mode";
+"Add Participants" = "Add Participants";
+"Group Name" = "Group Name";
+"Select Image" = "Select Image";
+"MALE" = "MALE";
+"FAMALE" = "FEMALE";
+"ONLINE" = "ONLINE";
+"OFFLINE" = "OFFLINE";
+"Reset filter" = "Reset filter";
+"Apply Filter" = "Apply Filter";
+"Hi! there i am using WoWonder Messenger" = "Hi! there i am using WoWonder Messenger";
+"Follow Request" = "Follow Request";
+"View all Follow Request" = "View all Follow Request";
+"Group Request" = "Group Request";
+"Find all invite request" = "Find all invite request";
+"There is no Group request" = "There is no Group request";
+"Select from your contact list" = "Select from your contact list";
+"Change Password" = "Change Password";
+"Unblocked" = "Unblocked";
+"View" = "View";
+"MyFriend" = "MyFriend";
+"AddFriend" = "AddFriend";
+"Requested" = "Requested";
+
+
+
+"Select what you want" = "Select what you want";
+"Image Gallery" = "Image Gallery";
+"Take a picture from the camera" = "Take a picture from the camera";
+"Video Gallery" = "Video Gallery";
+"File" = "File";
+"Gif" = "Gif";
+"Your Story" = "Your Story";
+"Friends" = "Friends";

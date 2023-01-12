@@ -1,0 +1,278 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)
+// swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name WowonderMessengerSDK
+import Foundation
+import Swift
+import UIKit
+import _Concurrency
+@_hasMissingDesignatedInitializers public class ServerCredentials {
+  public static var instance: WowonderMessengerSDK.ServerCredentials
+  public static func setServerDataWithKey(key: Swift.String)
+  @objc deinit
+}
+public var InterNetError: Swift.String
+public struct API {
+  public static var baseURL: Swift.String
+  public struct AUTH_Constants_Methods {
+    public static var LOGIN_API: Swift.String
+    public static var REGISTER_API: Swift.String
+    public static var FORGETPASSWORD_API: Swift.String
+    public static var DELETE_USER_API: Swift.String
+    public static var SOCIAL_LOGIN_API: Swift.String
+  }
+  public struct GetUserList_Constants_Methods {
+    public static var GET_USER_LIST_API: Swift.String
+  }
+  public struct GetUserData_Constants_Methods {
+    public static var GET_USER_Data_API: Swift.String
+  }
+  public struct SelectContact_Constants_Methods {
+    public static var SELECT_CONTACT_API: Swift.String
+  }
+  public struct Stories_Constants_Methods {
+    public static var GET_STORIES_API: Swift.String
+    public static var CREATE_STORY_API: Swift.String
+    public static var DELETE_STORY_API: Swift.String
+  }
+  public struct Settings_Methods {
+    public static var UPDATE_USER_PROFILE_API: Swift.String
+    public static var Get_SettingApi: Swift.String
+  }
+  public struct BlockUser_Methods {
+    public static var GET_BLOCKED_USERS_API: Swift.String
+    public static var BLOCK_UNBLOCK_USERS_API: Swift.String
+  }
+  public struct Following_Methods {
+    public static var FOLLOW_UNFOLLOW_API: Swift.String
+    public static var GetFollow_Request: Swift.String
+    public static var Accept_DeclineRequest: Swift.String
+  }
+  public struct Search_Methods {
+    public static var SEARCH_USER_API: Swift.String
+  }
+  public struct Chat_Methods {
+    public static var GET_USER_CHATS_API: Swift.String
+    public static var DELETE_CHAT_API: Swift.String
+    public static var SEND_MESSAGE_API: Swift.String
+    public static var DELETE_MESSAGE_API: Swift.String
+  }
+  public struct ChatColor_Methods {
+    public static var CHAT_COLOR_API: Swift.String
+  }
+  public struct Calls_Methods {
+    public static var AGORA_VIDEO_CALL_API: Swift.String
+    public static var AGORA_CALL_ACTION_API: Swift.String
+    public static var AGORA_CHECK_FOR_ANSWER_API: Swift.String
+  }
+  public struct Twillo_Calls_Methods {
+    public static var TWILLO_CREATE_AUDIO_CALL_API: Swift.String
+    public static var TWILLO_AUDIO_CALL_ACTION_API: Swift.String
+    public static var TWILLO_CHECK_FOR_ANSWER_API: Swift.String
+    public static var TWILLO_CREATE_VIDEO_CALL_API: Swift.String
+    public static var TWILLO_VIDEO_CALL_ACTION_API: Swift.String
+  }
+  public struct GROUP_CHATS_METHODS {
+    public static var CREATE_GROUP_API: Swift.String
+    public static var FETCH_GROUP_API: Swift.String
+    public static var FETCH_GROUP_CHAT_API: Swift.String
+    public static var EXIT_GROUP_CHAT_API: Swift.String
+    public static var DELETE_GROUP_CHAT_API: Swift.String
+    public static var UPDATE_GROUP_CHAT_API: Swift.String
+    public static var ADD_USER_TO_GROUP_CHAT_API: Swift.String
+    public static var SEND_MESSAGE_TO_GROUP_CHAT_API: Swift.String
+    public static var DELETE_USER_GROUP_CHAT_API: Swift.String
+  }
+  public struct FIND_FRIENDS_API {
+    public static var FIND_FRIENDS_API: Swift.String
+  }
+  public struct USER_SUGGESTION_API {
+    public static var USER_SUGGESTION_API: Swift.String
+  }
+  public struct GROUP_REQUEST_API {
+    public static var GROUP_REQUEST_API: Swift.String
+    public static var ACCEPT_GROUP_REQUEST_API: Swift.String
+    public static var REJECT_GROUP_REQUEST_API: Swift.String
+  }
+  public struct TWO_FACTOR_API {
+    public static var AUTHENTICATE_TWO_FACTOR_API: Swift.String
+    public static var UPDATE_TWO_FACTOR_API: Swift.String
+  }
+  public struct SESSION_API {
+    public static var GET_SESSIONS_API: Swift.String
+    public static var DELETE_SESSIONS_API: Swift.String
+  }
+  public struct FRIENDS_API {
+    public static var GET_FRIEND_API: Swift.String
+  }
+  public struct GIFs {
+    public static var GIFsApi: Swift.String
+  }
+  public struct Params {
+    public static var ServerKey: Swift.String
+    public static var user_id: Swift.String
+    public static var session_token: Swift.String
+    public static var Email: Swift.String
+    public static var Username: Swift.String
+    public static var Password: Swift.String
+    public static var ConfirmPassword: Swift.String
+    public static var FetchType: Swift.String
+    public static var User_data: Swift.String
+    public static var ListType: Swift.String
+    public static var Limit_id: Swift.String
+    public static var FirstName: Swift.String
+    public static var LastName: Swift.String
+    public static var Facebook: Swift.String
+    public static var Youtube: Swift.String
+    public static var VK: Swift.String
+    public static var Instagram: Swift.String
+    public static var Google: Swift.String
+    public static var Twitter: Swift.String
+    public static var About: Swift.String
+    public static var Website: Swift.String
+    public static var School: Swift.String
+    public static var Address: Swift.String
+    public static var gender: Swift.String
+    public static var Phone: Swift.String
+    public static var CurrentPassword: Swift.String
+    public static var NewPassword: Swift.String
+    public static var BlockAction: Swift.String
+    public static var SearchKey: Swift.String
+    public static var FileType: Swift.String
+    public static var StoryDescription: Swift.String
+    public static var StoryTitle: Swift.String
+    public static var storyID: Swift.String
+    public static var RecipientId: Swift.String
+    public static var MessageHashId: Swift.String
+    public static var Text: Swift.String
+    public static var Contact: Swift.String
+    public static var Color: Swift.String
+    public static var FollowPrivacy: Swift.String
+    public static var MessagePrivacy: Swift.String
+    public static var BirthPrivacy: Swift.String
+    public static var CallType: Swift.String
+    public static var CallId: Swift.String
+    public static var AnswerType: Swift.String
+    public static var Provider: Swift.String
+    public static var type: Swift.String
+    public static var Name: Swift.String
+    public static var Description: Swift.String
+    public static var Privacy: Swift.String
+    public static var List_id: Swift.String
+    public static var Id: Swift.String
+    public static var Google_Key: Swift.String
+    public static var AccessToken: Swift.String
+    public static var DeviceId: Swift.String
+    public static var group_name: Swift.String
+    public static var parts: Swift.String
+    public static var groupType: Swift.String
+    public static var distance: Swift.String
+    public static var lat: Swift.String
+    public static var long: Swift.String
+    public static var status: Swift.String
+    public static var keyword: Swift.String
+    public static var SetOnline: Swift.String
+    public static var offset: Swift.String
+    public static var group_id: Swift.String
+    public static var code: Swift.String
+    public static var two_factor: Swift.String
+    public static var sessionType: Swift.String
+    public static var verified: Swift.String
+    public static var filterbyage: Swift.String
+    public static var age_from: Swift.String
+    public static var age_to: Swift.String
+    public static var country: Swift.String
+    public static var message_id: Swift.String
+    public static var friendRequest: Swift.String
+    public static var api_key: Swift.String
+    public static var q: Swift.String
+    public static var gif: Swift.String
+    public static var requestAction: Swift.String
+    public static var data_type: Swift.String
+  }
+  public struct SOCKET_PARAMS {
+    public static var username: Swift.String
+    public static var user_id: Swift.String
+    public static var recipient_ids: Swift.String
+    public static var recipient_id: Swift.String
+    public static var to_id: Swift.String
+    public static var from_id: Swift.String
+    public static var msg: Swift.String
+    public static var color: Swift.String
+    public static var isSticker: Swift.String
+    public static var current_user_id: Swift.String
+    public static var message_reply_id: Swift.String
+  }
+  public struct ERROR_CODES {
+    public static var E_200: Swift.Int
+    public static var E_400: Swift.String
+    public static var E_404: Swift.String
+  }
+  public struct SOCIAL_PROVIDERS {
+    public static var FACEBOOK: Swift.String
+    public static var GOOGLE: Swift.String
+  }
+  public struct SERVER_KEY {
+    public static var Server_Key: Swift.String
+  }
+  public struct PURCHASE_CODE {
+    public static var Purchase_Code: Swift.String
+  }
+}
+@_hasMissingDesignatedInitializers public class EventBusConstants {
+  public struct EventBusConstantsUtils {
+    public static var EVENT_INTERNET_CONNECTED: Swift.String
+    public static var EVENT_INTERNET_DIS_CONNECTED: Swift.String
+    public static var EVENT_CHAT_SCREEN: Swift.String
+    public static var EVENT_CHECK_FOR_AGORA_CALL: Swift.String
+    public static var EVENT_CONNECT_SOCKET_CALL: Swift.String
+  }
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class SocketEvents {
+  public struct SocketEventconstantsUtils {
+    public static var EVENT_JOIN: Swift.String
+    public static var EVENT_PING_FOR_LAST_SEEN: Swift.String
+    public static var EVENT_TYPING: Swift.String
+    public static var EVENT_TYPING_DONE: Swift.String
+    public static var EVENT_PRIVATE_MESSAGE: Swift.String
+    public static var EVENT_SEEN_MESSAGE: Swift.String
+    public static var EVENT_ON_USER_LOGGED_IN: Swift.String
+    public static var EVENT_ON_USER_LOGGED_OFF: Swift.String
+    public static var EVENT_ON_AVATAR_CHANGED: Swift.String
+    public static var EVENT_ON_NAME_CHANGED: Swift.String
+  }
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class Local {
+  public struct USER_SESSION {
+    public static var User_Session: Swift.String
+    public static var User_id: Swift.String
+    public static var Access_token: Swift.String
+    public static var Current_Password: Swift.String
+  }
+  public struct CHAT_COLOR_HEX {
+    public static var ChatColorHex: Swift.String
+  }
+  public struct FAVORITE {
+    public static var favorite: Swift.String
+  }
+  public struct CONVERSATION_TONE {
+    public static var ConversationTone: Swift.String
+  }
+  public struct NOTIFICATION_RECEIVE {
+    public static var NotificationReceive: Swift.String
+  }
+  public struct CALL_LOGS {
+    public static var CallLogs: Swift.String
+  }
+  public struct NOTIFICATIONS {
+    public static var Notfication: Swift.String
+  }
+  public struct LANGUAGE {
+    public static var Language: Swift.String
+  }
+  public struct DEVICE_ID {
+    public static var DeviceId: Swift.String
+  }
+  @objc deinit
+}

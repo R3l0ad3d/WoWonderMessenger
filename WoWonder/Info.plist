@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleDisplayName</key>
+	<string>WoWonder Messenger</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleGetInfoString</key>
+	<string></string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>AppToOpen</string>
+				<string>fb1068518190009636</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>com.googleusercontent.apps.497109148599-u0g40f3e5uh53286hdrpsj10v505tral</string>
+			</array>
+		</dict>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>FacebookAppID</key>
+	<string>1068518190009636</string>
+	<key>FacebookClientToken</key>
+	<string>999223054fef73744f3e79c50d473d4a</string>
+	<key>FacebookDisplayName</key>
+	<string>WoWonder Messenger</string>
+	<key>GADApplicationIdentifier</key>
+	<string>ca-app-pub-3940256099942544~1458002511</string>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>comgooglemaps</string>
+		<string>googlechromes</string>
+	</array>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>Mocro</key>
+	<string></string>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+	<key>NSCameraUsageDescription</key>
+	<string>This applications would like to access your camera in order to take pictures and video</string>
+	<key>NSContactsUsageDescription</key>
+	<string>This application would like to access your contacts in order to choose and send contact informations</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string> This application would access to your location while in use to show people near you</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string> This application would access to your location while in use to show people near you</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>This application would like to access your microphone in order to record a vocal note</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>This application would like to access your gallery in order to save video and photos</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>This application would like to access your gallery in order to upload or take photos and video</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>beyond_wonderland.ttf</string>
+		<string>BoutrosMBCDinkum-Medium.ttf</string>
+		<string>Bryndan-Write.ttf</string>
+		<string>emojione-android.ttf</string>
+		<string>Hacen Sudan.ttf</string>
+		<string>Harmattan-Regular.ttf</string>
+		<string>ionicons.ttf</string>
+		<string>Norican-Regular.ttf</string>
+		<string>Oswald-Heavy.ttf</string>
+		<string>Roboto-Medium.ttf</string>
+		<string>SF-UI-Display-Regular.ttf</string>
+		<string>RobotoMono-Regular.ttf</string>
+		<string>Poppins-SemiBoldItalic.otf</string>
+		<string>Poppins-ExtraBoldItalic.otf</string>
+		<string>Poppins-ExtraLight.otf</string>
+		<string>Poppins-ThinItalic.otf</string>
+		<string>Poppins-ExtraLightItalic.otf</string>
+		<string>Poppins-Light.otf</string>
+		<string>Poppins-BoldItalic.otf</string>
+		<string>Poppins-Medium.otf</string>
+		<string>Poppins-SemiBold.otf</string>
+		<string>Poppins-Italic.otf</string>
+		<string>Poppins-Thin.otf</string>
+		<string>Poppins-MediumItalic.otf</string>
+		<string>Poppins-LightItalic.otf</string>
+		<string>Poppins-Bold.otf</string>
+		<string>Poppins-Black.otf</string>
+		<string>Poppins-BlackItalic.otf</string>
+		<string>Poppins-Regular.otf</string>
+		<string>Poppins-ExtraBold.otf</string>
+		<string>BRSonoma-Black.otf</string>
+		<string>BRSonoma-BlackItalic.otf</string>
+		<string>BRSonoma-Bold.otf</string>
+		<string>BRSonoma-BoldItalic.otf</string>
+		<string>BRSonoma-ExtraLight.otf</string>
+		<string>BRSonoma-ExtraLightItalic.otf</string>
+		<string>BRSonoma-Light.otf</string>
+		<string>BRSonoma-LightItalic.otf</string>
+		<string>BRSonoma-Medium.otf</string>
+		<string>BRSonoma-MediumItalic.otf</string>
+		<string>BRSonoma-Regular.otf</string>
+		<string>BRSonoma-RegularItalic.otf</string>
+		<string>BRSonoma-SemiBold.otf</string>
+		<string>BRSonoma-SemiBoldItalic.otf</string>
+		<string>BRSonoma-Thin.otf</string>
+		<string>BRSonoma-ThinItalic.otf</string>
+	</array>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>audio</string>
+		<string>remote-notification</string>
+		<string>voip</string>
+	</array>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIMainStoryboardFile</key>
+	<string>Main</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+</dict>
+</plist>

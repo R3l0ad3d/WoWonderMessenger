@@ -1,0 +1,171 @@
+
+/* Class = "UILabel"; text = "Who can see my birthday?"; ObjectID = "13t-Wx-9uN"; */
+"13t-Wx-9uN.text" = "Who can see my birthday?";
+
+/* Class = "UILabel"; text = "everyone"; ObjectID = "1CH-NH-lnc"; */
+"1CH-NH-lnc.text" = "everyone";
+
+/* Class = "UILabel"; text = "Language"; ObjectID = "1EA-hv-fgy"; */
+"1EA-hv-fgy.text" = "Language";
+
+/* Class = "UILabel"; text = "Support"; ObjectID = "1QQ-q4-BHv"; */
+"1QQ-q4-BHv.text" = "Support";
+
+/* Class = "UILabel"; text = "General"; ObjectID = "36C-ps-QAv"; */
+"36C-ps-QAv.text" = "General";
+
+/* Class = "UILabel"; text = "@Username"; ObjectID = "5NB-iR-0th"; */
+"5NB-iR-0th.text" = "@Username";
+
+/* Class = "UIButton"; normalTitle = "OK"; ObjectID = "5dX-MK-pbc"; */
+"5dX-MK-pbc.normalTitle" = "OK";
+
+/* Class = "UILabel"; text = "Password"; ObjectID = "6z2-LU-nov"; */
+"6z2-LU-nov.text" = "Password";
+
+/* Class = "UILabel"; text = "Play sounds for incoming and outgoing messages"; ObjectID = "7Xf-B0-beQ"; */
+"7Xf-B0-beQ.text" = "Play sounds for incoming and outgoing messages";
+
+/* Class = "UIButton"; normalTitle = "CANCEL"; ObjectID = "7f8-9a-CM5"; */
+"7f8-9a-CM5.normalTitle" = "CANCEL";
+
+/* Class = "UILabel"; text = "Logout"; ObjectID = "ASv-lM-mf2"; */
+"ASv-lM-mf2.text" = "Logout";
+
+/* Class = "UILabel"; text = "People i Follow"; ObjectID = "BHZ-QK-xdV"; */
+"BHZ-QK-xdV.text" = "People i Follow";
+
+/* Class = "UIButton"; normalTitle = "CANCEL"; ObjectID = "BUO-Gu-imY"; */
+"BUO-Gu-imY.normalTitle" = "CANCEL";
+
+/* Class = "UIButton"; normalTitle = "OK"; ObjectID = "BdR-nx-Oxm"; */
+"BdR-nx-Oxm.normalTitle" = "OK";
+
+/* Class = "UILabel"; text = "Edit Profile and avatar"; ObjectID = "Dqp-cS-c8q"; */
+"Dqp-cS-c8q.text" = "Edit Profile and avatar";
+
+/* Class = "UILabel"; text = "Female"; ObjectID = "G5R-8c-FhM"; */
+"G5R-8c-FhM.text" = "Female";
+
+/* Class = "UILabel"; text = "Privacy"; ObjectID = "Geg-rw-LjV"; */
+"Geg-rw-LjV.text" = "Privacy";
+
+/* Class = "UILabel"; text = "Male"; ObjectID = "H2p-hn-H3Z"; */
+"H2p-hn-H3Z.text" = "Male";
+
+/* Class = "UILabel"; text = "If you forgot your password, you can reset it from here."; ObjectID = "IMq-xy-pkg"; */
+"IMq-xy-pkg.text" = "If you forgot your password, you can reset it from here.";
+
+/* Class = "UILabel"; text = "Change your password"; ObjectID = "KBG-lD-SKg"; */
+"KBG-lD-SKg.text" = "Change your password";
+
+/* Class = "UIButton"; normalTitle = "OK"; ObjectID = "MIQ-rn-52G"; */
+"MIQ-rn-52G.normalTitle" = "OK";
+
+/* Class = "UILabel"; text = "User Info"; ObjectID = "NUK-Bx-EhH"; */
+"NUK-Bx-EhH.text" = "User Info";
+
+/* Class = "UIButton"; normalTitle = "CANCEL"; ObjectID = "PLk-hL-PLq"; */
+"PLk-hL-PLq.normalTitle" = "CANCEL";
+
+/* Class = "UILabel"; text = "Message Notifications"; ObjectID = "Pu5-U5-b9R"; */
+"Pu5-U5-b9R.text" = "Message Notifications";
+
+/* Class = "UIButton"; normalTitle = "CANCEL"; ObjectID = "R9B-rZ-XRG"; */
+"R9B-rZ-XRG.normalTitle" = "CANCEL";
+
+/* Class = "UILabel"; text = "Notification Popup"; ObjectID = "RLf-FP-DDx"; */
+"RLf-FP-DDx.text" = "Notification Popup";
+
+/* Class = "UILabel"; text = "Are you sure you want to delete the account from WoWonder Messenger"; ObjectID = "S6R-ID-fKb"; */
+"S6R-ID-fKb.text" = "Are you sure you want to delete the account from WoWonder Messenger";
+
+/* Class = "UILabel"; text = "Display your app language"; ObjectID = "SUt-xC-FaP"; */
+"SUt-xC-FaP.text" = "Display your app language";
+
+/* Class = "UIButton"; normalTitle = "CANCEL"; ObjectID = "Sgi-oN-KDd"; */
+"Sgi-oN-KDd.normalTitle" = "CANCEL";
+
+/* Class = "UILabel"; text = "Who can message me?"; ObjectID = "TNi-Pq-Q00"; */
+"TNi-Pq-Q00.text" = "Who can message me?";
+
+/* Class = "UILabel"; text = "Everyone"; ObjectID = "TR8-nO-Rpp"; */
+"TR8-nO-Rpp.text" = "Everyone";
+
+/* Class = "UILabel"; text = "everyone"; ObjectID = "WAu-ba-kKT"; */
+"WAu-ba-kKT.text" = "everyone";
+
+/* Class = "UILabel"; text = "Blocked Users"; ObjectID = "Wqv-1W-5DA"; */
+"Wqv-1W-5DA.text" = "Blocked Users";
+
+/* Class = "UILabel"; text = "People i Follow"; ObjectID = "ZBV-fj-l3N"; */
+"ZBV-fj-l3N.text" = "People i Follow";
+
+/* Class = "UILabel"; text = "Who can see my birthday?"; ObjectID = "ZMM-Rm-4P0"; */
+"ZMM-Rm-4P0.text" = "Who can see my birthday?";
+
+/* Class = "UILabel"; text = "Delete Account"; ObjectID = "af0-Hu-UjF"; */
+"af0-Hu-UjF.text" = "Delete Account";
+
+/* Class = "UILabel"; text = "Warning !"; ObjectID = "aqc-ZY-T2p"; */
+"aqc-ZY-T2p.text" = "Warning !";
+
+/* Class = "UILabel"; text = "Social Links "; ObjectID = "c0Z-cb-V7g"; */
+"c0Z-cb-V7g.text" = "Social Links ";
+
+/* Class = "UILabel"; text = "About me"; ObjectID = "cpd-v0-QBt"; */
+"cpd-v0-QBt.text" = "About me";
+
+/* Class = "UILabel"; text = "Who can follow me?"; ObjectID = "e10-hj-l80"; */
+"e10-hj-l80.text" = "Who can follow me?";
+
+/* Class = "UILabel"; text = "something to show"; ObjectID = "ek2-v7-qLb"; */
+"ek2-v7-qLb.text" = "something to show";
+
+/* Class = "UILabel"; text = "everyone"; ObjectID = "fBX-8b-NVz"; */
+"fBX-8b-NVz.text" = "everyone";
+
+/* Class = "UILabel"; text = "Get notifications when you receive messages"; ObjectID = "fNJ-eJ-BoO"; */
+"fNJ-eJ-BoO.text" = "Get notifications when you receive messages";
+
+/* Class = "UILabel"; text = "Everyone"; ObjectID = "gTh-NP-Ceb"; */
+"gTh-NP-Ceb.text" = "Everyone";
+
+/* Class = "UILabel"; text = "Language"; ObjectID = "h5O-4M-gT4"; */
+"h5O-4M-gT4.text" = "Language";
+
+/* Class = "UILabel"; text = "Clear call log"; ObjectID = "jN6-m3-efI"; */
+"jN6-m3-efI.text" = "Clear call log";
+
+/* Class = "UILabel"; text = "Report a Problem"; ObjectID = "lUm-SI-4BN"; */
+"lUm-SI-4BN.text" = "Report a Problem";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "mCT-bD-5PW"; */
+"mCT-bD-5PW.title" = " ";
+
+/* Class = "UILabel"; text = "Are you sure you want to logout?"; ObjectID = "njo-3V-wdo"; */
+"njo-3V-wdo.text" = "Are you sure you want to logout?";
+
+/* Class = "UILabel"; text = "Help"; ObjectID = "o88-81-Saf"; */
+"o88-81-Saf.text" = "Help";
+
+/* Class = "UILabel"; text = "Full name"; ObjectID = "sGu-hC-hzY"; */
+"sGu-hC-hzY.text" = "Full name";
+
+/* Class = "UILabel"; text = "Who can follow me?"; ObjectID = "tCd-yg-pIW"; */
+"tCd-yg-pIW.text" = "Who can follow me?";
+
+/* Class = "UILabel"; text = "Conversation tones"; ObjectID = "uzH-ae-6F9"; */
+"uzH-ae-6F9.text" = "Conversation tones";
+
+/* Class = "UILabel"; text = "About me"; ObjectID = "wbP-4M-tFa"; */
+"wbP-4M-tFa.text" = "About me";
+
+/* Class = "UILabel"; text = "Warning !"; ObjectID = "xkH-EN-4G7"; */
+"xkH-EN-4G7.text" = "Warning !";
+
+/* Class = "UILabel"; text = "No body"; ObjectID = "y3p-Lu-qRE"; */
+"y3p-Lu-qRE.text" = "No body";
+
+/* Class = "UILabel"; text = "My Account"; ObjectID = "zzM-U5-5p9"; */
+"zzM-U5-5p9.text" = "My Account";

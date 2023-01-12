@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="21279" systemVersion="21G217" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Calls" representedClassName="Calls" syncable="YES" codeGenerationType="class">
+        <attribute name="call_id" optional="YES" attributeType="String"/>
+        <attribute name="created_at" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="direction" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="my_id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="time" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="type" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="user_id" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Chats" representedClassName="Chats" syncable="YES" codeGenerationType="class">
+        <attribute name="avatar_url" optional="YES" attributeType="String"/>
+        <attribute name="created_at" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="my_id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <relationship name="chat_user" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="ChatUsers" inverseName="chat" inverseEntity="ChatUsers"/>
+        <relationship name="messages" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Messages" inverseName="chat" inverseEntity="Messages"/>
+    </entity>
+    <entity name="ChatUsers" representedClassName="ChatUsers" syncable="YES" codeGenerationType="class">
+        <attribute name="chat_id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="user_id" optional="YES" attributeType="String"/>
+        <relationship name="chat" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="Chats" inverseName="chat_user" inverseEntity="Chats"/>
+        <relationship name="user" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="Users" inverseName="chat_user" inverseEntity="Users"/>
+    </entity>
+    <entity name="Entity" representedClassName="Entity" syncable="YES" codeGenerationType="class"/>
+    <entity name="FollowersData" representedClassName="FollowersData" syncable="YES" codeGenerationType="class">
+        <attribute name="follower_user_id" optional="YES" attributeType="String"/>
+        <attribute name="user_id" optional="YES" attributeType="String"/>
+        <relationship name="user" optional="YES" maxCount="1" deletionRule="No Action" destinationEntity="Users" inverseName="followers" inverseEntity="Users"/>
+    </entity>
+    <entity name="FollowingsData" representedClassName="FollowingsData" syncable="YES" codeGenerationType="class">
+        <attribute name="following_user_id" optional="YES" attributeType="String"/>
+        <attribute name="user_id" optional="YES" attributeType="String"/>
+        <relationship name="user" optional="YES" maxCount="1" deletionRule="No Action" destinationEntity="Users" inverseName="followings" inverseEntity="Users"/>
+    </entity>
+    <entity name="Messages" representedClassName="Messages" syncable="YES" codeGenerationType="class">
+        <attribute name="chat_color" optional="YES" attributeType="String"/>
+        <attribute name="chat_id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="created_at" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="date_time" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="deleted_one" optional="YES" attributeType="String"/>
+        <attribute name="deleted_two" optional="YES" attributeType="String"/>
+        <attribute name="fav" optional="YES" attributeType="String"/>
+        <attribute name="file_size" optional="YES" attributeType="String"/>
+        <attribute name="from_id" optional="YES" attributeType="String"/>
+        <attribute name="group_id" optional="YES" attributeType="String"/>
+        <attribute name="hash_id" optional="YES" attributeType="String"/>
+        <attribute name="is_favourite" optional="YES" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <attribute name="lat" optional="YES" attributeType="String"/>
+        <attribute name="lng" optional="YES" attributeType="String"/>
+        <attribute name="media" optional="YES" attributeType="String"/>
+        <attribute name="media_file_name" optional="YES" attributeType="String"/>
+        <attribute name="message_id" optional="YES" attributeType="String"/>
+        <attribute name="message_type" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="my_id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="my_time" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="page_id" optional="YES" attributeType="String"/>
+        <attribute name="pin" optional="YES" attributeType="String"/>
+        <attribute name="position" optional="YES" attributeType="String"/>
+        <attribute name="product_id" optional="YES" attributeType="String"/>
+        <attribute name="reply_id" optional="YES" attributeType="String"/>
+        <attribute name="seen" optional="YES" attributeType="String"/>
+        <attribute name="stickers" optional="YES" attributeType="String"/>
+        <attribute name="story_id" optional="YES" attributeType="String"/>
+        <attribute name="text" optional="YES" attributeType="String"/>
+        <attribute name="time" optional="YES" attributeType="String"/>
+        <attribute name="time_text" optional="YES" attributeType="String"/>
+        <attribute name="to_id" optional="YES" attributeType="String"/>
+        <attribute name="type" optional="YES" attributeType="String"/>
+        <relationship name="chat" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Chats" inverseName="messages" inverseEntity="Chats"/>
+        <relationship name="product" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="Products" inverseName="message" inverseEntity="Products"/>
+        <relationship name="reaction" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="Reactions" inverseName="message" inverseEntity="Reactions"/>
+        <relationship name="user" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Users" inverseName="last_message" inverseEntity="Users"/>
+    </entity>
+    <entity name="MutualFriends" representedClassName="MutualFriends" syncable="YES" codeGenerationType="class">
+        <attribute name="friend_id" optional="YES" attributeType="String"/>
+        <attribute name="user_id" optional="YES" attributeType="String"/>
+        <relationship name="user" optional="YES" maxCount="1" deletionRule="No Action" destinationEntity="Users" inverseName="mututal_friends" inverseEntity="Users"/>
+    </entity>
+    <entity name="ProductImages" representedClassName="ProductImages" syncable="YES" codeGenerationType="class">
+        <attribute name="image_id" optional="YES" attributeType="String"/>
+        <attribute name="image_org" optional="YES" attributeType="String"/>
+        <attribute name="product_id" optional="YES" attributeType="String"/>
+        <attribute name="url" optional="YES" attributeType="String"/>
+        <relationship name="product" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Products" inverseName="images" inverseEntity="Products"/>
+    </entity>
+    <entity name="Products" representedClassName="Products" syncable="YES" codeGenerationType="class">
+        <attribute name="active" optional="YES" attributeType="String"/>
+        <attribute name="currency" optional="YES" attributeType="String"/>
+        <attribute name="message_id" optional="YES" attributeType="String"/>
+        <attribute name="my_id" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="price" optional="YES" attributeType="String"/>
+        <attribute name="status" optional="YES" attributeType="String"/>
+        <attribute name="type" optional="YES" attributeType="String"/>
+        <attribute name="url" optional="YES" attributeType="String"/>
+        <relationship name="images" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="ProductImages" inverseName="product" inverseEntity="ProductImages"/>
+        <relationship name="message" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Messages" inverseName="product" inverseEntity="Messages"/>
+    </entity>
+    <entity name="Reactions" representedClassName="Reactions" syncable="YES" codeGenerationType="class">
+        <attribute name="count" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="is_reacted" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="message_id" optional="YES" attributeType="String"/>
+        <attribute name="type" optional="YES" attributeType="String"/>
+        <relationship name="message" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Messages" inverseName="reaction" inverseEntity="Messages"/>
+    </entity>
+    <entity name="UserMute" representedClassName="UserMute" syncable="YES" codeGenerationType="class">
+        <attribute name="archive" optional="YES" attributeType="String"/>
+        <attribute name="call_chat" optional="YES" attributeType="String"/>
+        <attribute name="fav" optional="YES" attributeType="String"/>
+        <attribute name="notify" optional="YES" attributeType="String"/>
+        <attribute name="pin" optional="YES" attributeType="String"/>
+        <attribute name="user_id" optional="YES" attributeType="String"/>
+        <relationship name="user" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Users" inverseName="user_mute" inverseEntity="Users"/>
+    </entity>
+    <entity name="Users" representedClassName="Users" syncable="YES" codeGenerationType="class">
+        <attribute name="avatar_url" optional="YES" attributeType="String"/>
+        <attribute name="chat_time" optional="YES" attributeType="String"/>
+        <attribute name="chat_type" optional="YES" attributeType="String"/>
+        <attribute name="cover_url" optional="YES" attributeType="String"/>
+        <attribute name="email" optional="YES" attributeType="String"/>
+        <attribute name="first_name" optional="YES" attributeType="String"/>
+        <attribute name="gender" optional="YES" attributeType="String"/>
+        <attribute name="ip_address" optional="YES" attributeType="String"/>
+        <attribute name="last_message_id" optional="YES" attributeType="String"/>
+        <attribute name="last_name" optional="YES" attributeType="String"/>
+        <attribute name="last_seen" optional="YES" attributeType="String"/>
+        <attribute name="last_seen_status" optional="YES" attributeType="String"/>
+        <attribute name="lat" optional="YES" attributeType="String"/>
+        <attribute name="lng" optional="YES" attributeType="String"/>
+        <attribute name="message_count" optional="YES" attributeType="String"/>
+        <attribute name="my_id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="password" optional="YES" attributeType="String"/>
+        <attribute name="show_last_seen" optional="YES" attributeType="String"/>
+        <attribute name="user_id" optional="YES" attributeType="String"/>
+        <attribute name="username" optional="YES" attributeType="String"/>
+        <relationship name="chat_user" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="ChatUsers" inverseName="user" inverseEntity="ChatUsers"/>
+        <relationship name="followers" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="FollowersData" inverseName="user" inverseEntity="FollowersData"/>
+        <relationship name="followings" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="FollowingsData" inverseName="user" inverseEntity="FollowingsData"/>
+        <relationship name="last_message" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Messages" inverseName="user" inverseEntity="Messages"/>
+        <relationship name="mututal_friends" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="MutualFriends" inverseName="user" inverseEntity="MutualFriends"/>
+        <relationship name="user_mute" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="UserMute" inverseName="user" inverseEntity="UserMute"/>
+    </entity>
+</model>

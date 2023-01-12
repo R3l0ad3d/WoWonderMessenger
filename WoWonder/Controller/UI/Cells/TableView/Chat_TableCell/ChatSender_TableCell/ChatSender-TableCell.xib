@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" shouldIndentWhileEditing="NO" reuseIdentifier="ChatSender_TableCell" rowHeight="115" id="NJ4-c3-DIg" customClass="ChatSender_TableCell" customModule="WoWonder" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="354" height="115"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="NJ4-c3-DIg" id="N4b-Un-UYX">
+                <rect key="frame" x="0.0" y="0.0" width="354" height="115"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="xLG-mt-9mn">
+                        <rect key="frame" x="328" y="8" width="10" height="85"/>
+                        <color key="backgroundColor" red="0.6588235294" green="0.28235294119999998" blue="0.28627450980000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                    </textView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s1F-D2-8da">
+                        <rect key="frame" x="278.5" y="95" width="20" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="8lh-NW-ujT"/>
+                            <constraint firstAttribute="width" constant="20" id="eq7-YE-P0c"/>
+                        </constraints>
+                        <state key="normal" image="star"/>
+                        <connections>
+                            <action selector="starPressed:" destination="NJ4-c3-DIg" eventType="touchUpInside" id="EOT-G3-evE"/>
+                        </connections>
+                    </button>
+                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="11:39" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SuX-oQ-FOX">
+                        <rect key="frame" x="303.5" y="98" width="34.5" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.6602168679" green="0.28204303980000001" blue="0.28774350879999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="SuX-oQ-FOX" secondAttribute="trailing" constant="16" id="1ed-aN-UhX"/>
+                    <constraint firstItem="xLG-mt-9mn" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="N4b-Un-UYX" secondAttribute="leading" constant="40" id="V3n-vW-tc6"/>
+                    <constraint firstItem="xLG-mt-9mn" firstAttribute="top" secondItem="N4b-Un-UYX" secondAttribute="top" constant="8" id="cQ6-66-L1N"/>
+                    <constraint firstItem="s1F-D2-8da" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="N4b-Un-UYX" secondAttribute="leading" constant="16" id="cxT-lN-ytq"/>
+                    <constraint firstAttribute="bottom" secondItem="s1F-D2-8da" secondAttribute="bottom" id="eLR-14-qbG"/>
+                    <constraint firstItem="SuX-oQ-FOX" firstAttribute="top" secondItem="xLG-mt-9mn" secondAttribute="bottom" constant="5" id="hXR-eh-IeY"/>
+                    <constraint firstAttribute="trailing" secondItem="xLG-mt-9mn" secondAttribute="trailing" constant="16" id="oTz-8w-J4r"/>
+                    <constraint firstItem="SuX-oQ-FOX" firstAttribute="leading" secondItem="s1F-D2-8da" secondAttribute="trailing" constant="5" id="u31-2m-gB0"/>
+                    <constraint firstAttribute="bottom" secondItem="SuX-oQ-FOX" secondAttribute="bottom" id="u4a-2u-hxZ"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="dls-jm-xPX"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="dateLabel" destination="SuX-oQ-FOX" id="A8s-mI-UoV"/>
+                <outlet property="messageTxtView" destination="xLG-mt-9mn" id="ijD-9B-BIe"/>
+                <outlet property="starBtn" destination="s1F-D2-8da" id="L7j-TI-xUf"/>
+            </connections>
+            <point key="canvasLocation" x="118.40000000000001" y="180.35982008995504"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="star" width="32" height="32"/>
+    </resources>
+</document>

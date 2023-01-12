@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Poppins-Regular.otf">
+            <string>Poppins-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="MapViewCell" customModule="WoWonder" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="248" height="191"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="248" height="191"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qY2-y3-CdG" customClass="UIControl">
+                        <rect key="frame" x="38" y="10" width="200" height="170"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="a4x-qO-kGZ" customClass="GMSMapView">
+                                <rect key="frame" x="0.0" y="0.0" width="200" height="170"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="qVF-C4-shl">
+                                <rect key="frame" x="135.33333333333334" y="143.66666666666666" width="34.666666666666657" height="18.333333333333343"/>
+                                <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="13"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6D1-58-a9f">
+                                <rect key="frame" x="175" y="145.33333333333334" width="15" height="15"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="15" id="6b2-Ox-0FN"/>
+                                    <constraint firstAttribute="height" constant="15" id="jzB-ik-8HJ"/>
+                                </constraints>
+                                <state key="normal" image="star"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.59422504899999995" green="0.25743341450000001" blue="0.26402401920000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6D1-58-a9f" firstAttribute="leading" secondItem="qVF-C4-shl" secondAttribute="trailing" constant="5" id="1iT-w6-txm"/>
+                            <constraint firstAttribute="width" constant="200" id="9Z6-t4-v8W"/>
+                            <constraint firstAttribute="bottom" secondItem="a4x-qO-kGZ" secondAttribute="bottom" id="Ggi-c9-rhr"/>
+                            <constraint firstItem="a4x-qO-kGZ" firstAttribute="top" secondItem="qY2-y3-CdG" secondAttribute="top" id="HgA-GN-eBu"/>
+                            <constraint firstAttribute="bottom" secondItem="qVF-C4-shl" secondAttribute="bottom" constant="8" id="K8c-xq-aS9"/>
+                            <constraint firstAttribute="trailing" secondItem="6D1-58-a9f" secondAttribute="trailing" constant="10" id="Su6-mx-voh"/>
+                            <constraint firstAttribute="trailing" secondItem="a4x-qO-kGZ" secondAttribute="trailing" id="TXa-v3-OAI"/>
+                            <constraint firstItem="a4x-qO-kGZ" firstAttribute="leading" secondItem="qY2-y3-CdG" secondAttribute="leading" id="UwG-Mk-0bY"/>
+                            <constraint firstItem="6D1-58-a9f" firstAttribute="centerY" secondItem="qVF-C4-shl" secondAttribute="centerY" id="YZu-hu-A79"/>
+                            <constraint firstAttribute="height" constant="170" id="yqp-Yt-pcm"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadiusV">
+                                <real key="value" value="7"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="qY2-y3-CdG" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="38" id="Kzp-JU-0Rh"/>
+                    <constraint firstItem="qY2-y3-CdG" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="hI0-z6-EYx"/>
+                    <constraint firstAttribute="trailing" secondItem="qY2-y3-CdG" secondAttribute="trailing" constant="10" id="iyy-PC-pbP"/>
+                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="qY2-y3-CdG" secondAttribute="bottom" constant="11" id="sAN-sh-1UC"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="Timelabel" destination="qVF-C4-shl" id="u5Y-TE-wap"/>
+                <outlet property="mapMainVew" destination="a4x-qO-kGZ" id="vtv-qe-aP2"/>
+                <outlet property="mapViewCellView" destination="qY2-y3-CdG" id="6HE-Jw-z5a"/>
+                <outlet property="starButton" destination="6D1-58-a9f" id="ihl-fO-Ftw"/>
+            </connections>
+            <point key="canvasLocation" x="66" y="0.0"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="star" width="32" height="32"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

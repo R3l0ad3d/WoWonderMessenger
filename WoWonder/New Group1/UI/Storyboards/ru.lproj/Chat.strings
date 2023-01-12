@@ -1,0 +1,54 @@
+
+/* Class = "UILabel"; text = "Full name"; ObjectID = "5OH-Oy-Zvv"; */
+"5OH-Oy-Zvv.text" = "Full name";
+
+/* Class = "UILabel"; text = "Website"; ObjectID = "5Vx-kT-j06"; */
+"5Vx-kT-j06.text" = "Website";
+
+/* Class = "UILabel"; text = "count"; ObjectID = "IzJ-0H-2dX"; */
+"IzJ-0H-2dX.text" = "count";
+
+/* Class = "UILabel"; text = "Phone"; ObjectID = "JzP-T6-tDW"; */
+"JzP-T6-tDW.text" = "Phone";
+
+/* Class = "UILabel"; text = "Location"; ObjectID = "KHv-TQ-xfg"; */
+"KHv-TQ-xfg.text" = "Location";
+
+/* Class = "UILabel"; text = "Social Links "; ObjectID = "KuA-eh-TKd"; */
+"KuA-eh-TKd.text" = "Social Links ";
+
+/* Class = "UILabel"; text = "count"; ObjectID = "Phl-WK-YqF"; */
+"Phl-WK-YqF.text" = "count";
+
+/* Class = "UIButton"; normalTitle = "CANCEL"; ObjectID = "Ra3-Sg-6Cg"; */
+"Ra3-Sg-6Cg.normalTitle" = "CANCEL";
+
+/* Class = "UILabel"; text = "Followers"; ObjectID = "T1E-Tx-PqY"; */
+"T1E-Tx-PqY.text" = "Followers";
+
+/* Class = "UILabel"; text = "User Info"; ObjectID = "ZPE-GR-JqK"; */
+"ZPE-GR-JqK.text" = "User Info";
+
+/* Class = "UILabel"; text = "@Username"; ObjectID = "b3W-Jx-KW6"; */
+"b3W-Jx-KW6.text" = "@Username";
+
+/* Class = "UILabel"; text = "Select what you want"; ObjectID = "e11-Mg-Hud"; */
+"e11-Mg-Hud.text" = "Select what you want";
+
+/* Class = "UITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda."; ObjectID = "gcf-Us-NHr"; */
+"gcf-Us-NHr.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "hkF-vS-tdS"; */
+"hkF-vS-tdS.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "mMd-eU-oZk"; */
+"mMd-eU-oZk.text" = "Label";
+
+/* Class = "UILabel"; text = "Following"; ObjectID = "oxn-vi-Wys"; */
+"oxn-vi-Wys.text" = "Following";
+
+/* Class = "UILabel"; text = "Gender"; ObjectID = "sUX-GA-RLA"; */
+"sUX-GA-RLA.text" = "Gender";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "yoR-q8-A1K"; */
+"yoR-q8-A1K.text" = "Name";
