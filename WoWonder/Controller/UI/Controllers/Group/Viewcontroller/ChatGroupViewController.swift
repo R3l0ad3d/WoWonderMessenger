@@ -182,9 +182,9 @@ class ChatGroupViewController: BaseVC {
         self.chatTableView.register( ChatSender_TableCell.nib,
                                      forCellReuseIdentifier: R.reuseIdentifier.chatSender_TableCell.identifier)
         self.chatTableView.register( ReplyChatSenderTableItem.nib,
-                                     forCellReuseIdentifier: R.reuseIdentifier.replyChatSenderTableItem.identifier)
+                                     forCellReuseIdentifier: ReplyChatSenderTableItem.identifier)
         self.chatTableView.register( replyReceiverTableItem.nib,
-                                     forCellReuseIdentifier: R.reuseIdentifier.replyReceiverTableItem.identifier)
+                                     forCellReuseIdentifier: replyReceiverTableItem.identifier)
         self.chatTableView.scrollToLastRow(animated: true)
         
     }

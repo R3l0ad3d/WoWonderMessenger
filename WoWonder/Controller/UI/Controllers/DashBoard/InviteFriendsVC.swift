@@ -43,7 +43,7 @@ class InviteFriendsVC: BaseVC {
         self.title = "Invite Friends"
         navigationController?.navigationBar.titleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.white]
         self.tableView.separatorStyle = .none
-        tableView.register( InviteFriends_TableCell.nib, forCellReuseIdentifier: R.reuseIdentifier.inviteFriends_TableCell.identifier)
+        tableView.register( InviteFriends_TableCell.nib, forCellReuseIdentifier: InviteFriends_TableCell.identifier)
 //        if ControlSettings.shouldShowAddMobBanner{
 //
 //            interstitial = GADInterstitial(adUnitID:  ControlSettings.interestialAddUnitId)
@@ -84,7 +84,7 @@ extension InviteFriendsVC:UITableViewDelegate,UITableViewDataSource{
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: R.reuseIdentifier.inviteFriends_TableCell.identifier) as? InviteFriends_TableCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: InviteFriends_TableCell.identifier) as? InviteFriends_TableCell
         cell?.nameLabel.text = self.contactNameArray[indexPath.row]
         cell?.numberLabel.text = self.contactNumberArray[indexPath.row]
         cell?.profileImage.cornerRadiusV = (cell?.profileImage.frame.height)! / 2

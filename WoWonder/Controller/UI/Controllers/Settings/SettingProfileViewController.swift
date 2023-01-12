@@ -10,7 +10,7 @@ import UIKit
 import WowonderMessengerSDK
 import ActionSheetPicker_3_0
 import Async
-import OneSignal
+//import OneSignal
 import Kingfisher
 
 class SettingProfileViewController: BaseVC {
@@ -553,12 +553,12 @@ extension SettingProfileViewController: UITableViewDataSource, UITableViewDelega
             self.value = 1
             cell?.switchStutes.setOn(true, animated: true)
             UserDefaults.standard.setNotificationStatus(value: true, ForKey: Local.NOTIFICATION_RECEIVE.NotificationReceive)
-            OneSignal.disablePush(false)
+            //OneSignal.disablePush(false)
         } else {
             cell?.switchStutes.setOn(false, animated: true)
             self.value = 0
             UserDefaults.standard.setNotificationStatus(value: false, ForKey: Local.NOTIFICATION_RECEIVE.NotificationReceive)
-            OneSignal.disablePush(true)
+            //OneSignal.disablePush(true)
         }
         self.privacyTableVIew.reloadData()
         
@@ -570,24 +570,24 @@ extension SettingProfileViewController: UITableViewDataSource, UITableViewDelega
             if self.isNotifaction == true {
                 self.isNotifaction = false
                 UserDefaults.standard.setNotificationStatus(value: true, ForKey: Local.NOTIFICATION_RECEIVE.NotificationReceive)
-                OneSignal.disablePush(false)
+                //OneSignal.disablePush(false)
                 self.notifactionTableView.reloadData()
             } else {
                 self.isNotifaction = true
                 UserDefaults.standard.setNotificationStatus(value: false, ForKey: Local.NOTIFICATION_RECEIVE.NotificationReceive)
-                OneSignal.disablePush(true)
+                //OneSignal.disablePush(true)
                 self.notifactionTableView.reloadData()
             }
         } else {
             if self.isConversation == true {
                 self.isConversation = false
                 UserDefaults.standard.setNotificationStatus(value: true, ForKey: Local.CONVERSATION_TONE.ConversationTone)
-                OneSignal.disablePush(false)
+                //OneSignal.disablePush(false)
                 self.notifactionTableView.reloadData()
             } else {
                 self.isConversation = true
                 UserDefaults.standard.setNotificationStatus(value: false, ForKey: Local.CONVERSATION_TONE.ConversationTone)
-                OneSignal.disablePush(true)
+                //OneSignal.disablePush(true)
                 self.notifactionTableView.reloadData()
             }
         }

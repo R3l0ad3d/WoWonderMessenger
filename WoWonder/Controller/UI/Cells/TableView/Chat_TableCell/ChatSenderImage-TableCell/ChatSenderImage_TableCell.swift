@@ -2,7 +2,7 @@
 
 import UIKit
 
-class ChatSenderImage_TableCell: UITableViewCell {
+class ChatSenderImage_TableCell: UITableViewCell,NIBCellProtocol {
     
     @IBOutlet weak var backView: UIControl!
     @IBOutlet weak var playBtn: UIButton!

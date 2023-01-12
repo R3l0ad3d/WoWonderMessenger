@@ -1,16 +1,17 @@
 
+
 import UIKit
-import GoogleMaps
 
-class ChatSenderSticker_TableCell: UITableViewCell {
-
-    @IBOutlet weak var starBtn: UIButton!
-    @IBOutlet weak var backView: UIControl!
-    @IBOutlet weak var timeLabel: UILabel!
-    @IBOutlet weak var stickerImage: UIImageView!
+class Stories_TableCell: UITableViewCell,NIBCellProtocol {
+    @IBOutlet weak var storyTextLabel: UILabel!
+    
+    @IBOutlet weak var profileImage: UIImageView!
+    
+    @IBOutlet weak var usernameLabel: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()
+        self.borderColorV = .mainColor
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {

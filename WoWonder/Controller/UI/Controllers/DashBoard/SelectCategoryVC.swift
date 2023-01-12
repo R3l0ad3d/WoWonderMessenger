@@ -37,7 +37,7 @@ class SelectCategoryVC: UIViewController {
         self.tableView.separatorStyle = .none
         self.tableView.estimatedRowHeight = 80
         self.tableView.rowHeight = UITableView.automaticDimension
-        tableView.register( SelectCategory_TableCell.nib, forCellReuseIdentifier: R.reuseIdentifier.selectCategory_TableCell.identifier)
+        tableView.register( SelectCategory_TableCell.nib, forCellReuseIdentifier: SelectCategory_TableCell.identifier)
         if index == 0{
             self.selectArray = ["All","Male","Female"]
             self.titleLabel.text = "Gender"

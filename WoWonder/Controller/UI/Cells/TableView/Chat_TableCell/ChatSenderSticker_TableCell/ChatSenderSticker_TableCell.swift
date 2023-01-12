@@ -1,18 +1,16 @@
 
 import UIKit
+import GoogleMaps
 
-class ChatReceiverContact_TableCell: UITableViewCell {
-    
-    @IBOutlet weak var backViewControl: UIControl!
+class ChatSenderSticker_TableCell: UITableViewCell,NIBCellProtocol {
+
     @IBOutlet weak var starBtn: UIButton!
-    @IBOutlet weak var contactLabel: UILabel!
+    @IBOutlet weak var backView: UIControl!
     @IBOutlet weak var timeLabel: UILabel!
-    @IBOutlet weak var nameLabel: UILabel!
-    @IBOutlet weak var profileImage: UIImageView!
-
+    @IBOutlet weak var stickerImage: UIImageView!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {

@@ -1,7 +1,7 @@
 
 import UIKit
 
-class ChatSenderDocument_TableCell: UITableViewCell {
+class ChatSenderDocument_TableCell: UITableViewCell,NIBCellProtocol {
 
     @IBOutlet weak var starBtn: UIButton!
     @IBOutlet weak var backView: UIControl!

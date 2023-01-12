@@ -4,7 +4,7 @@ import UIKit
 import WowonderMessengerSDK
 import ActionSheetPicker_3_0
 import Async
-import OneSignal
+//import OneSignal
 
 class SettingsVC: BaseVC {
     
@@ -20,10 +20,10 @@ class SettingsVC: BaseVC {
     private func setupUI() {
         self.tableView.separatorStyle = .none
         let textAttributes = [NSAttributedString.Key.foregroundColor:UIColor.white]
-        tableView.register( SettingsSectionOneTableItem.nib , forCellReuseIdentifier: R.reuseIdentifier.settingsSectionOneTableItem.identifier)
-        tableView.register( SettingsSectionTwoTableItem.nib, forCellReuseIdentifier: R.reuseIdentifier.settingsSectionTwoTableItem.identifier)
-        tableView.register( SettingsSectionThreeTableItem.nib, forCellReuseIdentifier: R.reuseIdentifier.settingsSectionThreeTableItem.identifier)
-        tableView.register( SettingSectionFourTableItem.nib, forCellReuseIdentifier: R.reuseIdentifier.settingSectionFourTableItem.identifier)
+        tableView.register( SettingsSectionOneTableItem.nib , forCellReuseIdentifier: SettingsSectionOneTableItem.identifier)
+        tableView.register( SettingsSectionTwoTableItem.nib, forCellReuseIdentifier: SettingsSectionTwoTableItem.identifier)
+        tableView.register( SettingsSectionThreeTableItem.nib, forCellReuseIdentifier: SettingsSectionThreeTableItem.identifier)
+        tableView.register( SettingSectionFourTableItem.nib, forCellReuseIdentifier: SettingSectionFourTableItem.identifier)
     }
     
     override func viewWillAppear(_ animated: Bool) {

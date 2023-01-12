@@ -113,7 +113,7 @@ class SearchRandomVC: BaseVC {
         self.tableView.separatorStyle = .none
         self.tableView.estimatedRowHeight = 80
         self.tableView.rowHeight = UITableView.automaticDimension
-        tableView.register( UINib(nibName: R.reuseIdentifier.searchRandom_TableCell.identifier, bundle: nil), forCellReuseIdentifier: R.reuseIdentifier.searchRandom_TableCell.identifier)
+        tableView.register( SearchRandom_TableCell.nib, forCellReuseIdentifier: SearchRandom_TableCell.identifier)
         
     }
     @objc func refresh(sender:AnyObject) {
@@ -224,7 +224,7 @@ extension SearchRandomVC: UITableViewDataSource,UITableViewDelegate{
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: R.reuseIdentifier.searchRandom_TableCell.identifier) as? SearchRandom_TableCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: SearchRandom_TableCell.identifier, for: indexPath) as? SearchRandom_TableCell
         let object = self.userArray[indexPath.row]
         cell?.delegate = self
         cell?.indexPath = indexPath.row

@@ -2,12 +2,8 @@
 
 import UIKit
 
-class InviteFriends_TableCell: UITableViewCell {
-    
-    @IBOutlet weak var profileImage: UIImageView!
-    
-    @IBOutlet weak var nameLabel: UILabel!
-    @IBOutlet weak var numberLabel: UILabel!
+class SelectCategory_TableCell: UITableViewCell,NIBCellProtocol {
+  @IBOutlet weak var titleLabel: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

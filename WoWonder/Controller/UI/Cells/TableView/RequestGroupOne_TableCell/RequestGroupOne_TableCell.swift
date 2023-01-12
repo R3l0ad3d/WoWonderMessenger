@@ -4,7 +4,7 @@ import UIKit
 import Async
 import Kingfisher
 
-class RequestGroupOne_TableCell: UITableViewCell {
+class RequestGroupOne_TableCell: UITableViewCell,NIBCellProtocol {
 
     //MARK: - All Outlet this TableViewCell
     @IBOutlet weak var rightBtn: UIButton!

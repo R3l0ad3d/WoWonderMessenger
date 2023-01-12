@@ -2,7 +2,7 @@
 
 import UIKit
 
-class ChatReceiverImage_TableCell: UITableViewCell {
+class ChatReceiverImage_TableCell: UITableViewCell,NIBCellProtocol {
     @IBOutlet weak var playBtn: UIButton!
     @IBOutlet weak var videoView: UIControl!
     

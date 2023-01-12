@@ -2,7 +2,7 @@
 
 import UIKit
 
-class SelectContact_TableCell: UITableViewCell {
+class SelectContact_TableCell: UITableViewCell,NIBCellProtocol {
     
     @IBOutlet weak var callBtn: UIButton!
     @IBOutlet weak var titleLabel: UILabel!

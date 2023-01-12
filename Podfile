@@ -57,7 +57,7 @@ target 'WoWonder' do
   end
 end
 
-target 'OneSignalNotificationServiceExtension' do
-  use_frameworks!
-  pod 'OneSignalXCFramework', '>= 3.0.0', '< 4.0'
-end
+#target 'OneSignalNotificationServiceExtension' do
+#  use_frameworks!
+#  pod 'OneSignalXCFramework', '>= 3.0.0', '< 4.0'
+#end

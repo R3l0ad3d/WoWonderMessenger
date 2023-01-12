@@ -23,7 +23,7 @@ class SelectTypeVC: UIViewController {
     
     private func setupUI(){
         self.tableView.separatorStyle = .none
-        tableView.register( SelectType_TableCell.nib, forCellReuseIdentifier: R.reuseIdentifier.selectType_TableCell.identifier)
+        tableView.register( SelectType_TableCell.nib, forCellReuseIdentifier: SelectType_TableCell.identifier)
         
         
     }
@@ -34,7 +34,7 @@ extension SelectTypeVC:UITableViewDelegate,UITableViewDataSource{
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: R.reuseIdentifier.selectType_TableCell.identifier) as? SelectType_TableCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: SelectType_TableCell.identifier) as? SelectType_TableCell
         cell?.typeLabel.text = self.selectTypeArray[indexPath.row]
         return cell!
     }

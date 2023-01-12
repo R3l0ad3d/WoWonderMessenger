@@ -2,13 +2,11 @@
 
 import UIKit
 
-class ChatSenderContact_TableCell: UITableViewCell {
-    @IBOutlet weak var backView: UIControl!
-    @IBOutlet weak var contactLabel: UILabel!
-    @IBOutlet weak var timeLabel: UILabel!
-    @IBOutlet weak var nameLabel: UILabel!
-    @IBOutlet weak var profileImage: UIImageView!
+class ChatReceiverDocument_TableCell: UITableViewCell,NIBCellProtocol {
     @IBOutlet weak var starBtn: UIButton!
+    @IBOutlet weak var timeLabel: UILabel!
+    @IBOutlet weak var mBLabel: NSLayoutConstraint!
+    @IBOutlet weak var nameLabel: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()

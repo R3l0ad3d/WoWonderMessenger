@@ -72,7 +72,7 @@ class FollowingVC: BaseVC {
         self.tableView.tableFooterView = UIView()
         self.tableView.estimatedRowHeight = 80
         self.tableView.rowHeight = UITableView.automaticDimension
-        tableView.register( Followings_TableCell.nib, forCellReuseIdentifier: R.reuseIdentifier.followings_TableCell.identifier)
+        tableView.register( Followings_TableCell.nib, forCellReuseIdentifier: Followings_TableCell.identifier)
         customizeDropdown()
 //        if ControlSettings.shouldShowAddMobBanner{
 //
@@ -198,7 +198,7 @@ extension FollowingVC: UITableViewDataSource,UITableViewDelegate{
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: R.reuseIdentifier.followings_TableCell.identifier) as? Followings_TableCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: Followings_TableCell.identifier) as? Followings_TableCell
         let object = followingsArray[indexPath.row]
         cell?.selectionStyle = .none
         cell?.delegate = self

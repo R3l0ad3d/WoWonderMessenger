@@ -51,7 +51,7 @@ class AddParticipantsVC: BaseVC {
         self.tableView.separatorStyle = .none
         self.tableView.estimatedRowHeight = 80
         self.tableView.rowHeight = UITableView.automaticDimension
-        tableView.register( AddParticipants_TableCell.nib, forCellReuseIdentifier: R.reuseIdentifier.addParticipants_TableCell.identifier)
+        tableView.register( AddParticipants_TableCell.nib, forCellReuseIdentifier: AddParticipants_TableCell.identifier)
         self.done = UIBarButtonItem(title: NSLocalizedString("Done", comment: "Done"), style: .done, target: self, action: Selector("Done"))
        // ic_search
         //R.image.ic_search1()
@@ -245,7 +245,7 @@ extension AddParticipantsVC: UITableViewDataSource,UITableViewDelegate{
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: R.reuseIdentifier.addParticipants_TableCell.identifier) as? AddParticipants_TableCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: AddParticipants_TableCell.identifier) as? AddParticipants_TableCell
         cell?.selectionStyle = .none
         if !self.searchActive!{
             cell?.indexPath = indexPath.row

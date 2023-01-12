@@ -32,7 +32,7 @@ class SelectContactVC: BaseVC {
         self.title = "Select Contact"
         navigationController?.navigationBar.titleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.white]
         self.tableView.separatorStyle = .none
-        tableView.register( SelectContact_TableCell.nib, forCellReuseIdentifier: R.reuseIdentifier.selectContact_TableCell.identifier)
+        tableView.register( SelectContact_TableCell.nib, forCellReuseIdentifier: SelectContact_TableCell.identifier)
         log.verbose("AppInstance.instance.userId = \(AppInstance.instance.userId)")
         log.verbose("AppInstance.instance.sessionId = \(AppInstance.instance.sessionId)")
        if ControlSettings.shouldShowAddMobBanner{

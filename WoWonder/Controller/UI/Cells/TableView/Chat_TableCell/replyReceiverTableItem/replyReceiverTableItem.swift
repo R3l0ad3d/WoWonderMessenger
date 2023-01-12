@@ -8,7 +8,7 @@
 
 import UIKit
 
-class replyReceiverTableItem: UITableViewCell {
+class replyReceiverTableItem: UITableViewCell,NIBCellProtocol {
     @IBOutlet weak var messageTextLabel: UITextView!
     @IBOutlet weak var backView: UIView!
     @IBOutlet weak var userTextLabel: UILabel!

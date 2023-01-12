@@ -10,7 +10,7 @@ import UIKit
 import WowonderMessengerSDK
 import ActionSheetPicker_3_0
 import Async
-import OneSignal
+//import OneSignal
 import Kingfisher
 
 class SettingViewController: BaseVC {
@@ -137,13 +137,13 @@ class SettingViewController: BaseVC {
             self.value = 1
             self.onlineStuesChageSwitch.setOn(true, animated: true)
             UserDefaults.standard.setNotificationStatus(value: true, ForKey: Local.NOTIFICATION_RECEIVE.NotificationReceive)
-            OneSignal.disablePush(false)
+            //OneSignal.disablePush(false)
             
         } else {
             self.onlineStuesChageSwitch.setOn(false, animated: true)
             self.value = 0
             UserDefaults.standard.setNotificationStatus(value: false, ForKey: Local.NOTIFICATION_RECEIVE.NotificationReceive)
-            OneSignal.disablePush(true)
+            //OneSignal.disablePush(true)
         }
     }
     

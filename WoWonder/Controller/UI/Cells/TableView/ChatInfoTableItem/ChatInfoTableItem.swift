@@ -1,7 +1,7 @@
 
 import UIKit
 
-class ChatInfoTableItem: UITableViewCell {
+class ChatInfoTableItem: UITableViewCell,NIBCellProtocol {
 
     @IBOutlet weak var deliverLabel: UILabel!
     @IBOutlet weak var readLabel: UILabel!

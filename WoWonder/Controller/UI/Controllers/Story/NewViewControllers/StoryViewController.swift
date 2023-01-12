@@ -33,7 +33,7 @@ class StoryViewController: BaseVC {
         self.userImageView.kf.indicatorType = .activity
         self.userImageView.kf.setImage(with: url)
         
-        StoryTableview.register( Stories_TableCell.nib, forCellReuseIdentifier: R.reuseIdentifier.stories_TableCell.identifier)
+        StoryTableview.register( Stories_TableCell.nib, forCellReuseIdentifier: Stories_TableCell.identifier)
         self.titleNamelabel.textColor = UIColor.mainColor
 //        self.locationPin.tintColor = UIColor.mainColor
         self.camraImage.tintColor = UIColor.mainColor

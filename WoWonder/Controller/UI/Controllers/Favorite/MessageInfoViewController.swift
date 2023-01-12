@@ -26,22 +26,22 @@ class MessageInfoViewController: BaseVC {
     
     private func setupUI() {
         self.tableView.separatorStyle = .none
-        tableView.register( ChatSender_TableCell.nib, forCellReuseIdentifier: R.reuseIdentifier.chatSender_TableCell.identifier)
-        tableView.register( ChatReceiver_TableCell.nib, forCellReuseIdentifier: R.reuseIdentifier.chatReceiver_TableCell.identifier)
-        tableView.register(ChatSenderImage_TableCell.nib, forCellReuseIdentifier: R.reuseIdentifier.chatSenderImage_TableCell.identifier)
-        tableView.register( ChatReceiverImage_TableCell.nib, forCellReuseIdentifier: R.reuseIdentifier.chatReceiverImage_TableCell.identifier)
-        tableView.register( ChatSenderContact_TableCell.nib, forCellReuseIdentifier: R.reuseIdentifier.chatSenderContact_TableCell.identifier)
-        tableView.register( ChatReceiverContact_TableCell.nib, forCellReuseIdentifier: R.reuseIdentifier.chatReceiverContact_TableCell.identifier)
-        tableView.register( ChatSenderSticker_TableCell.nib, forCellReuseIdentifier: R.reuseIdentifier.chatSenderSticker_TableCel.identifier)
-        tableView.register( ChatReceiverStricker_TableCell.nib, forCellReuseIdentifier: R.reuseIdentifier.chatReceiverStricker_TableCell.identifier)
+        tableView.register( ChatSender_TableCell.nib, forCellReuseIdentifier: ChatSender_TableCell.identifier)
+        tableView.register( ChatReceiver_TableCell.nib, forCellReuseIdentifier: ChatReceiver_TableCell.identifier)
+        tableView.register(ChatSenderImage_TableCell.nib, forCellReuseIdentifier: ChatSenderImage_TableCell.identifier)
+        tableView.register( ChatReceiverImage_TableCell.nib, forCellReuseIdentifier: ChatReceiverImage_TableCell.identifier)
+        tableView.register( ChatSenderContact_TableCell.nib, forCellReuseIdentifier: ChatSenderContact_TableCell.identifier)
+        tableView.register( ChatReceiverContact_TableCell.nib, forCellReuseIdentifier: ChatReceiverContact_TableCell.identifier)
+        tableView.register( ChatSenderSticker_TableCell.nib, forCellReuseIdentifier: ChatSenderSticker_TableCell.identifier)
+        tableView.register( ChatReceiverStricker_TableCell.nib, forCellReuseIdentifier: ChatReceiverStricker_TableCell.identifier)
         
-        tableView.register( ChatSenderAudio_TableCell.nib, forCellReuseIdentifier: R.reuseIdentifier.chatSenderAudio_TableCell.identifier)
+        tableView.register( ChatSenderAudio_TableCell.nib, forCellReuseIdentifier: ChatSenderAudio_TableCell.identifier)
         
-        tableView.register( ChatReceiverAudio_TableCell.nib, forCellReuseIdentifier: R.reuseIdentifier.chatReceiverAudio_TableCell.identifier)
+        tableView.register( ChatReceiverAudio_TableCell.nib, forCellReuseIdentifier: ChatReceiverAudio_TableCell.identifier)
         
-        tableView.register( ChatSenderDocument_TableCell.nib, forCellReuseIdentifier: R.reuseIdentifier.chatSenderDocument_TableCell.identifier)
-        tableView.register( ChatReceiverDocument_TableCell.nib, forCellReuseIdentifier: R.reuseIdentifier.chatReceiverDocument_TableCell.identifier)
-        tableView.register( ChatInfoTableItem.nib, forCellReuseIdentifier: R.reuseIdentifier.chatInfoTableItem.identifier)
+        tableView.register( ChatSenderDocument_TableCell.nib, forCellReuseIdentifier: ChatSenderDocument_TableCell.identifier)
+        tableView.register( ChatReceiverDocument_TableCell.nib, forCellReuseIdentifier: ChatReceiverDocument_TableCell.identifier)
+        tableView.register( ChatInfoTableItem.nib, forCellReuseIdentifier: ChatInfoTableItem.identifier)
         
     }
     func convertToDictionary(text: String) -> [String: Any]? {

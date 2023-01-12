@@ -38,7 +38,7 @@ class ChangeLanguageVC: UIViewController {
         let tap = UITapGestureRecognizer(target: self, action: #selector(self.handleTap(sender:)))
         self.view.addGestureRecognizer(tap)
         self.tableView.separatorStyle = .none
-        tableView.register( SelectLanguage_TableCell.nib, forCellReuseIdentifier: R.reuseIdentifier.selectLanguage_TableCell.identifier)
+        tableView.register( SelectLanguage_TableCell.nib, forCellReuseIdentifier: SelectLanguage_TableCell.identifier)
         log.verbose("Language selected = \(UserDefaults.standard.getLanguage(Key: Local.LANGUAGE.Language))")
         self.checkLanguage =  UserDefaults.standard.getLanguage( Key: Local.LANGUAGE.Language)
     }

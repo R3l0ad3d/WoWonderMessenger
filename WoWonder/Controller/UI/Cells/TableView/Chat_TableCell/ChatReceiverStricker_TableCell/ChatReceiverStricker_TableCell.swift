@@ -2,7 +2,7 @@
 
 import UIKit
 
-class ChatReceiverStricker_TableCell: UITableViewCell {
+class ChatReceiverStricker_TableCell: UITableViewCell,NIBCellProtocol {
     @IBOutlet weak var stickerImage: UIImageView!
     
     @IBOutlet weak var backVIewControl: UIControl!

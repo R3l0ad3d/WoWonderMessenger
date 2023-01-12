@@ -2,7 +2,7 @@
 
 import UIKit
 
-class SettingsSectionTwoTableItem: UITableViewCell {
+class SettingsSectionTwoTableItem: UITableViewCell,NIBCellProtocol {
             @IBOutlet weak var titleLabel: UILabel!
 
     override func awakeFromNib() {

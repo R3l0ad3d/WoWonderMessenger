@@ -38,19 +38,39 @@ extension NIBVCProtocol where Self: UIViewController {
     }
 }
 
-extension UICollectionViewCell{
+//extension UICollectionViewCell{
+//    static var identifier : String{
+//        return String(describing: self)
+//    }
+//    static var nib : UINib{
+//        return UINib(nibName: identifier, bundle: Bundle(for: self))
+//    }
+//}
+//extension UITableViewCell{
+//    static var identifier : String{
+//        return String(describing: self)
+//    }
+//    static var nib : UINib{
+//        return UINib(nibName: identifier, bundle: Bundle(for: self))
+//    }
+//}
+protocol NIBCellProtocol {
+    
+}
+extension NIBCellProtocol where Self : UITableViewCell{
+    static var nib : UINib{
+        return UINib(nibName: String(describing: self), bundle: nil)
+    }
     static var identifier : String{
         return String(describing: self)
-    }
-    static var nib : UINib{
-        return UINib(nibName: identifier, bundle: Bundle(for: self))
     }
 }
-extension UITableViewCell{
+
+extension NIBCellProtocol where Self : UICollectionViewCell{
+    static var nib : UINib{
+        return UINib(nibName: String(describing: self), bundle: nil)
+    }
     static var identifier : String{
         return String(describing: self)
-    }
-    static var nib : UINib{
-        return UINib(nibName: identifier, bundle: Bundle(for: self))
     }
 }

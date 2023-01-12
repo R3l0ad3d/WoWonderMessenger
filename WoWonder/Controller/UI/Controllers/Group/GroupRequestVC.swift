@@ -28,7 +28,7 @@ class GroupRequestVC: BaseVC {
         refreshControl.addTarget(self, action: #selector(refresh(sender:)), for: UIControl.Event.valueChanged)
         tableView.addSubview(refreshControl)
         self.tableView.separatorStyle = .none
-        tableView.register( RequestGroupOne_TableCell.nib, forCellReuseIdentifier: R.reuseIdentifier.requestGroupOne_TableCell.identifier)
+        tableView.register( RequestGroupOne_TableCell.nib, forCellReuseIdentifier: RequestGroupOne_TableCell.identifier)
         self.tableView.separatorStyle = .none
         
     }
@@ -99,7 +99,7 @@ extension GroupRequestVC:UITableViewDelegate,UITableViewDataSource{
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
-        let cell = tableView.dequeueReusableCell(withIdentifier: R.reuseIdentifier.requestGroupOne_TableCell.identifier) as? RequestGroupOne_TableCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: RequestGroupOne_TableCell.identifier) as? RequestGroupOne_TableCell
         cell?.vc = self
         let object = self.groupsArray[indexPath.row]
         cell?.bind(object)

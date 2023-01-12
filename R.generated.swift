@@ -2900,7 +2900,7 @@ struct _R {
     }
   }
 
-  /// This `_R.file` struct is generated, and contains static references to 65 resource files.
+  /// This `_R.file` struct is generated, and contains static references to 66 resource files.
   struct file {
     let bundle: Foundation.Bundle
 
@@ -3030,6 +3030,9 @@ struct _R {
     /// Resource file `Popup_SendMesseges.mp3`.
     var popup_SendMessegesMp3: RswiftResources.FileResource { .init(name: "Popup_SendMesseges", pathExtension: "mp3", bundle: bundle, locale: LocaleReference.none) }
 
+    /// Resource file `README.md`.
+    var readmeMd: RswiftResources.FileResource { .init(name: "README", pathExtension: "md", bundle: bundle, locale: LocaleReference.none) }
+
     /// Resource file `Roboto-Medium.ttf`.
     var robotoMediumTtf: RswiftResources.FileResource { .init(name: "Roboto-Medium", pathExtension: "ttf", bundle: bundle, locale: LocaleReference.none) }
 
@@ -3107,14 +3110,14 @@ struct _R {
     /// Nib `AddParticipantCell`.
     var addParticipantCell: RswiftResources.NibReferenceReuseIdentifier<AddParticipantCell, AddParticipantCell> { .init(name: "AddParticipantCell", bundle: bundle, identifier: "addParticipentCell") }
 
-    /// Nib `AddParticipant-CollectionCell`.
-    var addParticipantCollectionCell: RswiftResources.NibReferenceReuseIdentifier<AddParticipant_CollectionCell, AddParticipant_CollectionCell> { .init(name: "AddParticipant-CollectionCell", bundle: bundle, identifier: "AddParticipant_CollectionCell") }
+    /// Nib `AddParticipant_CollectionCell`.
+    var addParticipant_CollectionCell: RswiftResources.NibReferenceReuseIdentifier<AddParticipant_CollectionCell, AddParticipant_CollectionCell> { .init(name: "AddParticipant_CollectionCell", bundle: bundle, identifier: "AddParticipant_CollectionCell") }
 
-    /// Nib `AddParticipants-TableCell`.
-    var addParticipantsTableCell: RswiftResources.NibReferenceReuseIdentifier<AddParticipants_TableCell, AddParticipants_TableCell> { .init(name: "AddParticipants-TableCell", bundle: bundle, identifier: "AddParticipants_TableCell") }
+    /// Nib `AddParticipants_TableCell`.
+    var addParticipants_TableCell: RswiftResources.NibReferenceReuseIdentifier<AddParticipants_TableCell, AddParticipants_TableCell> { .init(name: "AddParticipants_TableCell", bundle: bundle, identifier: "AddParticipants_TableCell") }
 
-    /// Nib `BlockedUsers-TableCell`.
-    var blockedUsersTableCell: RswiftResources.NibReferenceReuseIdentifier<BlockedUsers_TableCell, BlockedUsers_TableCell> { .init(name: "BlockedUsers-TableCell", bundle: bundle, identifier: "BlockedUsers_TableCell") }
+    /// Nib `BlockedUsers_TableCell`.
+    var blockedUsers_TableCell: RswiftResources.NibReferenceReuseIdentifier<BlockedUsers_TableCell, BlockedUsers_TableCell> { .init(name: "BlockedUsers_TableCell", bundle: bundle, identifier: "BlockedUsers_TableCell") }
 
     /// Nib `BottonSetCell`.
     var bottonSetCell: RswiftResources.NibReference<BottonSetCell> { .init(name: "BottonSetCell", bundle: bundle) }
@@ -3122,8 +3125,8 @@ struct _R {
     /// Nib `CallCollectionViewCell`.
     var callCollectionViewCell: RswiftResources.NibReference<CallCollectionViewCell> { .init(name: "CallCollectionViewCell", bundle: bundle) }
 
-    /// Nib `Calls-TableCell`.
-    var callsTableCell: RswiftResources.NibReferenceReuseIdentifier<Calls_TableCell, Calls_TableCell> { .init(name: "Calls-TableCell", bundle: bundle, identifier: "Calls_TableCell") }
+    /// Nib `Calls_TableCell`.
+    var calls_TableCell: RswiftResources.NibReferenceReuseIdentifier<Calls_TableCell, Calls_TableCell> { .init(name: "Calls_TableCell", bundle: bundle, identifier: "Calls_TableCell") }
 
     /// Nib `ChangerColorCell`.
     var changerColorCell: RswiftResources.NibReference<ChangerColorCell> { .init(name: "ChangerColorCell", bundle: bundle) }
@@ -3137,62 +3140,62 @@ struct _R {
     /// Nib `ChatMediaCollectionViewCell`.
     var chatMediaCollectionViewCell: RswiftResources.NibReference<ChatMediaCollectionViewCell> { .init(name: "ChatMediaCollectionViewCell", bundle: bundle) }
 
-    /// Nib `ChatReceiverAudio-TableCell`.
-    var chatReceiverAudioTableCell: RswiftResources.NibReferenceReuseIdentifier<ChatReceiverAudio_TableCell, ChatReceiverAudio_TableCell> { .init(name: "ChatReceiverAudio-TableCell", bundle: bundle, identifier: "ChatReceiverAudio_TableCell") }
+    /// Nib `ChatReceiverAudio_TableCell`.
+    var chatReceiverAudio_TableCell: RswiftResources.NibReferenceReuseIdentifier<ChatReceiverAudio_TableCell, ChatReceiverAudio_TableCell> { .init(name: "ChatReceiverAudio_TableCell", bundle: bundle, identifier: "ChatReceiverAudio_TableCell") }
 
-    /// Nib `ChatReceiverContact-TableCell`.
-    var chatReceiverContactTableCell: RswiftResources.NibReferenceReuseIdentifier<ChatReceiverContact_TableCell, ChatReceiverContact_TableCell> { .init(name: "ChatReceiverContact-TableCell", bundle: bundle, identifier: "ChatReceiverContact_TableCell") }
+    /// Nib `ChatReceiverContact_TableCell`.
+    var chatReceiverContact_TableCell: RswiftResources.NibReferenceReuseIdentifier<ChatReceiverContact_TableCell, ChatReceiverContact_TableCell> { .init(name: "ChatReceiverContact_TableCell", bundle: bundle, identifier: "ChatReceiverContact_TableCell") }
 
-    /// Nib `ChatReceiverDocument-TableCell`.
-    var chatReceiverDocumentTableCell: RswiftResources.NibReferenceReuseIdentifier<ChatReceiverDocument_TableCell, ChatReceiverDocument_TableCell> { .init(name: "ChatReceiverDocument-TableCell", bundle: bundle, identifier: "ChatReceiverDocument_TableCell") }
+    /// Nib `ChatReceiverDocument_TableCell`.
+    var chatReceiverDocument_TableCell: RswiftResources.NibReferenceReuseIdentifier<ChatReceiverDocument_TableCell, ChatReceiverDocument_TableCell> { .init(name: "ChatReceiverDocument_TableCell", bundle: bundle, identifier: "ChatReceiverDocument_TableCell") }
 
-    /// Nib `ChatReceiverImage-TableCell`.
-    var chatReceiverImageTableCell: RswiftResources.NibReferenceReuseIdentifier<ChatReceiverImage_TableCell, ChatReceiverImage_TableCell> { .init(name: "ChatReceiverImage-TableCell", bundle: bundle, identifier: "ChatReceiverImage_TableCell") }
+    /// Nib `ChatReceiverImage_TableCell`.
+    var chatReceiverImage_TableCell: RswiftResources.NibReferenceReuseIdentifier<ChatReceiverImage_TableCell, ChatReceiverImage_TableCell> { .init(name: "ChatReceiverImage_TableCell", bundle: bundle, identifier: "ChatReceiverImage_TableCell") }
 
-    /// Nib `ChatReceiverStricker-TableCell`.
-    var chatReceiverStrickerTableCell: RswiftResources.NibReferenceReuseIdentifier<ChatReceiverStricker_TableCell, ChatReceiverStricker_TableCell> { .init(name: "ChatReceiverStricker-TableCell", bundle: bundle, identifier: "ChatReceiverStricker_TableCell") }
+    /// Nib `ChatReceiverStricker_TableCell`.
+    var chatReceiverStricker_TableCell: RswiftResources.NibReferenceReuseIdentifier<ChatReceiverStricker_TableCell, ChatReceiverStricker_TableCell> { .init(name: "ChatReceiverStricker_TableCell", bundle: bundle, identifier: "ChatReceiverStricker_TableCell") }
 
-    /// Nib `ChatReceiver-TableCell`.
-    var chatReceiverTableCell: RswiftResources.NibReferenceReuseIdentifier<ChatReceiver_TableCell, ChatReceiver_TableCell> { .init(name: "ChatReceiver-TableCell", bundle: bundle, identifier: "ChatReceiver_TableCell") }
+    /// Nib `ChatReceiver_TableCell`.
+    var chatReceiver_TableCell: RswiftResources.NibReferenceReuseIdentifier<ChatReceiver_TableCell, ChatReceiver_TableCell> { .init(name: "ChatReceiver_TableCell", bundle: bundle, identifier: "ChatReceiver_TableCell") }
 
     /// Nib `ChatSenderAudio-TableCell`.
     var chatSenderAudioTableCell: RswiftResources.NibReferenceReuseIdentifier<ChatSenderAudio_TableCell, ChatSenderAudio_TableCell> { .init(name: "ChatSenderAudio-TableCell", bundle: bundle, identifier: "ChatSenderAudio_TableCell") }
 
-    /// Nib `ChatSenderContact-TableCell`.
-    var chatSenderContactTableCell: RswiftResources.NibReferenceReuseIdentifier<ChatSenderContact_TableCell, ChatSenderContact_TableCell> { .init(name: "ChatSenderContact-TableCell", bundle: bundle, identifier: "ChatSenderContact_TableCell") }
+    /// Nib `ChatSenderContact_TableCell`.
+    var chatSenderContact_TableCell: RswiftResources.NibReferenceReuseIdentifier<ChatSenderContact_TableCell, ChatSenderContact_TableCell> { .init(name: "ChatSenderContact_TableCell", bundle: bundle, identifier: "ChatSenderContact_TableCell") }
 
-    /// Nib `ChatSenderDocument-TableCell`.
-    var chatSenderDocumentTableCell: RswiftResources.NibReferenceReuseIdentifier<ChatSenderDocument_TableCell, ChatSenderDocument_TableCell> { .init(name: "ChatSenderDocument-TableCell", bundle: bundle, identifier: "ChatSenderDocument_TableCell") }
+    /// Nib `ChatSenderDocument_TableCell`.
+    var chatSenderDocument_TableCell: RswiftResources.NibReferenceReuseIdentifier<ChatSenderDocument_TableCell, ChatSenderDocument_TableCell> { .init(name: "ChatSenderDocument_TableCell", bundle: bundle, identifier: "ChatSenderDocument_TableCell") }
 
-    /// Nib `ChatSenderImage-TableCell`.
-    var chatSenderImageTableCell: RswiftResources.NibReferenceReuseIdentifier<ChatSenderImage_TableCell, ChatSenderImage_TableCell> { .init(name: "ChatSenderImage-TableCell", bundle: bundle, identifier: "ChatSenderImage_TableCell") }
+    /// Nib `ChatSenderImage_TableCell`.
+    var chatSenderImage_TableCell: RswiftResources.NibReferenceReuseIdentifier<ChatSenderImage_TableCell, ChatSenderImage_TableCell> { .init(name: "ChatSenderImage_TableCell", bundle: bundle, identifier: "ChatSenderImage_TableCell") }
 
-    /// Nib `ChatSenderSticker-TableCell`.
-    var chatSenderStickerTableCell: RswiftResources.NibReferenceReuseIdentifier<ChatSenderSticker_TableCell, ChatSenderSticker_TableCell> { .init(name: "ChatSenderSticker-TableCell", bundle: bundle, identifier: "ChatSenderSticker_TableCel") }
+    /// Nib `ChatSenderSticker_TableCell`.
+    var chatSenderSticker_TableCell: RswiftResources.NibReferenceReuseIdentifier<ChatSenderSticker_TableCell, ChatSenderSticker_TableCell> { .init(name: "ChatSenderSticker_TableCell", bundle: bundle, identifier: "ChatSenderSticker_TableCel") }
 
-    /// Nib `ChatSender-TableCell`.
-    var chatSenderTableCell: RswiftResources.NibReferenceReuseIdentifier<ChatSender_TableCell, ChatSender_TableCell> { .init(name: "ChatSender-TableCell", bundle: bundle, identifier: "ChatSender_TableCell") }
+    /// Nib `ChatSender_TableCell`.
+    var chatSender_TableCell: RswiftResources.NibReferenceReuseIdentifier<ChatSender_TableCell, ChatSender_TableCell> { .init(name: "ChatSender_TableCell", bundle: bundle, identifier: "ChatSender_TableCell") }
 
-    /// Nib `Chats-TableCell`.
-    var chatsTableCell: RswiftResources.NibReferenceReuseIdentifier<Chats_TableCell, Chats_TableCell> { .init(name: "Chats-TableCell", bundle: bundle, identifier: "Chats_TableCell") }
+    /// Nib `Chats_TableCell`.
+    var chats_TableCell: RswiftResources.NibReferenceReuseIdentifier<Chats_TableCell, Chats_TableCell> { .init(name: "Chats_TableCell", bundle: bundle, identifier: "Chats_TableCell") }
 
     /// Nib `ColorCollectionItem`.
     var colorCollectionItem: RswiftResources.NibReferenceReuseIdentifier<ColorCollectionItem, ColorCollectionItem> { .init(name: "ColorCollectionItem", bundle: bundle, identifier: "ColorCollectionItem") }
 
-    /// Nib `CreateGroup-CollectionCell`.
-    var createGroupCollectionCell: RswiftResources.NibReferenceReuseIdentifier<CreateGroup_CollectionCell, CreateGroup_CollectionCell> { .init(name: "CreateGroup-CollectionCell", bundle: bundle, identifier: "CreateGroup_CollectionCell") }
+    /// Nib `CreateGroup_CollectionCell`.
+    var createGroup_CollectionCell: RswiftResources.NibReferenceReuseIdentifier<CreateGroup_CollectionCell, CreateGroup_CollectionCell> { .init(name: "CreateGroup_CollectionCell", bundle: bundle, identifier: "CreateGroup_CollectionCell") }
 
     /// Nib `FindFriendsCell`.
     var findFriendsCell: RswiftResources.NibReference<FindFriendsCell> { .init(name: "FindFriendsCell", bundle: bundle) }
 
-    /// Nib `FindFriends-CollectionCell`.
-    var findFriendsCollectionCell: RswiftResources.NibReferenceReuseIdentifier<FindFriends_CollectionCell, FindFriends_CollectionCell> { .init(name: "FindFriends-CollectionCell", bundle: bundle, identifier: "FindFriends_CollectionCell") }
+    /// Nib `FindFriends_CollectionCell`.
+    var findFriends_CollectionCell: RswiftResources.NibReferenceReuseIdentifier<FindFriends_CollectionCell, FindFriends_CollectionCell> { .init(name: "FindFriends_CollectionCell", bundle: bundle, identifier: "FindFriends_CollectionCell") }
 
     /// Nib `FollowRequestCell`.
     var followRequestCell: RswiftResources.NibReferenceReuseIdentifier<FollowRequestCell, FollowRequestCell> { .init(name: "FollowRequestCell", bundle: bundle, identifier: "RequestCell") }
 
-    /// Nib `Followings-TableCell`.
-    var followingsTableCell: RswiftResources.NibReferenceReuseIdentifier<Followings_TableCell, Followings_TableCell> { .init(name: "Followings-TableCell", bundle: bundle, identifier: "Followings_TableCell") }
+    /// Nib `Followings_TableCell`.
+    var followings_TableCell: RswiftResources.NibReferenceReuseIdentifier<Followings_TableCell, Followings_TableCell> { .init(name: "Followings_TableCell", bundle: bundle, identifier: "Followings_TableCell") }
 
     /// Nib `FontCollectionItem`.
     var fontCollectionItem: RswiftResources.NibReferenceReuseIdentifier<FontCollectionItem, FontCollectionItem> { .init(name: "FontCollectionItem", bundle: bundle, identifier: "FontCollectionItem") }
@@ -3215,17 +3218,17 @@ struct _R {
     /// Nib `GroupParticipentCell`.
     var groupParticipentCell: RswiftResources.NibReferenceReuseIdentifier<GroupParticipentCell, GroupParticipentCell> { .init(name: "GroupParticipentCell", bundle: bundle, identifier: "GroupParticipantcell") }
 
-    /// Nib `GroupRequest-TableCell`.
-    var groupRequestTableCell: RswiftResources.NibReferenceReuseIdentifier<GroupRequest_TableCell, GroupRequest_TableCell> { .init(name: "GroupRequest-TableCell", bundle: bundle, identifier: "GroupRequest_TableCell") }
+    /// Nib `GroupRequest_TableCell`.
+    var groupRequest_TableCell: RswiftResources.NibReferenceReuseIdentifier<GroupRequest_TableCell, GroupRequest_TableCell> { .init(name: "GroupRequest_TableCell", bundle: bundle, identifier: "GroupRequest_TableCell") }
 
-    /// Nib `Group-TableCell`.
-    var groupTableCell: RswiftResources.NibReferenceReuseIdentifier<Group_TableCell, Group_TableCell> { .init(name: "Group-TableCell", bundle: bundle, identifier: "Group_TableCell") }
+    /// Nib `Group_TableCell`.
+    var group_TableCell: RswiftResources.NibReferenceReuseIdentifier<Group_TableCell, Group_TableCell> { .init(name: "Group_TableCell", bundle: bundle, identifier: "Group_TableCell") }
 
     /// Nib `IntroItemView`.
     var introItemView: RswiftResources.NibReference<IntroItem> { .init(name: "IntroItemView", bundle: bundle) }
 
-    /// Nib `InviteFriends-TableCell`.
-    var inviteFriendsTableCell: RswiftResources.NibReferenceReuseIdentifier<InviteFriends_TableCell, InviteFriends_TableCell> { .init(name: "InviteFriends-TableCell", bundle: bundle, identifier: "InviteFriends_TableCell") }
+    /// Nib `InviteFriends_TableCell`.
+    var inviteFriends_TableCell: RswiftResources.NibReferenceReuseIdentifier<InviteFriends_TableCell, InviteFriends_TableCell> { .init(name: "InviteFriends_TableCell", bundle: bundle, identifier: "InviteFriends_TableCell") }
 
     /// Nib `LeftAudioTableViewCell`.
     var leftAudioTableViewCell: RswiftResources.NibReference<LeftAudioTableViewCell> { .init(name: "LeftAudioTableViewCell", bundle: bundle) }
@@ -3281,8 +3284,8 @@ struct _R {
     /// Nib `RequestCell`.
     var requestCell: RswiftResources.NibReference<RequestCell> { .init(name: "RequestCell", bundle: bundle) }
 
-    /// Nib `RequestGroupOne-TableCell`.
-    var requestGroupOneTableCell: RswiftResources.NibReferenceReuseIdentifier<RequestGroupOne_TableCell, RequestGroupOne_TableCell> { .init(name: "RequestGroupOne-TableCell", bundle: bundle, identifier: "RequestGroupOne_TableCell") }
+    /// Nib `RequestGroupOne_TableCell`.
+    var requestGroupOne_TableCell: RswiftResources.NibReferenceReuseIdentifier<RequestGroupOne_TableCell, RequestGroupOne_TableCell> { .init(name: "RequestGroupOne_TableCell", bundle: bundle, identifier: "RequestGroupOne_TableCell") }
 
     /// Nib `RightAudioTableViewCell`.
     var rightAudioTableViewCell: RswiftResources.NibReference<RightAudioTableViewCell> { .init(name: "RightAudioTableViewCell", bundle: bundle) }
@@ -3308,20 +3311,20 @@ struct _R {
     /// Nib `RightVidoeTableViewCell`.
     var rightVidoeTableViewCell: RswiftResources.NibReference<RightVidoeTableViewCell> { .init(name: "RightVidoeTableViewCell", bundle: bundle) }
 
-    /// Nib `SearchRandom-TableCell`.
-    var searchRandomTableCell: RswiftResources.NibReferenceReuseIdentifier<SearchRandom_TableCell, SearchRandom_TableCell> { .init(name: "SearchRandom-TableCell", bundle: bundle, identifier: "SearchRandom_TableCell") }
+    /// Nib `SearchRandom_TableCell`.
+    var searchRandom_TableCell: RswiftResources.NibReferenceReuseIdentifier<SearchRandom_TableCell, SearchRandom_TableCell> { .init(name: "SearchRandom_TableCell", bundle: bundle, identifier: "SearchRandom_TableCell") }
 
-    /// Nib `SelectCategory-TableCell`.
-    var selectCategoryTableCell: RswiftResources.NibReferenceReuseIdentifier<SelectCategory_TableCell, SelectCategory_TableCell> { .init(name: "SelectCategory-TableCell", bundle: bundle, identifier: "SelectCategory_TableCell") }
+    /// Nib `SelectCategory_TableCell`.
+    var selectCategory_TableCell: RswiftResources.NibReferenceReuseIdentifier<SelectCategory_TableCell, SelectCategory_TableCell> { .init(name: "SelectCategory_TableCell", bundle: bundle, identifier: "SelectCategory_TableCell") }
 
-    /// Nib `SelectContact-TableCell`.
-    var selectContactTableCell: RswiftResources.NibReferenceReuseIdentifier<SelectContact_TableCell, SelectContact_TableCell> { .init(name: "SelectContact-TableCell", bundle: bundle, identifier: "SelectContact_TableCell") }
+    /// Nib `SelectContact_TableCell`.
+    var selectContact_TableCell: RswiftResources.NibReferenceReuseIdentifier<SelectContact_TableCell, SelectContact_TableCell> { .init(name: "SelectContact_TableCell", bundle: bundle, identifier: "SelectContact_TableCell") }
 
-    /// Nib `SelectLanguage-TableCell`.
-    var selectLanguageTableCell: RswiftResources.NibReferenceReuseIdentifier<SelectLanguage_TableCell, SelectLanguage_TableCell> { .init(name: "SelectLanguage-TableCell", bundle: bundle, identifier: "SelectLanguage_TableCell") }
+    /// Nib `SelectLanguage_TableCell`.
+    var selectLanguage_TableCell: RswiftResources.NibReferenceReuseIdentifier<SelectLanguage_TableCell, SelectLanguage_TableCell> { .init(name: "SelectLanguage_TableCell", bundle: bundle, identifier: "SelectLanguage_TableCell") }
 
-    /// Nib `SelectType-TableCell`.
-    var selectTypeTableCell: RswiftResources.NibReferenceReuseIdentifier<SelectType_TableCell, SelectType_TableCell> { .init(name: "SelectType-TableCell", bundle: bundle, identifier: "SelectType_TableCell") }
+    /// Nib `SelectType_TableCell`.
+    var selectType_TableCell: RswiftResources.NibReferenceReuseIdentifier<SelectType_TableCell, SelectType_TableCell> { .init(name: "SelectType_TableCell", bundle: bundle, identifier: "SelectType_TableCell") }
 
     /// Nib `SettingSectionFourTableItem`.
     var settingSectionFourTableItem: RswiftResources.NibReferenceReuseIdentifier<SettingSectionFourTableItem, SettingSectionFourTableItem> { .init(name: "SettingSectionFourTableItem", bundle: bundle, identifier: "SettingSectionFourTableItem") }
@@ -3335,8 +3338,8 @@ struct _R {
     /// Nib `SettingsSectionTwoTableItem`.
     var settingsSectionTwoTableItem: RswiftResources.NibReferenceReuseIdentifier<SettingsSectionTwoTableItem, SettingsSectionTwoTableItem> { .init(name: "SettingsSectionTwoTableItem", bundle: bundle, identifier: "SettingsSectionTwoTableItem") }
 
-    /// Nib `Stories-TableCell`.
-    var storiesTableCell: RswiftResources.NibReferenceReuseIdentifier<Stories_TableCell, Stories_TableCell> { .init(name: "Stories-TableCell", bundle: bundle, identifier: "Stories_TableCell") }
+    /// Nib `Stories_TableCell`.
+    var stories_TableCell: RswiftResources.NibReferenceReuseIdentifier<Stories_TableCell, Stories_TableCell> { .init(name: "Stories_TableCell", bundle: bundle, identifier: "Stories_TableCell") }
 
     /// Nib `StorySectionOneTableItem`.
     var storySectionOneTableItem: RswiftResources.NibReferenceReuseIdentifier<StorySectionOneTableItem, StorySectionOneTableItem> { .init(name: "StorySectionOneTableItem", bundle: bundle, identifier: "StorySectionOneTableItem") }
@@ -3354,48 +3357,48 @@ struct _R {
     var userSuggestionCollectionCell: RswiftResources.NibReferenceReuseIdentifier<UserSuggestionCollectionCell, UserSuggestionCollectionCell> { .init(name: "UserSuggestionCollectionCell", bundle: bundle, identifier: "UserSuggestionCollectionCell") }
 
     func validate() throws {
-      if UIKit.UIImage(named: "ic_addBtn", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Image named 'ic_addBtn' is used in nib 'AddParticipant-CollectionCell', but couldn't be loaded.") }
       if UIKit.UIImage(named: "addAlbum", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Image named 'addAlbum' is used in nib 'AddParticipantCell', but couldn't be loaded.") }
-      if UIKit.UIImage(named: "ic_profileimage", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Image named 'ic_profileimage' is used in nib 'AddParticipants-TableCell', but couldn't be loaded.") }
-      if UIKit.UIImage(named: "ic_uncheckgey", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Image named 'ic_uncheckgey' is used in nib 'AddParticipants-TableCell', but couldn't be loaded.") }
-      if UIKit.UIImage(named: "ic_profileimage", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Image named 'ic_profileimage' is used in nib 'BlockedUsers-TableCell', but couldn't be loaded.") }
+      if UIKit.UIImage(named: "ic_addBtn", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Image named 'ic_addBtn' is used in nib 'AddParticipant_CollectionCell', but couldn't be loaded.") }
+      if UIKit.UIImage(named: "ic_profileimage", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Image named 'ic_profileimage' is used in nib 'AddParticipants_TableCell', but couldn't be loaded.") }
+      if UIKit.UIImage(named: "ic_uncheckgey", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Image named 'ic_uncheckgey' is used in nib 'AddParticipants_TableCell', but couldn't be loaded.") }
+      if UIKit.UIImage(named: "ic_profileimage", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Image named 'ic_profileimage' is used in nib 'BlockedUsers_TableCell', but couldn't be loaded.") }
       if UIKit.UIImage(named: "ic_gray_right", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Image named 'ic_gray_right' is used in nib 'BottonSetCell', but couldn't be loaded.") }
-      if UIKit.UIImage(named: "ic_Calling", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Image named 'ic_Calling' is used in nib 'Calls-TableCell', but couldn't be loaded.") }
-      if UIKit.UIImage(named: "ic_Video_", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Image named 'ic_Video_' is used in nib 'Calls-TableCell', but couldn't be loaded.") }
-      if UIKit.UIImage(named: "ic_callIcon", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Image named 'ic_callIcon' is used in nib 'Calls-TableCell', but couldn't be loaded.") }
-      if UIKit.UIImage(named: "ic_profileimage", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Image named 'ic_profileimage' is used in nib 'Calls-TableCell', but couldn't be loaded.") }
-      if UIKit.UIColor(named: "App", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Color named 'App' is used in nib 'Calls-TableCell', but couldn't be loaded.") }
+      if UIKit.UIImage(named: "ic_Calling", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Image named 'ic_Calling' is used in nib 'Calls_TableCell', but couldn't be loaded.") }
+      if UIKit.UIImage(named: "ic_Video_", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Image named 'ic_Video_' is used in nib 'Calls_TableCell', but couldn't be loaded.") }
+      if UIKit.UIImage(named: "ic_callIcon", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Image named 'ic_callIcon' is used in nib 'Calls_TableCell', but couldn't be loaded.") }
+      if UIKit.UIImage(named: "ic_profileimage", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Image named 'ic_profileimage' is used in nib 'Calls_TableCell', but couldn't be loaded.") }
+      if UIKit.UIColor(named: "App", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Color named 'App' is used in nib 'Calls_TableCell', but couldn't be loaded.") }
       if UIKit.UIColor(named: "App", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Color named 'App' is used in nib 'ChangerColorCell', but couldn't be loaded.") }
       if UIKit.UIImage(named: "ic_info", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Image named 'ic_info' is used in nib 'ChatBottomSiteCell', but couldn't be loaded.") }
       if UIKit.UIImage(named: "AgeCalender", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Image named 'AgeCalender' is used in nib 'ChatMediaCollectionViewCell', but couldn't be loaded.") }
-      if UIKit.UIImage(named: "star", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Image named 'star' is used in nib 'ChatReceiver-TableCell', but couldn't be loaded.") }
-      if UIKit.UIImage(named: "ic_playBtn", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Image named 'ic_playBtn' is used in nib 'ChatReceiverAudio-TableCell', but couldn't be loaded.") }
-      if UIKit.UIImage(named: "star", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Image named 'star' is used in nib 'ChatReceiverAudio-TableCell', but couldn't be loaded.") }
-      if UIKit.UIImage(named: "ic_profileimage", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Image named 'ic_profileimage' is used in nib 'ChatReceiverContact-TableCell', but couldn't be loaded.") }
-      if UIKit.UIImage(named: "star", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Image named 'star' is used in nib 'ChatReceiverContact-TableCell', but couldn't be loaded.") }
-      if UIKit.UIImage(named: "ic_doc", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Image named 'ic_doc' is used in nib 'ChatReceiverDocument-TableCell', but couldn't be loaded.") }
-      if UIKit.UIImage(named: "star", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Image named 'star' is used in nib 'ChatReceiverDocument-TableCell', but couldn't be loaded.") }
-      if UIKit.UIImage(named: "ic_playBtn", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Image named 'ic_playBtn' is used in nib 'ChatReceiverImage-TableCell', but couldn't be loaded.") }
-      if UIKit.UIImage(named: "star", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Image named 'star' is used in nib 'ChatReceiverImage-TableCell', but couldn't be loaded.") }
-      if UIKit.UIImage(named: "star", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Image named 'star' is used in nib 'ChatReceiverStricker-TableCell', but couldn't be loaded.") }
-      if UIKit.UIImage(named: "star", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Image named 'star' is used in nib 'ChatSender-TableCell', but couldn't be loaded.") }
+      if UIKit.UIImage(named: "ic_playBtn", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Image named 'ic_playBtn' is used in nib 'ChatReceiverAudio_TableCell', but couldn't be loaded.") }
+      if UIKit.UIImage(named: "star", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Image named 'star' is used in nib 'ChatReceiverAudio_TableCell', but couldn't be loaded.") }
+      if UIKit.UIImage(named: "ic_profileimage", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Image named 'ic_profileimage' is used in nib 'ChatReceiverContact_TableCell', but couldn't be loaded.") }
+      if UIKit.UIImage(named: "star", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Image named 'star' is used in nib 'ChatReceiverContact_TableCell', but couldn't be loaded.") }
+      if UIKit.UIImage(named: "ic_doc", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Image named 'ic_doc' is used in nib 'ChatReceiverDocument_TableCell', but couldn't be loaded.") }
+      if UIKit.UIImage(named: "star", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Image named 'star' is used in nib 'ChatReceiverDocument_TableCell', but couldn't be loaded.") }
+      if UIKit.UIImage(named: "ic_playBtn", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Image named 'ic_playBtn' is used in nib 'ChatReceiverImage_TableCell', but couldn't be loaded.") }
+      if UIKit.UIImage(named: "star", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Image named 'star' is used in nib 'ChatReceiverImage_TableCell', but couldn't be loaded.") }
+      if UIKit.UIImage(named: "star", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Image named 'star' is used in nib 'ChatReceiverStricker_TableCell', but couldn't be loaded.") }
+      if UIKit.UIImage(named: "star", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Image named 'star' is used in nib 'ChatReceiver_TableCell', but couldn't be loaded.") }
       if UIKit.UIImage(named: "ic_playBtn", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Image named 'ic_playBtn' is used in nib 'ChatSenderAudio-TableCell', but couldn't be loaded.") }
       if UIKit.UIImage(named: "star", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Image named 'star' is used in nib 'ChatSenderAudio-TableCell', but couldn't be loaded.") }
-      if UIKit.UIImage(named: "ic_profileimage", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Image named 'ic_profileimage' is used in nib 'ChatSenderContact-TableCell', but couldn't be loaded.") }
-      if UIKit.UIImage(named: "star", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Image named 'star' is used in nib 'ChatSenderContact-TableCell', but couldn't be loaded.") }
-      if UIKit.UIImage(named: "ic_doc", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Image named 'ic_doc' is used in nib 'ChatSenderDocument-TableCell', but couldn't be loaded.") }
-      if UIKit.UIImage(named: "star", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Image named 'star' is used in nib 'ChatSenderDocument-TableCell', but couldn't be loaded.") }
-      if UIKit.UIImage(named: "ic_playBtn", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Image named 'ic_playBtn' is used in nib 'ChatSenderImage-TableCell', but couldn't be loaded.") }
-      if UIKit.UIImage(named: "star", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Image named 'star' is used in nib 'ChatSenderImage-TableCell', but couldn't be loaded.") }
-      if UIKit.UIImage(named: "star", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Image named 'star' is used in nib 'ChatSenderSticker-TableCell', but couldn't be loaded.") }
-      if UIKit.UIImage(named: "ic_profileimage", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Image named 'ic_profileimage' is used in nib 'Chats-TableCell', but couldn't be loaded.") }
-      if UIKit.UIImage(named: "ic_cancel", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Image named 'ic_cancel' is used in nib 'CreateGroup-CollectionCell', but couldn't be loaded.") }
-      if UIKit.UIImage(named: "ic_profileimage", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Image named 'ic_profileimage' is used in nib 'FindFriends-CollectionCell', but couldn't be loaded.") }
+      if UIKit.UIImage(named: "ic_profileimage", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Image named 'ic_profileimage' is used in nib 'ChatSenderContact_TableCell', but couldn't be loaded.") }
+      if UIKit.UIImage(named: "star", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Image named 'star' is used in nib 'ChatSenderContact_TableCell', but couldn't be loaded.") }
+      if UIKit.UIImage(named: "ic_doc", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Image named 'ic_doc' is used in nib 'ChatSenderDocument_TableCell', but couldn't be loaded.") }
+      if UIKit.UIImage(named: "star", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Image named 'star' is used in nib 'ChatSenderDocument_TableCell', but couldn't be loaded.") }
+      if UIKit.UIImage(named: "ic_playBtn", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Image named 'ic_playBtn' is used in nib 'ChatSenderImage_TableCell', but couldn't be loaded.") }
+      if UIKit.UIImage(named: "star", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Image named 'star' is used in nib 'ChatSenderImage_TableCell', but couldn't be loaded.") }
+      if UIKit.UIImage(named: "star", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Image named 'star' is used in nib 'ChatSenderSticker_TableCell', but couldn't be loaded.") }
+      if UIKit.UIImage(named: "star", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Image named 'star' is used in nib 'ChatSender_TableCell', but couldn't be loaded.") }
+      if UIKit.UIImage(named: "ic_profileimage", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Image named 'ic_profileimage' is used in nib 'Chats_TableCell', but couldn't be loaded.") }
+      if UIKit.UIImage(named: "ic_cancel", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Image named 'ic_cancel' is used in nib 'CreateGroup_CollectionCell', but couldn't be loaded.") }
       if UIKit.UIColor(named: "App", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Color named 'App' is used in nib 'FindFriendsCell', but couldn't be loaded.") }
+      if UIKit.UIImage(named: "ic_profileimage", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Image named 'ic_profileimage' is used in nib 'FindFriends_CollectionCell', but couldn't be loaded.") }
       if UIKit.UIImage(named: "close", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Image named 'close' is used in nib 'FollowRequestCell', but couldn't be loaded.") }
       if UIKit.UIImage(named: "science", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Image named 'science' is used in nib 'FollowRequestCell', but couldn't be loaded.") }
       if UIKit.UIImage(named: "tick", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Image named 'tick' is used in nib 'FollowRequestCell', but couldn't be loaded.") }
-      if UIKit.UIImage(named: "ic_profileimage", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Image named 'ic_profileimage' is used in nib 'Followings-TableCell', but couldn't be loaded.") }
+      if UIKit.UIImage(named: "ic_profileimage", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Image named 'ic_profileimage' is used in nib 'Followings_TableCell', but couldn't be loaded.") }
       if UIKit.UIImage(named: "science", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Image named 'science' is used in nib 'FriendRequestCell', but couldn't be loaded.") }
       if UIKit.UIImage(named: "ic_profileimage", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Image named 'ic_profileimage' is used in nib 'FriendsTableItem', but couldn't be loaded.") }
       if UIKit.UIImage(named: "ic_checkbox", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Image named 'ic_checkbox' is used in nib 'GeneralTableViewCell', but couldn't be loaded.") }
@@ -3404,12 +3407,12 @@ struct _R {
       if UIKit.UIColor(named: "TableVIew", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Color named 'TableVIew' is used in nib 'GeneralTableViewCell', but couldn't be loaded.") }
       if UIKit.UIColor(named: "settingView", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Color named 'settingView' is used in nib 'GeneralTableViewCell', but couldn't be loaded.") }
       if UIKit.UIImage(named: "imageView:laX-rJ-KFU:image", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Image named 'imageView:laX-rJ-KFU:image' is used in nib 'GifCollectionCell', but couldn't be loaded.") }
-      if UIKit.UIImage(named: "ic_profileimage", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Image named 'ic_profileimage' is used in nib 'Group-TableCell', but couldn't be loaded.") }
       if UIKit.UIImage(named: "dm_image", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Image named 'dm_image' is used in nib 'GroupAddParticipantsCell', but couldn't be loaded.") }
       if UIKit.UIImage(named: "ic_cancle_group_user", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Image named 'ic_cancle_group_user' is used in nib 'GroupAddParticipantsCell', but couldn't be loaded.") }
       if UIKit.UIImage(named: "ic_rocket", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Image named 'ic_rocket' is used in nib 'GroupParticipentCell', but couldn't be loaded.") }
+      if UIKit.UIImage(named: "ic_profileimage", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Image named 'ic_profileimage' is used in nib 'Group_TableCell', but couldn't be loaded.") }
       if UIKit.UIImage(named: "ic_rocket", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Image named 'ic_rocket' is used in nib 'IntroItemView', but couldn't be loaded.") }
-      if UIKit.UIImage(named: "ic_profileimage", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Image named 'ic_profileimage' is used in nib 'InviteFriends-TableCell', but couldn't be loaded.") }
+      if UIKit.UIImage(named: "ic_profileimage", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Image named 'ic_profileimage' is used in nib 'InviteFriends_TableCell', but couldn't be loaded.") }
       if UIKit.UIImage(named: "dm_image", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Image named 'dm_image' is used in nib 'LeftAudioTableViewCell', but couldn't be loaded.") }
       if #available(iOS 13.0, *) { if UIKit.UIImage(systemName: "mic.fill") == nil { throw RswiftResources.ValidationError("[R.swift] System image named 'mic.fill' is used in nib 'LeftAudioTableViewCell', but couldn't be loaded.") } }
       if UIKit.UIImage(named: "play", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Image named 'play' is used in nib 'LeftAudioTableViewCell', but couldn't be loaded.") }
@@ -3441,8 +3444,8 @@ struct _R {
       if UIKit.UIImage(named: "star", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Image named 'star' is used in nib 'ReplyChatSenderTableItem', but couldn't be loaded.") }
       if UIKit.UIImage(named: "close", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Image named 'close' is used in nib 'RequestCell', but couldn't be loaded.") }
       if UIKit.UIImage(named: "ic_check_setting", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Image named 'ic_check_setting' is used in nib 'RequestCell', but couldn't be loaded.") }
-      if UIKit.UIImage(named: "ic_checkblack", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Image named 'ic_checkblack' is used in nib 'RequestGroupOne-TableCell', but couldn't be loaded.") }
-      if UIKit.UIImage(named: "ic_cross", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Image named 'ic_cross' is used in nib 'RequestGroupOne-TableCell', but couldn't be loaded.") }
+      if UIKit.UIImage(named: "ic_checkblack", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Image named 'ic_checkblack' is used in nib 'RequestGroupOne_TableCell', but couldn't be loaded.") }
+      if UIKit.UIImage(named: "ic_cross", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Image named 'ic_cross' is used in nib 'RequestGroupOne_TableCell', but couldn't be loaded.") }
       if UIKit.UIImage(named: "dm_image", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Image named 'dm_image' is used in nib 'RightAudioTableViewCell', but couldn't be loaded.") }
       if UIKit.UIImage(named: "ic_play 1", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Image named 'ic_play 1' is used in nib 'RightAudioTableViewCell', but couldn't be loaded.") }
       if #available(iOS 13.0, *) { if UIKit.UIImage(systemName: "mic.fill") == nil { throw RswiftResources.ValidationError("[R.swift] System image named 'mic.fill' is used in nib 'RightAudioTableViewCell', but couldn't be loaded.") } }
@@ -3472,13 +3475,13 @@ struct _R {
       if UIKit.UIImage(named: "ic_seenCheck", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Image named 'ic_seenCheck' is used in nib 'RightVidoeTableViewCell', but couldn't be loaded.") }
       if UIKit.UIImage(named: "star", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Image named 'star' is used in nib 'RightVidoeTableViewCell', but couldn't be loaded.") }
       if UIKit.UIColor(named: "chat default", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Color named 'chat default' is used in nib 'RightVidoeTableViewCell', but couldn't be loaded.") }
-      if UIKit.UIImage(named: "ic_profileimage", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Image named 'ic_profileimage' is used in nib 'SearchRandom-TableCell', but couldn't be loaded.") }
-      if UIKit.UIImage(named: "ic_callIcon", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Image named 'ic_callIcon' is used in nib 'SelectContact-TableCell', but couldn't be loaded.") }
-      if UIKit.UIImage(named: "ic_profileimage", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Image named 'ic_profileimage' is used in nib 'SelectContact-TableCell', but couldn't be loaded.") }
-      if UIKit.UIImage(named: "ic_videoBlack", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Image named 'ic_videoBlack' is used in nib 'SelectContact-TableCell', but couldn't be loaded.") }
-      if UIKit.UIImage(named: "ic_radio_off", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Image named 'ic_radio_off' is used in nib 'SelectLanguage-TableCell', but couldn't be loaded.") }
+      if UIKit.UIImage(named: "ic_profileimage", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Image named 'ic_profileimage' is used in nib 'SearchRandom_TableCell', but couldn't be loaded.") }
+      if UIKit.UIImage(named: "ic_callIcon", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Image named 'ic_callIcon' is used in nib 'SelectContact_TableCell', but couldn't be loaded.") }
+      if UIKit.UIImage(named: "ic_profileimage", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Image named 'ic_profileimage' is used in nib 'SelectContact_TableCell', but couldn't be loaded.") }
+      if UIKit.UIImage(named: "ic_videoBlack", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Image named 'ic_videoBlack' is used in nib 'SelectContact_TableCell', but couldn't be loaded.") }
+      if UIKit.UIImage(named: "ic_radio_off", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Image named 'ic_radio_off' is used in nib 'SelectLanguage_TableCell', but couldn't be loaded.") }
       if UIKit.UIImage(named: "ic_uncheck_red", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Image named 'ic_uncheck_red' is used in nib 'SettingSectionFourTableItem', but couldn't be loaded.") }
-      if UIKit.UIImage(named: "ic_profileimage", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Image named 'ic_profileimage' is used in nib 'Stories-TableCell', but couldn't be loaded.") }
+      if UIKit.UIImage(named: "ic_profileimage", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Image named 'ic_profileimage' is used in nib 'Stories_TableCell', but couldn't be loaded.") }
       if UIKit.UIImage(named: "ic_add", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Image named 'ic_add' is used in nib 'StorySectionOneTableItem', but couldn't be loaded.") }
       if UIKit.UIImage(named: "ic_profileimage", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Image named 'ic_profileimage' is used in nib 'StorySectionOneTableItem', but couldn't be loaded.") }
       if UIKit.UIColor(named: "Color-3", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Color named 'Color-3' is used in nib 'StorySectionOneTableItem', but couldn't be loaded.") }

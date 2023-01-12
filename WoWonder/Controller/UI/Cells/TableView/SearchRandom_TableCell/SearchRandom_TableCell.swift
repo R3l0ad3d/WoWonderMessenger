@@ -1,7 +1,8 @@
 
 import UIKit
 
-class SearchRandom_TableCell: UITableViewCell {
+class SearchRandom_TableCell: UITableViewCell,NIBCellProtocol {
+    
     @IBOutlet weak var usernameLabel: UILabel!
     @IBOutlet weak var followBtn: UIButton!
     @IBOutlet weak var timeLabel: UILabel!

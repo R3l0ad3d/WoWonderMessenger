@@ -2,7 +2,7 @@
 
 import UIKit
 
-class SettingsSectionOneTableItem: UITableViewCell {
+class SettingsSectionOneTableItem: UITableViewCell,NIBCellProtocol {
     @IBOutlet weak var descriptionLabel: UILabel!
     @IBOutlet weak var titleLabel: UILabel!
 

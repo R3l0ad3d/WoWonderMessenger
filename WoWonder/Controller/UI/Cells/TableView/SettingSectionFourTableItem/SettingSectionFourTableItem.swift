@@ -1,7 +1,7 @@
 
 import UIKit
 import WowonderMessengerSDK
-class SettingSectionFourTableItem: UITableViewCell {
+class SettingSectionFourTableItem: UITableViewCell,NIBCellProtocol {
 
     @IBOutlet weak var checkBtn: UIButton!
     @IBOutlet weak var descriptionLabel: UILabel!

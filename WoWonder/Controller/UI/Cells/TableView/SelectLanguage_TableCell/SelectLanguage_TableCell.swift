@@ -2,7 +2,7 @@
 
 import UIKit
 
-class SelectLanguage_TableCell: UITableViewCell {
+class SelectLanguage_TableCell: UITableViewCell,NIBCellProtocol {
     @IBOutlet weak var languageLabel: UILabel!
     
     @IBOutlet weak var selectBtn: UIButton!

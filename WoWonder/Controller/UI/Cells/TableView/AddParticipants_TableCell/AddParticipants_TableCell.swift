@@ -1,7 +1,7 @@
 
 import UIKit
 
-class AddParticipants_TableCell: UITableViewCell {
+class AddParticipants_TableCell: UITableViewCell,NIBCellProtocol {
     
     @IBOutlet weak var usernameLabel: UILabel!
     @IBOutlet weak var checkBtn: UIButton!

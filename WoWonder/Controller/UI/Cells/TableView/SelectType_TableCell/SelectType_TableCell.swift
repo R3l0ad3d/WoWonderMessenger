@@ -2,7 +2,7 @@
 
 import UIKit
 
-class SelectType_TableCell: UITableViewCell {
+class SelectType_TableCell: UITableViewCell,NIBCellProtocol {
     @IBOutlet weak var typeLabel: UILabel!
     
     override func awakeFromNib() {

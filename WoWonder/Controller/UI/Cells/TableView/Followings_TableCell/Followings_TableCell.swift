@@ -3,7 +3,7 @@
 import UIKit
 
 
-class Followings_TableCell: UITableViewCell {
+class Followings_TableCell: UITableViewCell,NIBCellProtocol {
     @IBOutlet weak var usernameLabel: UILabel!
     @IBOutlet weak var followBtn: UIButton!
     @IBOutlet weak var timeLabel: UILabel!
