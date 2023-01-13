@@ -473,6 +473,9 @@
 		CA0D6A8F29696564009F92D5 /* StoryboardNib.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0D6A8E29696564009F92D5 /* StoryboardNib.swift */; };
 		CA6BF764296C9646006C1E06 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6BF763296C9646006C1E06 /* AppDelegate.swift */; };
 		CA7309D72970824A006E99DD /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = CA7309D629708249006E99DD /* README.md */; };
+		CA864AD52971F3B700B0F11A /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA864AD42971F3B700B0F11A /* NotificationService.swift */; };
+		CA864AD92971F3B700B0F11A /* OneSignalNotificationServiceExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = CA864AD22971F3B700B0F11A /* OneSignalNotificationServiceExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CA864ADF2971F44A00B0F11A /* OneSignal in Frameworks */ = {isa = PBXBuildFile; productRef = CA864ADE2971F44A00B0F11A /* OneSignal */; };
 		CA99A60B2968AB6900165C07 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA99A60A2968AB6900165C07 /* R.generated.swift */; };
 		CE02D986291A2D8A0062904B /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE02D985291A2D8A0062904B /* SettingViewController.swift */; };
 		CE1C0E6E293A011100250EE9 /* GroupInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1C0E6D293A011000250EE9 /* GroupInfoViewController.swift */; };
@@ -624,6 +627,13 @@
 			remoteGlobalIDString = C394BB5A223BD2E7006CC4DE;
 			remoteInfo = WoWonder;
 		};
+		CA864AD72971F3B700B0F11A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C394BB53223BD2E7006CC4DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA864AD12971F3B600B0F11A;
+			remoteInfo = OneSignalNotificationServiceExtension;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -643,6 +653,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
+				CA864AD92971F3B700B0F11A /* OneSignalNotificationServiceExtension.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1134,6 +1145,10 @@
 		CA41FD202969E94F00FBE51C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CA6BF763296C9646006C1E06 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CA7309D629708249006E99DD /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		CA864AD22971F3B700B0F11A /* OneSignalNotificationServiceExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = OneSignalNotificationServiceExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA864AD42971F3B700B0F11A /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		CA864AD62971F3B700B0F11A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA864AE02971F49E00B0F11A /* OneSignalNotificationServiceExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OneSignalNotificationServiceExtension.entitlements; sourceTree = "<group>"; };
 		CA99A60A2968AB6900165C07 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = SOURCE_ROOT; };
 		CE02D985291A2D8A0062904B /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 		CE1C0E6D293A011000250EE9 /* GroupInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupInfoViewController.swift; sourceTree = "<group>"; };
@@ -1290,6 +1305,7 @@
 				5237101822941B6D00447B33 /* CoreMedia.framework in Frameworks */,
 				5237101622941B6700447B33 /* libresolv.tbd in Frameworks */,
 				5237101422941B1E00447B33 /* libc++.tbd in Frameworks */,
+				CA864ADF2971F44A00B0F11A /* OneSignal in Frameworks */,
 				5237101222941B0F00447B33 /* SystemConfiguration.framework in Frameworks */,
 				5237101022941B0500447B33 /* Accelerate.framework in Frameworks */,
 				517CC9652551913B008B7A74 /* WebKit.framework in Frameworks */,
@@ -1310,6 +1326,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FCF7DE42642F29005E95943 /* Pods_WoWonderUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA864ACF2971F3B600B0F11A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2768,6 +2791,7 @@
 				51C1E8B42657DA1A00671F03 /* Libs */,
 				C394BB72223BD2E8006CC4DE /* WoWonderTests */,
 				C394BB7D223BD2E8006CC4DE /* WoWonderUITests */,
+				CA864AD32971F3B700B0F11A /* OneSignalNotificationServiceExtension */,
 				C394BB5C223BD2E7006CC4DE /* Products */,
 				DE3D70C3417632C4B29869B4 /* Frameworks */,
 				72768CF85BC12EAE3162588F /* Pods */,
@@ -2781,6 +2805,7 @@
 				C394BB5B223BD2E7006CC4DE /* WoWonder.app */,
 				C394BB6F223BD2E8006CC4DE /* WoWonderTests.xctest */,
 				C394BB7A223BD2E8006CC4DE /* WoWonderUITests.xctest */,
+				CA864AD22971F3B700B0F11A /* OneSignalNotificationServiceExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -2825,6 +2850,16 @@
 				C394BB80223BD2E8006CC4DE /* Info.plist */,
 			);
 			path = WoWonderUITests;
+			sourceTree = "<group>";
+		};
+		CA864AD32971F3B700B0F11A /* OneSignalNotificationServiceExtension */ = {
+			isa = PBXGroup;
+			children = (
+				CA864AE02971F49E00B0F11A /* OneSignalNotificationServiceExtension.entitlements */,
+				CA864AD42971F3B700B0F11A /* NotificationService.swift */,
+				CA864AD62971F3B700B0F11A /* Info.plist */,
+			);
+			path = OneSignalNotificationServiceExtension;
 			sourceTree = "<group>";
 		};
 		CE3CF0BF29265194009F1B0D /* CgangerColorCell */ = {
@@ -3339,8 +3374,12 @@
 			buildRules = (
 			);
 			dependencies = (
+				CA864AD82971F3B700B0F11A /* PBXTargetDependency */,
 			);
 			name = WoWonder;
+			packageProductDependencies = (
+				CA864ADE2971F44A00B0F11A /* OneSignal */,
+			);
 			productName = WoWonder;
 			productReference = C394BB5B223BD2E7006CC4DE /* WoWonder.app */;
 			productType = "com.apple.product-type.application";
@@ -3383,6 +3422,23 @@
 			productReference = C394BB7A223BD2E8006CC4DE /* WoWonderUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		CA864AD12971F3B600B0F11A /* OneSignalNotificationServiceExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA864ADC2971F3B700B0F11A /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */;
+			buildPhases = (
+				CA864ACE2971F3B600B0F11A /* Sources */,
+				CA864ACF2971F3B600B0F11A /* Frameworks */,
+				CA864AD02971F3B600B0F11A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OneSignalNotificationServiceExtension;
+			productName = OneSignalNotificationServiceExtension;
+			productReference = CA864AD22971F3B700B0F11A /* OneSignalNotificationServiceExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -3415,6 +3471,9 @@
 						LastSwiftMigration = "";
 						TestTargetID = C394BB5A223BD2E7006CC4DE;
 					};
+					CA864AD12971F3B600B0F11A = {
+						CreatedOnToolsVersion = 14.2;
+					};
 				};
 			};
 			buildConfigurationList = C394BB56223BD2E7006CC4DE /* Build configuration list for PBXProject "WoWonder" */;
@@ -3433,6 +3492,9 @@
 				de,
 			);
 			mainGroup = C394BB52223BD2E7006CC4DE;
+			packageReferences = (
+				CA864ADD2971F44A00B0F11A /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */,
+			);
 			productRefGroup = C394BB5C223BD2E7006CC4DE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -3440,6 +3502,7 @@
 				C394BB5A223BD2E7006CC4DE /* WoWonder */,
 				C394BB6E223BD2E8006CC4DE /* WoWonderTests */,
 				C394BB79223BD2E8006CC4DE /* WoWonderUITests */,
+				CA864AD12971F3B600B0F11A /* OneSignalNotificationServiceExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -3622,6 +3685,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		C394BB78223BD2E8006CC4DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA864AD02971F3B600B0F11A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -4215,6 +4285,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CA864ACE2971F3B600B0F11A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA864AD52971F3B700B0F11A /* NotificationService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -4227,6 +4305,11 @@
 			isa = PBXTargetDependency;
 			target = C394BB5A223BD2E7006CC4DE /* WoWonder */;
 			targetProxy = C394BB7B223BD2E8006CC4DE /* PBXContainerItemProxy */;
+		};
+		CA864AD82971F3B700B0F11A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA864AD12971F3B600B0F11A /* OneSignalNotificationServiceExtension */;
+			targetProxy = CA864AD72971F3B700B0F11A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -4431,6 +4514,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5127B3358B9EE04F76844AAF /* Pods-WoWonder.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = WoWonder/WoWonder.entitlements;
@@ -4471,6 +4555,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F766785848B81D1D2EC0F908 /* Pods-WoWonder.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = WoWonder/WoWonder.entitlements;
@@ -4592,6 +4677,62 @@
 			};
 			name = Release;
 		};
+		CA864ADA2971F3B700B0F11A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_ENTITLEMENTS = OneSignalNotificationServiceExtension/OneSignalNotificationServiceExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 432QSQ2CUQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OneSignalNotificationServiceExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = OneSignalNotificationServiceExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2023 ScriptSun. All rights reserved.";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.woWonder.messengerUK.OneSignalNotificationServiceExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA864ADB2971F3B700B0F11A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_ENTITLEMENTS = OneSignalNotificationServiceExtension/OneSignalNotificationServiceExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 432QSQ2CUQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OneSignalNotificationServiceExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = OneSignalNotificationServiceExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2023 ScriptSun. All rights reserved.";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.woWonder.messengerUK.OneSignalNotificationServiceExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -4631,7 +4772,35 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		CA864ADC2971F3B700B0F11A /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA864ADA2971F3B700B0F11A /* Debug */,
+				CA864ADB2971F3B700B0F11A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CA864ADD2971F44A00B0F11A /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/OneSignal/OneSignal-XCFramework";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CA864ADE2971F44A00B0F11A /* OneSignal */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CA864ADD2971F44A00B0F11A /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */;
+			productName = OneSignal;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		17D54C772898075A0068BE88 /* WoWonder.xcdatamodeld */ = {

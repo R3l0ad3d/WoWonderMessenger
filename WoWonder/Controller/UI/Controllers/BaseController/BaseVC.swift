@@ -5,7 +5,7 @@ import JGProgressHUD
 import SwiftEventBus
 import ContactsUI
 import Async
-//import OneSignal
+import OneSignal
 import WowonderMessengerSDK
 import BSImagePicker
 import Photos
@@ -35,12 +35,12 @@ class BaseVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        //oneSignalID = OneSignal.getDeviceState().userId
-        //        print("Current playerId \(oneSignalID)")
-        //UserDefaults.standard.setDeviceId(value: oneSignalID ?? "",ForKey: Local.DEVICE_ID.DeviceId)
+        oneSignalID = OneSignal.getDeviceState().userId
+        print("Current playerId \(oneSignalID)")
+        UserDefaults.standard.setDeviceId(value: oneSignalID ?? "",ForKey: Local.DEVICE_ID.DeviceId)
         self.dismissKeyboard()
         
-        //oneSignalID = UserDefaults.standard.getDeviceId(Key: "deviceID")
+        oneSignalID = UserDefaults.standard.getDeviceId(Key: "deviceID")
         
         let notificationCenter = NotificationCenter.default
         notificationCenter.addObserver(self,

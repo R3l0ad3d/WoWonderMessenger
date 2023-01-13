@@ -42,8 +42,8 @@ struct ControlSettings {
     
     static let socketChat = true
     
-    static let twilloCall = false
-    static let agoraCall = true
+    static let twilloCall = true
+    static let agoraCall = false
     
     static let facebookAds = false//true
     static let googleAds = true

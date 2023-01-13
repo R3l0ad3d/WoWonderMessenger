@@ -260,14 +260,14 @@ class ChatUserLIstViewController: BaseVC {
                                 } else {
                                     if agoraCall == true {
                                         self.callingStatus = "agora"
-                                        let vc = R.storyboard.call.agoraCallVC()
-                                        vc?.usernameString = model.agoraCallData?._name
-                                        vc?.profileImageUrlString = model.agoraCallData?._avatar
-                                        vc?.callDirection = .incoming
-                                        vc?.callId = self.callId
-                                        vc?.roomName = roomName
-                                        vc?.callToken = accessToken
-                                        self.navigationController?.pushViewController(vc!, animated: true)
+                                        let vc = AgoraCallVC.instantiate()
+                                        vc.usernameString = model.agoraCallData?._name
+                                        vc.profileImageUrlString = model.agoraCallData?._avatar
+                                        vc.callDirection = .incoming
+                                        vc.callId = self.callId
+                                        vc.roomName = roomName
+                                        vc.callToken = accessToken
+                                        self.navigationController?.pushViewController(vc, animated: true)
                                     }
                                 }
                                 break
@@ -292,11 +292,11 @@ class ChatUserLIstViewController: BaseVC {
                                                                       userInfo: nil,
                                                                       repeats: true)
     
-                                    let vc = R.storyboard.call.agoraCallVC()
-                                    vc?.usernameString = model.agoraCallData?._name
-                                    vc?.profileImageUrlString = model.agoraCallData?._avatar
-                                    vc?.callDirection = .incoming
-                                    self.present(vc!, animated: true)
+                                    let vc = AgoraCallVC.instantiate()
+                                    vc.usernameString = model.agoraCallData?._name
+                                    vc.profileImageUrlString = model.agoraCallData?._avatar
+                                    vc.callDirection = .incoming
+                                    self.present(vc, animated: true)
                                 } else {
                                 }
                                 break

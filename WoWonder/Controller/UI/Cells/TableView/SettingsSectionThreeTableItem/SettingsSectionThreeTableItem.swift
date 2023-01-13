@@ -1,7 +1,7 @@
 
 
 import UIKit
-//import OneSignal
+import OneSignal
 import WowonderMessengerSDK
 
 class SettingsSectionThreeTableItem: UITableViewCell,NIBCellProtocol {
@@ -31,13 +31,13 @@ class SettingsSectionThreeTableItem: UITableViewCell,NIBCellProtocol {
                 self.value = 1
                 self.Switchlabel.setOn(true, animated: true)
                 UserDefaults.standard.setNotificationStatus(value: true, ForKey: Local.NOTIFICATION_RECEIVE.NotificationReceive)
-                //OneSignal.disablePush(false)
+                OneSignal.disablePush(false)
                 
             }else {
                 self.Switchlabel.setOn(false, animated: true)
                 self.value = 0
                 UserDefaults.standard.setNotificationStatus(value: false, ForKey: Local.NOTIFICATION_RECEIVE.NotificationReceive)
-                //OneSignal.disablePush(true)
+                OneSignal.disablePush(true)
             }
             
         }else {

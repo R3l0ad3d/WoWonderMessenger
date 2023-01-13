@@ -6,7 +6,7 @@ import SwiftEventBus
 import IQKeyboardManagerSwift
 import SwiftyBeaver
 import Async
-//import OneSignal
+import OneSignal
 //import FBSDKLoginKit
 import GoogleSignIn
 import WowonderMessengerSDK
@@ -56,15 +56,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         FBAdSettings.addTestDevice(FBAdSettings.testDeviceHash())
         
         // Replace 'YOUR_APP_ID' with your OneSignal App ID.
-//        OneSignal.initWithLaunchOptions(launchOptions)
-//        OneSignal.setAppId(ControlSettings.oneSignalAppId)
+        OneSignal.initWithLaunchOptions(launchOptions)
+        OneSignal.setAppId(ControlSettings.oneSignalAppId)
 //
 //        // Recommend moving the below line to prompt for push after informing the user about
 //        //   how your app will use them.
-//        OneSignal.promptForPushNotifications(userResponse: { accepted in
-//            print("User accepted notifications: \(accepted)")
-//        })
-//        OneSignal.add(self as OSSubscriptionObserver)
+        OneSignal.promptForPushNotifications(userResponse: { accepted in
+            print("User accepted notifications: \(accepted)")
+        })
+        OneSignal.add(self as OSSubscriptionObserver)
         
         GMSServices.provideAPIKey(googleApiKey)
         window?.tintColor = .mainColor
@@ -146,8 +146,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 // MARK: - SUBSCRIPTION OBSERVER
 
-//extension AppDelegate: OSSubscriptionObserver {
-extension AppDelegate {
+extension AppDelegate: OSSubscriptionObserver {
+//extension AppDelegate {
     func UserSession() -> Bool {
         if !UserDefaults.standard.getUserSessions(Key: Local.USER_SESSION.User_Session).isEmpty {
             return true
@@ -198,16 +198,16 @@ extension AppDelegate {
         log.addDestination(file)
     }
     
-//    func onOSSubscriptionChanged(_ stateChanges: OSSubscriptionStateChanges) {
-//        if !stateChanges.from.isSubscribed && stateChanges.to.isSubscribed {
-//        }
-//        
-//        //The player id is inside stateChanges. But be careful, this value can be nil if the user has not granted you permission to send notifications.
-//        if let playerId = stateChanges.to.userId {
-//            //            print("Current playerId \(playerId)")
-//            UserDefaults.standard.setDeviceId(value: playerId , ForKey: "deviceID")
-//        }
-//    }
+    func onOSSubscriptionChanged(_ stateChanges: OSSubscriptionStateChanges) {
+        if !stateChanges.from.isSubscribed && stateChanges.to.isSubscribed {
+        }
+        
+        //The player id is inside stateChanges. But be careful, this value can be nil if the user has not granted you permission to send notifications.
+        if let playerId = stateChanges.to.userId {
+            //            print("Current playerId \(playerId)")
+            UserDefaults.standard.setDeviceId(value: playerId , ForKey: "deviceID")
+        }
+    }
     
     func startHost(at index: Int) {
         stopNotifier()
