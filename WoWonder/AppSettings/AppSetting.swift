@@ -21,11 +21,11 @@ struct AppConstant {
 }
 
 struct ControlSettings {
-    static let showSocicalLogin = true
+    static let showSocicalLogin = false
     static let googleClientKey = "497109148599-u0g40f3e5uh53286hdrpsj10v505tral.apps.googleusercontent.com"
     static let googleApiKey = "AIzaSyDo-tKjkOFkb5yl2n_dxPNJngDdFWNrFMk"
     //    AIzaSyDo-tKjkOFkb5yl2n_dxPNJngDdFWNrFMk
-    static let oneSignalAppId = "e08f5309-366e-47d0-bf17-700c6592caa4"
+    static let oneSignalAppId = "08606730-c50f-46ce-8203-a7da19aa8c3a"
     static let agoraCallingToken = "cea80c3b9a744f69ba90a68d07ca9167"
     static let addUnitId = "ca-app-pub-3940256099942544/2934735716"
     static let interestialAddUnitId = "ca-app-pub-3940256099942544/4411468910"
